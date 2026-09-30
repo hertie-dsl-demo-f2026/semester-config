@@ -6,9 +6,9 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "5789aed9de25cc87749e376bdfba94bacd6c1117",
+    "grading_sheets": "911d4dab95be3f1cf568a6ab965f1d29e007e9ee",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
-    ".system/assignments.lock.yml": "a0687aa8cf4f679015e264b28ddcbf8ca4dd89b2"
+    ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
   "course": {
     "org": "hertie-dsl-demo-course-e1234",
@@ -109,7 +109,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "2 problems need fixing.",
+      "K4": "1 problem needs fixing.",
       "K5": "1 student has not been sent a code yet.",
       "K7": "Not archived yet; the schedule archives it on Tue 12 Jan."
     },
@@ -130,21 +130,6 @@
         "entry": "assignment-3-project"
       },
       "when": "2026-10-26T23:59:00+01:00"
-    },
-    {
-      "id": "schedule:assignment-8:SCHEDULE",
-      "scope": "semester",
-      "stage": "K4",
-      "text": "Schedule entry assignment-8: team formation is open and no team has formed yet.",
-      "stops": "No repos are provisioned for that assignment, so the students still without a team cannot hand anything in.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": 314,
-        "screen": "schedule",
-        "entry": "assignment-8"
-      },
-      "when": "2026-09-30T23:59:00+02:00"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS",
@@ -1041,7 +1026,7 @@
       "submissions": 1,
       "teams": null,
       "marks": {
-        "filled": 1,
+        "filled": 2,
         "total": 2
       },
       "returned": false,
@@ -1087,7 +1072,7 @@
       "submissions": 1,
       "teams": null,
       "marks": {
-        "filled": 1,
+        "filled": 2,
         "total": 2
       },
       "returned": false,
@@ -1179,7 +1164,7 @@
       "submissions": null,
       "teams": null,
       "marks": {
-        "filled": 1,
+        "filled": 2,
         "total": 2
       },
       "returned": false,
@@ -1213,7 +1198,7 @@
     },
     {
       "slug": "assignment-8",
-      "title": "test",
+      "title": "Policy brief in LaTeX",
       "template": "assignment-8-f2026",
       "state": "late_window",
       "handout": "2026-09-23T14:00:00+02:00",
@@ -1221,15 +1206,15 @@
       "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
       "solution_shown": null,
       "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": 0,
+      "units": 2,
+      "submissions": 0,
+      "teams": null,
       "marks": {
         "filled": 0,
-        "total": 0
+        "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1270,23 +1255,23 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-09-30T08:39:07+00:00",
+    "last_update": "2026-09-30T09:31:38+00:00",
     "stale": false
   },
   "operations": [
+    {
+      "run_id": 36697995624,
+      "op": "grades.return",
+      "conclusion": "previewed",
+      "summary": "Preview: 2 marks repos would be updated and 2 emails sent.",
+      "finished": "2026-09-30T09:44:35Z"
+    },
     {
       "run_id": 36633253141,
       "op": "assignment.generate_syllabus",
       "conclusion": "previewed",
       "summary": "Built the session list: 12 sessions; nothing was written.",
       "finished": "2026-09-29T21:26:30Z"
-    },
-    {
-      "run_id": 36251006346,
-      "op": "grades.return",
-      "conclusion": "previewed",
-      "summary": "Preview: 2 marks repos would be updated and 1 email sent.",
-      "finished": "2026-09-26T15:10:49Z"
     },
     {
       "run_id": 36250473545,
