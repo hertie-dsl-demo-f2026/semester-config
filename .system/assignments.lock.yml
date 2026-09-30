@@ -27,13 +27,13 @@
 assignments:
   assignment-1:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
   assignment-2:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
@@ -45,25 +45,31 @@ assignments:
     team_formation_page: https://hertie-data-science-lab.github.io/dsl-teaching-toolkit/?semester=hertie-dsl-demo-f2026#join
   assignment-4:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
   assignment-5:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
   assignment-6:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
   assignment-7:
     team_formation: none
-    max_team_size: 4
+    max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+  assignment-8:
+    team_formation: self_select
+    max_team_size: 3
+    team_formation_window: open
+    team_formation_closes: 2026-09-30
+    team_formation_page: https://hertie-data-science-lab.github.io/dsl-teaching-toolkit/?semester=hertie-dsl-demo-f2026#join
