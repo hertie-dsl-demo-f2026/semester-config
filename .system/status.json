@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "ed0bd65061fea42ae0447d38898a0d607def6519",
+    "schedule.yml": "0aa1eec5e5a4b63f5e72789671301be67545d810",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
@@ -140,7 +140,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 289,
+        "line": 290,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -262,19 +262,18 @@
       }
     },
     {
-      "id": "number:assignment:assignment-3-project",
+      "id": "number:assignment:8",
       "scope": "semester",
       "stage": "K4",
-      "text": "Give assignment-3-project a number.",
-      "stops": "The hand out on Tue 15 Sep was skipped.",
+      "text": "Two assignments are numbered 8: assignment-3-project, assignment-8.",
+      "stops": "Students see the same number more than once.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 287,
+        "line": 313,
         "screen": "schedule",
-        "entry": "assignment-3-project"
-      },
-      "when": "2026-09-15T14:00:00+02:00"
+        "entry": "assignment-8"
+      }
     }
   ],
   "this_week": [
@@ -1000,7 +999,7 @@
     },
     {
       "slug": "assignment-3-project",
-      "number": null,
+      "number": 8,
       "title": "Group project",
       "template": "assignment-3-project-f2026",
       "state": "open",
@@ -1252,7 +1251,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1294,7 +1293,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-09-30T09:31:38+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
