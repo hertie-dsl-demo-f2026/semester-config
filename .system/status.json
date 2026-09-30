@@ -25,7 +25,7 @@
     },
     "stage_why": {
       "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "assignment-8-f2026's README.md is still the placeholder."
+      "C5": "2 assignment templates are not ready yet; the first: assignment-1-f2025's README.md is still the placeholder."
     },
     "ready": true,
     "materials": [
@@ -39,6 +39,11 @@
       }
     ],
     "templates": [
+      {
+        "repo": "assignment-1-f2025",
+        "slug": "assignment-1-f2025",
+        "state": "todo"
+      },
       {
         "repo": "assignment-1-f2026",
         "slug": "assignment-1-f2026",
