@@ -284,6 +284,7 @@ assignments:
     due_datetime: 2026-09-29T23:59
 
   assignment-3-project:
+    number: 8
     course_source_repo: assignment-3-project-f2026
     handout_datetime: 2026-09-15T14:00
     due_datetime: 2026-10-23T23:59
