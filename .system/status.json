@@ -1,14 +1,14 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "bbfee2d888fa08ece698ac9c52616f1f2ea8803f",
-    "assignments.yml": "e3a937df4ae9a35238de5734e33b2b4adeced39d",
+    "schedule.yml": "ed0bd65061fea42ae0447d38898a0d607def6519",
+    "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "6e3e69b358b4f0055808522bbd5be4dce654ac0b",
-    "course/dsl-course.yml": "0db1f72468fb0f1d6518ddb3bc0f504dcbec7cef",
-    ".system/assignments.lock.yml": "2f0bf27fd573ec57d86caa805cab8c50d3f6baeb"
+    "grading_sheets": "5789aed9de25cc87749e376bdfba94bacd6c1117",
+    "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
+    ".system/assignments.lock.yml": "a0687aa8cf4f679015e264b28ddcbf8ca4dd89b2"
   },
   "course": {
     "org": "hertie-dsl-demo-course-e1234",
@@ -106,7 +106,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "1 problem needs fixing.",
+      "K4": "2 problems need fixing.",
       "K5": "1 student has not been sent a code yet.",
       "K7": "Not archived yet; the schedule archives it on Tue 12 Jan."
     },
@@ -122,9 +122,23 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 287,
+        "line": 289,
         "screen": "schedule",
         "entry": "assignment-3-project"
+      }
+    },
+    {
+      "id": "schedule:assignment-8:SCHEDULE",
+      "scope": "semester",
+      "stage": "K4",
+      "text": "Schedule entry assignment-8: team formation is open and no team has formed yet.",
+      "stops": "No repos are provisioned for that assignment, so the students still without a team cannot hand anything in.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 314,
+        "screen": "schedule",
+        "entry": "assignment-8"
       }
     },
     {
@@ -243,20 +257,6 @@
   ],
   "this_week": [
     {
-      "when": "2026-09-29T10:00:00+02:00",
-      "kind": "release",
-      "ref": "lecture-09",
-      "title": "Further topics in deep learning",
-      "state": "released"
-    },
-    {
-      "when": "2026-09-29T23:59:00+02:00",
-      "kind": "due",
-      "ref": "assignment-2",
-      "title": "Classification and evaluation",
-      "state": "open"
-    },
-    {
       "when": "2026-10-01T09:00:00+02:00",
       "kind": "release",
       "ref": "readings-10",
@@ -268,6 +268,20 @@
       "kind": "release",
       "ref": "lab-09",
       "title": "Lab 9",
+      "state": "planned"
+    },
+    {
+      "when": "2026-10-06T00:00:00+02:00",
+      "kind": "event",
+      "ref": "reading-week",
+      "title": "Reading week - no class",
+      "state": "planned"
+    },
+    {
+      "when": "2026-10-06T10:00:00+02:00",
+      "kind": "release",
+      "ref": "lecture-10",
+      "title": "Policy approaches to regulate deep learning",
       "state": "planned"
     }
   ],
@@ -855,9 +869,9 @@
     {
       "id": "lecture-12",
       "when": "2026-10-20T10:00:00+02:00",
-      "kind": "lecture",
-      "kind_inferred": true,
-      "number": 12,
+      "kind": "drop-in",
+      "kind_inferred": false,
+      "number": 1,
       "title": "Tutorial presentations",
       "state": "planned",
       "source": null,
@@ -892,8 +906,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 10,
@@ -905,7 +919,7 @@
         },
         "visibility": {
           "value": "private",
-          "source": "institution"
+          "source": "semester"
         },
         "submit_url": {
           "value": "",
@@ -917,7 +931,7 @@
       "slug": "assignment-2",
       "title": "Classification and evaluation",
       "template": "assignment-2-f2026",
-      "state": "open",
+      "state": "marking",
       "handout": "2026-09-01T14:00:00+02:00",
       "due": "2026-09-29T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-29T23:59:00+02:00",
@@ -937,8 +951,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 0,
@@ -950,7 +964,7 @@
         },
         "visibility": {
           "value": "private",
-          "source": "institution"
+          "source": "semester"
         },
         "submit_url": {
           "value": "",
@@ -995,7 +1009,7 @@
         },
         "visibility": {
           "value": "private",
-          "source": "institution"
+          "source": "semester"
         },
         "submit_url": {
           "value": "",
@@ -1027,8 +1041,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 1,
@@ -1072,8 +1086,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 1,
@@ -1117,8 +1131,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 1,
@@ -1130,7 +1144,7 @@
         },
         "visibility": {
           "value": "private",
-          "source": "institution"
+          "source": "semester"
         },
         "submit_url": {
           "value": "",
@@ -1162,8 +1176,8 @@
           "source": "institution"
         },
         "max_team_size": {
-          "value": 4,
-          "source": "course"
+          "value": 3,
+          "source": "semester"
         },
         "late_window_days": {
           "value": 1,
@@ -1175,11 +1189,56 @@
         },
         "visibility": {
           "value": "private",
-          "source": "institution"
+          "source": "semester"
         },
         "submit_url": {
           "value": "https://moodle.hertie-school.org/mod/assign/view.php?id=424242",
           "source": "assignment"
+        }
+      }
+    },
+    {
+      "slug": "assignment-8",
+      "title": "test",
+      "template": "assignment-8-f2026",
+      "state": "late_window",
+      "handout": "2026-09-23T14:00:00+02:00",
+      "due": "2026-09-29T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
+      "solution_shown": null,
+      "units": 0,
+      "submissions": null,
+      "teams": 0,
+      "marks": {
+        "filled": 0,
+        "total": 0
+      },
+      "returned": false,
+      "problem": true,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "institution"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 1,
+          "source": "assignment"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "assignment"
+        },
+        "visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
         }
       }
     }
@@ -1196,7 +1255,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-09-29T08:01:14+00:00",
+    "last_update": "2026-09-30T08:38:19+00:00",
     "stale": false
   },
   "operations": [
