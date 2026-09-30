@@ -27,6 +27,10 @@
 #     submit_url: https://moodle.example.org/mod/assign/view.php?id=123   # `submit_via: external` only: the site's Submit button
 #     semester_dest_repo: assignment-1-resit   # OPTIONAL - default: the key. What this semester's repos are called
 
+defaults:
+  visibility: private
+  max_team_size: 3
+
 assignments:
   assignment-2:
     late_window_days: 0
@@ -48,5 +52,8 @@ assignments:
     late_penalty_per_day: 10%
   assignment-7:
     submit_url: https://moodle.hertie-school.org/mod/assign/view.php?id=424242
+    late_window_days: 1
+    late_penalty_per_day: 10%
+  assignment-8:
     late_window_days: 1
     late_penalty_per_day: 10%
