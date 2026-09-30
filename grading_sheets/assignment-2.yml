@@ -23,12 +23,13 @@ submissions:
       autograde: 0/0
       checked: 2026-09-30T00:01+02:00
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      No submission was received.
     notes_not_shared_with_students:
     score_individual:           # yours: the question names and maxima come from grading_config.yml
-      Q1:                       # /10
-      Q2:                       # /10
-      Q3:                       # /5
+      Q1: 0                     # /10
+      Q2: 0                     # /10
+      Q3: 0                     # /5
     feedback_per_question:
       Q1:
       Q2:
@@ -40,12 +41,13 @@ submissions:
       autograde: 0/0
       checked: 2026-09-30T00:01+02:00
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      No submission was received.
     notes_not_shared_with_students:
     score_individual:           # yours: the question names and maxima come from grading_config.yml
-      Q1:                       # /10
-      Q2:                       # /10
-      Q3:                       # /5
+      Q1: 0                     # /10
+      Q2: 0                     # /10
+      Q3: 0                     # /5
     feedback_per_question:
       Q1:
       Q2:
