@@ -6,7 +6,7 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "ec5a29751299309a25ee6354b65b7c88f1e5f296",
+    "grading_sheets": "fa29b0410e46b941c18ffb30e28c28d2b9338181",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
     ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
@@ -25,7 +25,7 @@
     },
     "stage_why": {
       "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "2 assignment templates are not ready yet; the first: assignment-3-f2025's README.md is still the placeholder."
+      "C5": "assignment-8-f2026's README.md is still the placeholder."
     },
     "ready": true,
     "materials": [
@@ -62,7 +62,7 @@
       {
         "repo": "assignment-3-f2025",
         "slug": "assignment-3-f2025",
-        "state": "todo"
+        "state": "ready"
       },
       {
         "repo": "assignment-3-project-f2026",
@@ -124,7 +124,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "1 problem needs fixing.",
+      "K4": "2 problems need fixing.",
       "K5": "1 student has not been sent a code yet.",
       "K7": "Not archived yet; the schedule archives it on Tue 12 Jan."
     },
@@ -260,6 +260,21 @@
         "entry": null,
         "url": "https://github.com/organizations/hertie-dsl-demo-f2026/settings/member_privileges"
       }
+    },
+    {
+      "id": "number:assignment:assignment-3-project",
+      "scope": "semester",
+      "stage": "K4",
+      "text": "Give assignment-3-project a number.",
+      "stops": "The hand out on Tue 15 Sep was skipped.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 287,
+        "screen": "schedule",
+        "entry": "assignment-3-project"
+      },
+      "when": "2026-09-15T14:00:00+02:00"
     }
   ],
   "this_week": [
@@ -891,6 +906,7 @@
   "assignments": [
     {
       "slug": "assignment-1",
+      "number": 1,
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2026",
       "state": "marking",
@@ -937,6 +953,7 @@
     },
     {
       "slug": "assignment-2",
+      "number": 2,
       "title": "Classification and evaluation",
       "template": "assignment-2-f2026",
       "state": "marking",
@@ -949,7 +966,7 @@
       "submissions": 0,
       "teams": null,
       "marks": {
-        "filled": 0,
+        "filled": 2,
         "total": 2
       },
       "returned": false,
@@ -983,6 +1000,7 @@
     },
     {
       "slug": "assignment-3-project",
+      "number": null,
       "title": "Group project",
       "template": "assignment-3-project-f2026",
       "state": "open",
@@ -1029,6 +1047,7 @@
     },
     {
       "slug": "assignment-4",
+      "number": 4,
       "title": "Hackathon showcase",
       "template": "assignment-4-f2026",
       "state": "returned",
@@ -1075,6 +1094,7 @@
     },
     {
       "slug": "assignment-5",
+      "number": 5,
       "title": "Portfolio piece",
       "template": "assignment-5-f2026",
       "state": "returned",
@@ -1121,6 +1141,7 @@
     },
     {
       "slug": "assignment-6",
+      "number": 6,
       "title": "Referee reports",
       "template": "assignment-6-f2026",
       "state": "marking",
@@ -1167,6 +1188,7 @@
     },
     {
       "slug": "assignment-7",
+      "number": 7,
       "title": "Moodle essay",
       "template": "assignment-7-f2026",
       "state": "returned",
@@ -1213,6 +1235,7 @@
     },
     {
       "slug": "assignment-8",
+      "number": 8,
       "title": "Policy brief in LaTeX",
       "template": "assignment-8-f2026",
       "state": "late_window",
