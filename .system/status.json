@@ -20,12 +20,13 @@
       "C2": "done",
       "C3": "done",
       "C4": "todo",
-      "C5": "todo",
-      "C6": "done"
+      "C5": "problem",
+      "C6": "blocked"
     },
     "stage_why": {
       "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "assignment-8-f2026's README.md is still the placeholder."
+      "C5": "16 problems need fixing.",
+      "C6": "Waiting for the course's materials to be ready."
     },
     "ready": false,
     "materials": [
@@ -41,43 +42,43 @@
     "templates": [
       {
         "repo": "assignment-1-f2026",
-        "slug": "assignment-1",
-        "state": "ready"
+        "slug": "assignment-1-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-2-f2026",
-        "slug": "assignment-2",
-        "state": "ready"
+        "slug": "assignment-2-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-3-project-f2026",
-        "slug": "assignment-3-project",
-        "state": "ready"
+        "slug": "assignment-3-project-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-4-f2026",
-        "slug": "assignment-4",
-        "state": "ready"
+        "slug": "assignment-4-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-5-f2026",
-        "slug": "assignment-5",
-        "state": "ready"
+        "slug": "assignment-5-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-6-f2026",
-        "slug": "assignment-6",
-        "state": "ready"
+        "slug": "assignment-6-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-7-f2026",
-        "slug": "assignment-7",
-        "state": "ready"
+        "slug": "assignment-7-f2026",
+        "state": "problem"
       },
       {
         "repo": "assignment-8-f2026",
-        "slug": "assignment-8",
-        "state": "todo"
+        "slug": "assignment-8-f2026",
+        "state": "problem"
       }
     ],
     "semesters": [
@@ -90,9 +91,12 @@
     "key": "f2026",
     "label": "Fall 2026",
     "timezone": "Europe/Berlin",
+    "start": "2026-08-04",
+    "end": "2026-11-13",
     "week": 9,
     "weeks": 15,
     "live": true,
+    "ended": false,
     "app_installed": null,
     "stages": {
       "K1": "done",
@@ -125,7 +129,8 @@
         "line": 289,
         "screen": "schedule",
         "entry": "assignment-3-project"
-      }
+      },
+      "when": "2026-10-26T23:59:00+01:00"
     },
     {
       "id": "schedule:assignment-8:SCHEDULE",
@@ -139,7 +144,8 @@
         "line": 314,
         "screen": "schedule",
         "entry": "assignment-8"
-      }
+      },
+      "when": "2026-09-30T23:59:00+02:00"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS",
@@ -223,7 +229,8 @@
         "line": null,
         "screen": "assignment",
         "entry": "assignment-1"
-      }
+      },
+      "when": "2026-09-18T23:59:00+02:00"
     },
     {
       "id": "assignments:assignment-3-project:ASSIGNMENTS",
@@ -237,7 +244,8 @@
         "line": null,
         "screen": "assignment",
         "entry": "assignment-3-project"
-      }
+      },
+      "when": "2026-10-26T23:59:00+01:00"
     },
     {
       "id": "org:org-settings:ORG_SETTINGS",
@@ -252,6 +260,126 @@
         "screen": null,
         "entry": null,
         "url": "https://github.com/organizations/hertie-dsl-demo-f2026/settings/member_privileges"
+      }
+    },
+    {
+      "id": "template:assignment-1-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-1-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-1-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-1-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-1-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-2-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-2-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-2-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-2-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-2-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-3-project-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-3-project-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-3-project-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-3-project-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-3-project-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-4-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-4-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-4-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-4-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-4-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-5-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-5-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-5-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-5-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-5-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-6-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-6-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-6-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-6-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-6-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-7-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-7-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-7-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-7-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-7-f2026"
+      }
+    },
+    {
+      "id": "template:assignment-8-f2026:NOT_MIGRATED",
+      "scope": "course",
+      "stage": "C5",
+      "text": "assignment-8-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
+      "stops": "Run the migration, which adds the topic.",
+      "fix": {
+        "repo": "hertie-dsl-demo-course-e1234/assignment-8-f2026",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": "assignment-8-f2026",
+        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-8-f2026"
       }
     }
   ],
@@ -891,6 +1019,7 @@
       "due": "2026-09-08T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-18T23:59:00+02:00",
       "solution_shown": "2026-09-15T09:00:00+02:00",
+      "solution_held_until": "2026-09-18T23:59:00+02:00",
       "units": 2,
       "submissions": 1,
       "teams": null,
@@ -936,6 +1065,7 @@
       "due": "2026-09-29T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-29T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 2,
       "submissions": 0,
       "teams": null,
@@ -944,7 +1074,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -981,6 +1111,7 @@
       "due": "2026-10-23T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-26T23:59:00+01:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 8,
       "submissions": 0,
       "teams": 1,
@@ -1026,6 +1157,7 @@
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 2,
       "submissions": 1,
       "teams": null,
@@ -1034,7 +1166,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1071,6 +1203,7 @@
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 2,
       "submissions": 1,
       "teams": null,
@@ -1079,7 +1212,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1116,6 +1249,7 @@
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 1,
       "submissions": 1,
       "teams": null,
@@ -1124,7 +1258,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1161,6 +1295,7 @@
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 0,
       "submissions": null,
       "teams": null,
@@ -1169,7 +1304,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": false,
+      "problem": true,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1206,6 +1341,7 @@
       "due": "2026-09-29T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
       "solution_shown": null,
+      "solution_held_until": null,
       "units": 0,
       "submissions": null,
       "teams": 0,
