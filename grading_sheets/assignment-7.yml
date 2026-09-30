@@ -16,20 +16,24 @@
 # -------------------------------------------------------------------------------------------
 submissions:
   henrycgbaker:
-    score_individual: 79
+    score_individual:           # yours: the question names and maxima come from grading_config.yml
+      Argument: 35              # /40
+      Evidence: 30              # /30
+      Writing: 27               # /30
     adjustment_individual:
     feedback_individual: |
       A well-argued essay; the policy section would be stronger with a counter-example.
     notes_not_shared_with_students:
   test-user-dsl:
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      Clear structure and a careful evaluation; the discussion of limitations could go further.
     notes_not_shared_with_students:
     score_individual:           # yours: the question names and maxima come from grading_config.yml
-      Argument:                 # /40
-      Evidence:                 # /30
-      Writing:                  # /30
+      Argument: 34              # /40
+      Evidence: 27              # /30
+      Writing: 28               # /30
     feedback_per_question:
-      Argument:
-      Evidence:
-      Writing:
+      Argument: 'Argument: correct approach; tighten the write-up.'
+      Evidence: 'Evidence: correct approach; tighten the write-up.'
+      Writing: 'Writing: correct approach; tighten the write-up.'
