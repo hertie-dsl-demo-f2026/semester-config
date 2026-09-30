@@ -6,7 +6,7 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "911d4dab95be3f1cf568a6ab965f1d29e007e9ee",
+    "grading_sheets": "ec5a29751299309a25ee6354b65b7c88f1e5f296",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
     ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
@@ -1016,7 +1016,7 @@
       "slug": "assignment-4",
       "title": "Hackathon showcase",
       "template": "assignment-4-f2026",
-      "state": "marking",
+      "state": "returned",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
@@ -1029,7 +1029,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -1062,7 +1062,7 @@
       "slug": "assignment-5",
       "title": "Portfolio piece",
       "template": "assignment-5-f2026",
-      "state": "marking",
+      "state": "returned",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
@@ -1075,7 +1075,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -1154,7 +1154,7 @@
       "slug": "assignment-7",
       "title": "Moodle essay",
       "template": "assignment-7-f2026",
-      "state": "marking",
+      "state": "returned",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
@@ -1167,7 +1167,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -1207,7 +1207,7 @@
       "solution_shown": null,
       "solution_held_until": null,
       "units": 2,
-      "submissions": 0,
+      "submissions": 1,
       "teams": null,
       "marks": {
         "filled": 0,
@@ -1260,11 +1260,11 @@
   },
   "operations": [
     {
-      "run_id": 36697995624,
+      "run_id": 36698315817,
       "op": "grades.return",
-      "conclusion": "previewed",
-      "summary": "Preview: 2 marks repos would be updated and 2 emails sent.",
-      "finished": "2026-09-30T09:44:35Z"
+      "conclusion": "done",
+      "summary": "Marks returned: 2 marks repos updated, 2 emails sent.",
+      "finished": "2026-09-30T09:47:41Z"
     },
     {
       "run_id": 36633253141,
