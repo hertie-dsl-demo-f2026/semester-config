@@ -32,6 +32,7 @@ submissions:
       days_late:
       completion:
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      No submission was received.
     notes_not_shared_with_students:
-    score_individual:
+    score_individual: 0
