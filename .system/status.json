@@ -19,23 +19,94 @@
       "C1": "done",
       "C2": "done",
       "C3": "done",
-      "C4": "todo",
-      "C5": "todo",
+      "C4": "done",
+      "C5": "done",
       "C6": "done"
     },
-    "stage_why": {
-      "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "assignment-8-f2026's README.md is still the placeholder."
-    },
+    "stage_why": {},
     "ready": true,
     "materials": [
       {
         "repo": "course-materials-f2025",
-        "state": "todo"
+        "state": "todo",
+        "checks": [
+          {
+            "id": "syllabus",
+            "label": "Syllabus written",
+            "done": false,
+            "why": "There is no SYLLABUS.md yet.",
+            "blocks": true
+          },
+          {
+            "id": "kind_folder",
+            "label": "At least one folder of a known kind (lectures, labs, readings…)",
+            "done": true,
+            "why": null,
+            "blocks": true
+          },
+          {
+            "id": "all_mapped",
+            "label": "Every top folder has a kind",
+            "done": true,
+            "why": null,
+            "blocks": true
+          },
+          {
+            "id": "withheld",
+            "label": "Withheld patterns reviewed",
+            "done": false,
+            "why": "Nothing is withheld from students yet; review the withheld patterns.",
+            "blocks": false
+          },
+          {
+            "id": "sessions",
+            "label": "Session list generated",
+            "done": false,
+            "why": "The session list has not been generated yet.",
+            "blocks": false
+          }
+        ]
       },
       {
         "repo": "course-materials-f2026",
-        "state": "ready"
+        "state": "ready",
+        "checks": [
+          {
+            "id": "syllabus",
+            "label": "Syllabus written",
+            "done": true,
+            "why": null,
+            "blocks": true
+          },
+          {
+            "id": "kind_folder",
+            "label": "At least one folder of a known kind (lectures, labs, readings…)",
+            "done": true,
+            "why": null,
+            "blocks": true
+          },
+          {
+            "id": "all_mapped",
+            "label": "Every top folder has a kind",
+            "done": true,
+            "why": null,
+            "blocks": true
+          },
+          {
+            "id": "withheld",
+            "label": "Withheld patterns reviewed",
+            "done": false,
+            "why": "Nothing is withheld from students yet; review the withheld patterns.",
+            "blocks": false
+          },
+          {
+            "id": "sessions",
+            "label": "Session list generated",
+            "done": true,
+            "why": null,
+            "blocks": false
+          }
+        ]
       }
     ],
     "templates": [
@@ -98,6 +169,48 @@
     "semesters": [
       "hertie-dsl-demo-f2025",
       "hertie-dsl-demo-f2026"
+    ],
+    "todo": [
+      {
+        "id": "materials:course-materials-f2025:syllabus",
+        "kind": "materials",
+        "repo": "course-materials-f2025",
+        "text": "There is no SYLLABUS.md yet.",
+        "screen": "materials",
+        "entry": "course-materials-f2025"
+      },
+      {
+        "id": "materials:course-materials-f2025:withheld",
+        "kind": "materials",
+        "repo": "course-materials-f2025",
+        "text": "Nothing is withheld from students yet; review the withheld patterns.",
+        "screen": "materials",
+        "entry": "course-materials-f2025"
+      },
+      {
+        "id": "materials:course-materials-f2025:sessions",
+        "kind": "materials",
+        "repo": "course-materials-f2025",
+        "text": "The session list has not been generated yet.",
+        "screen": "materials",
+        "entry": "course-materials-f2025"
+      },
+      {
+        "id": "materials:course-materials-f2026:withheld",
+        "kind": "materials",
+        "repo": "course-materials-f2026",
+        "text": "Nothing is withheld from students yet; review the withheld patterns.",
+        "screen": "materials",
+        "entry": "course-materials-f2026"
+      },
+      {
+        "id": "template:assignment-8-f2026:brief",
+        "kind": "template",
+        "repo": "assignment-8-f2026",
+        "text": "The brief (README.md) is not written yet.",
+        "screen": "template",
+        "entry": "assignment-8-f2026"
+      }
     ]
   },
   "semester": {
