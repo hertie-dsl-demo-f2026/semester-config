@@ -20,15 +20,14 @@
       "C2": "done",
       "C3": "done",
       "C4": "todo",
-      "C5": "problem",
-      "C6": "blocked"
+      "C5": "todo",
+      "C6": "done"
     },
     "stage_why": {
       "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "16 problems need fixing.",
-      "C6": "Waiting for the course's materials to be ready."
+      "C5": "assignment-8-f2026's README.md is still the placeholder."
     },
-    "ready": false,
+    "ready": true,
     "materials": [
       {
         "repo": "course-materials-f2025",
@@ -43,42 +42,42 @@
       {
         "repo": "assignment-1-f2026",
         "slug": "assignment-1-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-2-f2026",
         "slug": "assignment-2-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-3-project-f2026",
         "slug": "assignment-3-project-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-4-f2026",
         "slug": "assignment-4-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-5-f2026",
         "slug": "assignment-5-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-6-f2026",
         "slug": "assignment-6-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-7-f2026",
         "slug": "assignment-7-f2026",
-        "state": "problem"
+        "state": "ready"
       },
       {
         "repo": "assignment-8-f2026",
         "slug": "assignment-8-f2026",
-        "state": "problem"
+        "state": "todo"
       }
     ],
     "semesters": [
@@ -260,126 +259,6 @@
         "screen": null,
         "entry": null,
         "url": "https://github.com/organizations/hertie-dsl-demo-f2026/settings/member_privileges"
-      }
-    },
-    {
-      "id": "template:assignment-1-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-1-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-1-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-1-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-1-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-2-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-2-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-2-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-2-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-2-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-3-project-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-3-project-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-3-project-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-3-project-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-3-project-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-4-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-4-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-4-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-4-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-4-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-5-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-5-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-5-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-5-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-5-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-6-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-6-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-6-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-6-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-6-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-7-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-7-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-7-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-7-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-7-f2026"
-      }
-    },
-    {
-      "id": "template:assignment-8-f2026:NOT_MIGRATED",
-      "scope": "course",
-      "stage": "C5",
-      "text": "assignment-8-f2026 is an assignment template by its old name only: it has no dsl-assignment topic yet.",
-      "stops": "Run the migration, which adds the topic.",
-      "fix": {
-        "repo": "hertie-dsl-demo-course-e1234/assignment-8-f2026",
-        "path": "",
-        "line": null,
-        "screen": null,
-        "entry": "assignment-8-f2026",
-        "url": "https://github.com/hertie-dsl-demo-course-e1234/assignment-8-f2026"
       }
     }
   ],
@@ -1074,7 +953,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1166,7 +1045,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1212,7 +1091,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1258,7 +1137,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
@@ -1304,7 +1183,7 @@
         "total": 2
       },
       "returned": false,
-      "problem": true,
+      "problem": false,
       "settings": {
         "team_formation": {
           "value": "self_select",
