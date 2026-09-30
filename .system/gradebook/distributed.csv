@@ -1,3 +1,6 @@
 target,assignment,channel,content_hash,distributed_at,issue
-henrycgbaker,,gradebook,1b7401b249c9,2026-09-17T12:05:04+00:00,
+henrycgbaker,,email,m1:23176f79386f,2026-09-30T09:47:24+00:00,
+henrycgbaker,,gradebook,f4ce387c0947,2026-09-30T09:47:24+00:00,
 henrycgbaker,assignment-1,issue,329b59b28a86,2026-09-09T09:38:13+00:00,1
+test-user-dsl,,email,m1:9ff73be8cb44,2026-09-30T09:47:24+00:00,
+test-user-dsl,,gradebook,05d2824df5bc,2026-09-30T09:47:24+00:00,

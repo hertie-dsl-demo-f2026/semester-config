@@ -1,7 +1,8 @@
-hertie_email,name,github_handle,assignment-1,assignment-4,assignment-5,assignment-6,assignment-7
-h.baker@hertie-school.org,Amara Okonjo,henrycgbaker,,90,81,74,79
-jonas.bergstrom@students.demo.hertie-school.org,Jonas Bergstrom,,,,,,
-k.nowak.weiss@students.demo.hertie-school.org,"Nowak-Weiss, Katarzyna",,,,,,
-miguel.santos@students.demo.hertie-school.org,Miguel Santos,,,,,,
-priya.raman@students.demo.hertie-school.org,Priya Raman,,,,,,
-tomas.havel@students.demo.hertie-school.org,Tomas Havel,,,,,,
+hertie_email,name,github_handle,assignment-4,assignment-5,assignment-6,assignment-7
+h.baker+testuser@hertie-school.org,Test User,test-user-dsl,0,0,,89
+h.baker@hertie-school.org,Amara Okonjo,henrycgbaker,90,81,74,92
+jonas.bergstrom@students.demo.hertie-school.org,Jonas Bergstrom,,,,,
+k.nowak.weiss@students.demo.hertie-school.org,"Nowak-Weiss, Katarzyna",,,,,
+miguel.santos@students.demo.hertie-school.org,Miguel Santos,,,,,
+priya.raman@students.demo.hertie-school.org,Priya Raman,,,,,
+tomas.havel@students.demo.hertie-school.org,Tomas Havel,,,,,
