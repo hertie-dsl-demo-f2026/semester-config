@@ -22,7 +22,10 @@ submissions:
       days_late: 0
       completion: not-attempted
       checked: 2026-09-22T00:02+02:00
-    score_individual: 90
+    score_individual:           # yours: the question names and maxima come from grading_config.yml
+      Prototype: 33             # /40
+      Demo: 28                  # /30
+      Writeup: 29               # /30
     adjustment_individual:
     feedback_individual: |
       A strong hackathon entry - the demo is convincing and the write-up is honest about its limits.
@@ -33,12 +36,13 @@ submissions:
       days_late:
       completion:
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      No submission was received.
     notes_not_shared_with_students:
     score_individual:           # yours: the question names and maxima come from grading_config.yml
-      Prototype:                # /40
-      Demo:                     # /30
-      Writeup:                  # /30
+      Prototype: 0              # /40
+      Demo: 0                   # /30
+      Writeup: 0                # /30
     feedback_per_question:
       Prototype:
       Demo:
