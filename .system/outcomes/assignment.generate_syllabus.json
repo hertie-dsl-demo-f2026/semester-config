@@ -6,13 +6,13 @@
     "sessions": 11
   },
   "details": [],
-  "finished": "2026-10-01T11:06:22Z",
+  "finished": "2026-10-01T16:48:22Z",
   "op": "assignment.generate_syllabus",
   "people": [],
   "preview": true,
   "reasons": [],
-  "run_id": 36853238612,
+  "run_id": 36894701530,
   "schema": "dsl.outcome/1",
-  "started": "2026-10-01T11:06:16Z",
-  "summary": "Built the session list: 11 sessions; nothing was written."
+  "started": "2026-10-01T16:48:18Z",
+  "summary": "Built the weekly plan: 11 sessions; nothing was written."
 }
