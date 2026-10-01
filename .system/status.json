@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "0aa1eec5e5a4b63f5e72789671301be67545d810",
+    "schedule.yml": "32b1aacf4c790b72830e52f4a4be852598973a09",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
@@ -392,7 +392,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 290,
+        "line": 293,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -522,7 +522,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 313,
+        "line": 316,
         "screen": "schedule",
         "entry": "assignment-8"
       }
@@ -1003,7 +1003,7 @@
       "id": "lecture-09",
       "when": "2026-09-29T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
+      "kind_inferred": false,
       "number": 9,
       "title": "Further topics in deep learning",
       "state": "released",
@@ -1063,7 +1063,7 @@
       "id": "lecture-10",
       "when": "2026-10-06T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
+      "kind_inferred": false,
       "number": 10,
       "title": "Policy approaches to regulate deep learning",
       "state": "planned",
@@ -1103,7 +1103,7 @@
       "id": "lecture-11",
       "when": "2026-10-13T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
+      "kind_inferred": false,
       "number": 11,
       "title": "Deep learning in practice",
       "state": "planned",
@@ -1544,7 +1544,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-01T12:01:22+00:00",
+    "last_update": "2026-10-01T18:02:51+00:00",
     "stale": false
   },
   "operations": [
