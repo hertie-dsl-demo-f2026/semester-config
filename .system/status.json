@@ -31,24 +31,56 @@
         "state": "todo",
         "checks": [
           {
-            "id": "syllabus",
-            "label": "Syllabus written",
-            "done": false,
-            "why": "There is no SYLLABUS.md yet.",
-            "blocks": true
-          },
-          {
-            "id": "kind_folder",
-            "label": "At least one folder of a known kind (lectures, labs, readings…)",
-            "done": true,
-            "why": null,
-            "blocks": true
-          },
-          {
             "id": "all_mapped",
             "label": "Every top folder has a kind",
             "done": true,
             "why": null,
+            "blocks": true
+          },
+          {
+            "id": "kind_folder",
+            "label": "At least one folder of a content kind",
+            "done": true,
+            "why": null,
+            "blocks": true,
+            "detail": [
+              {
+                "kind": "lecture",
+                "folders": [
+                  "lectures"
+                ]
+              },
+              {
+                "kind": "lab",
+                "folders": [
+                  "labs"
+                ]
+              },
+              {
+                "kind": "readings",
+                "folders": [
+                  "readings"
+                ]
+              },
+              {
+                "kind": "exam",
+                "folders": []
+              },
+              {
+                "kind": "drop-in",
+                "folders": []
+              },
+              {
+                "kind": "other",
+                "folders": []
+              }
+            ]
+          },
+          {
+            "id": "syllabus",
+            "label": "Syllabus written",
+            "done": false,
+            "why": "There is no SYLLABUS.md yet.",
             "blocks": true
           },
           {
@@ -72,22 +104,54 @@
         "state": "ready",
         "checks": [
           {
-            "id": "syllabus",
-            "label": "Syllabus written",
+            "id": "all_mapped",
+            "label": "Every top folder has a kind",
             "done": true,
             "why": null,
             "blocks": true
           },
           {
             "id": "kind_folder",
-            "label": "At least one folder of a known kind (lectures, labs, readings…)",
+            "label": "At least one folder of a content kind",
             "done": true,
             "why": null,
-            "blocks": true
+            "blocks": true,
+            "detail": [
+              {
+                "kind": "lecture",
+                "folders": [
+                  "lectures"
+                ]
+              },
+              {
+                "kind": "lab",
+                "folders": [
+                  "labs"
+                ]
+              },
+              {
+                "kind": "readings",
+                "folders": [
+                  "readings"
+                ]
+              },
+              {
+                "kind": "exam",
+                "folders": []
+              },
+              {
+                "kind": "drop-in",
+                "folders": []
+              },
+              {
+                "kind": "other",
+                "folders": []
+              }
+            ]
           },
           {
-            "id": "all_mapped",
-            "label": "Every top folder has a kind",
+            "id": "syllabus",
+            "label": "Syllabus written",
             "done": true,
             "why": null,
             "blocks": true
@@ -402,7 +466,7 @@
       "kind": "release",
       "ref": "lab-09",
       "title": "Lab 9",
-      "state": "planned"
+      "state": "released"
     },
     {
       "when": "2026-10-06T00:00:00+02:00",
@@ -907,7 +971,7 @@
       "kind_inferred": true,
       "number": 9,
       "title": "Lab 9",
-      "state": "planned",
+      "state": "released",
       "source": {
         "repo": "course-materials-f2026",
         "path": "labs/09_further-topics"
@@ -1405,7 +1469,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-01T07:01:20+00:00",
+    "last_update": "2026-10-01T12:01:22+00:00",
     "stale": false
   },
   "operations": [
