@@ -61,6 +61,18 @@
                 "folders": [
                   "readings"
                 ]
+              },
+              {
+                "kind": "exam",
+                "folders": []
+              },
+              {
+                "kind": "drop-in",
+                "folders": []
+              },
+              {
+                "kind": "other",
+                "folders": []
               }
             ]
           },
@@ -72,17 +84,17 @@
             "blocks": true
           },
           {
-            "id": "withheld",
-            "label": "Withheld patterns reviewed",
-            "done": false,
-            "why": "Nothing is withheld from students yet; review the withheld patterns.",
-            "blocks": false
-          },
-          {
             "id": "sessions",
             "label": "Weekly plan generated",
             "done": false,
             "why": "The weekly plan has not been generated yet.",
+            "blocks": false
+          },
+          {
+            "id": "withheld",
+            "label": "Withheld patterns reviewed",
+            "done": false,
+            "why": "Nothing is withheld from students yet; review the withheld patterns.",
             "blocks": false
           }
         ]
@@ -122,6 +134,18 @@
                 "folders": [
                   "readings"
                 ]
+              },
+              {
+                "kind": "exam",
+                "folders": []
+              },
+              {
+                "kind": "drop-in",
+                "folders": []
+              },
+              {
+                "kind": "other",
+                "folders": []
               }
             ]
           },
@@ -133,17 +157,17 @@
             "blocks": true
           },
           {
-            "id": "withheld",
-            "label": "Withheld patterns reviewed",
-            "done": false,
-            "why": "Nothing is withheld from students yet; review the withheld patterns.",
-            "blocks": false
-          },
-          {
             "id": "sessions",
             "label": "Weekly plan generated",
             "done": true,
             "why": null,
+            "blocks": false
+          },
+          {
+            "id": "withheld",
+            "label": "Withheld patterns reviewed",
+            "done": false,
+            "why": "Nothing is withheld from students yet; review the withheld patterns.",
             "blocks": false
           }
         ]
@@ -231,18 +255,18 @@
         "entry": "course-materials-f2025"
       },
       {
-        "id": "materials:course-materials-f2025:withheld",
-        "kind": "materials",
-        "repo": "course-materials-f2025",
-        "text": "Nothing is withheld from students yet; review the withheld patterns.",
-        "screen": "materials",
-        "entry": "course-materials-f2025"
-      },
-      {
         "id": "materials:course-materials-f2025:sessions",
         "kind": "materials",
         "repo": "course-materials-f2025",
         "text": "The weekly plan has not been generated yet.",
+        "screen": "materials",
+        "entry": "course-materials-f2025"
+      },
+      {
+        "id": "materials:course-materials-f2025:withheld",
+        "kind": "materials",
+        "repo": "course-materials-f2025",
+        "text": "Nothing is withheld from students yet; review the withheld patterns.",
         "screen": "materials",
         "entry": "course-materials-f2025"
       },
