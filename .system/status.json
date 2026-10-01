@@ -61,18 +61,6 @@
                 "folders": [
                   "readings"
                 ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
               }
             ]
           },
@@ -92,9 +80,9 @@
           },
           {
             "id": "sessions",
-            "label": "Session list generated",
+            "label": "Weekly plan generated",
             "done": false,
-            "why": "The session list has not been generated yet.",
+            "why": "The weekly plan has not been generated yet.",
             "blocks": false
           }
         ]
@@ -134,18 +122,6 @@
                 "folders": [
                   "readings"
                 ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
               }
             ]
           },
@@ -165,7 +141,7 @@
           },
           {
             "id": "sessions",
-            "label": "Session list generated",
+            "label": "Weekly plan generated",
             "done": true,
             "why": null,
             "blocks": false
@@ -177,57 +153,68 @@
       {
         "repo": "assignment-1-f2025",
         "slug": "assignment-1-f2025",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-1-f2026",
         "slug": "assignment-1-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-2-f2025",
         "slug": "assignment-2-f2025",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-2-f2026",
         "slug": "assignment-2-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-3-f2025",
         "slug": "assignment-3-f2025",
-        "state": "ready"
+        "state": "ready",
+        "starter": "handwritten"
       },
       {
         "repo": "assignment-3-project-f2026",
         "slug": "assignment-3-project-f2026",
-        "state": "ready"
+        "state": "ready",
+        "starter": "handwritten"
       },
       {
         "repo": "assignment-4-f2026",
         "slug": "assignment-4-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-5-f2026",
         "slug": "assignment-5-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-6-f2026",
         "slug": "assignment-6-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-7-f2026",
         "slug": "assignment-7-f2026",
-        "state": "ready"
+        "state": "todo",
+        "starter": "derived"
       },
       {
         "repo": "assignment-8-f2026",
         "slug": "assignment-8-f2026",
-        "state": "todo"
+        "state": "todo",
+        "starter": "derived"
       }
     ],
     "semesters": [
@@ -255,7 +242,7 @@
         "id": "materials:course-materials-f2025:sessions",
         "kind": "materials",
         "repo": "course-materials-f2025",
-        "text": "The session list has not been generated yet.",
+        "text": "The weekly plan has not been generated yet.",
         "screen": "materials",
         "entry": "course-materials-f2025"
       },
@@ -268,10 +255,82 @@
         "entry": "course-materials-f2026"
       },
       {
+        "id": "template:assignment-1-f2025:starter",
+        "kind": "template",
+        "repo": "assignment-1-f2025",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-1-f2025"
+      },
+      {
+        "id": "template:assignment-1-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-1-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-1-f2026"
+      },
+      {
+        "id": "template:assignment-2-f2025:starter",
+        "kind": "template",
+        "repo": "assignment-2-f2025",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-2-f2025"
+      },
+      {
+        "id": "template:assignment-2-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-2-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-2-f2026"
+      },
+      {
+        "id": "template:assignment-4-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-4-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-4-f2026"
+      },
+      {
+        "id": "template:assignment-5-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-5-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-5-f2026"
+      },
+      {
+        "id": "template:assignment-6-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-6-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-6-f2026"
+      },
+      {
+        "id": "template:assignment-7-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-7-f2026",
+        "text": "Derive has not been run yet.",
+        "screen": "template",
+        "entry": "assignment-7-f2026"
+      },
+      {
         "id": "template:assignment-8-f2026:brief",
         "kind": "template",
         "repo": "assignment-8-f2026",
         "text": "The brief (README.md) is not written yet.",
+        "screen": "template",
+        "entry": "assignment-8-f2026"
+      },
+      {
+        "id": "template:assignment-8-f2026:starter",
+        "kind": "template",
+        "repo": "assignment-8-f2026",
+        "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-8-f2026"
       }
