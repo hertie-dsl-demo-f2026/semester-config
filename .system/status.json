@@ -6,7 +6,7 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "fa29b0410e46b941c18ffb30e28c28d2b9338181",
+    "grading_sheets": "2d7f0618ceb5b9983b45cdabf6acb51382c24354",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
     ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
@@ -395,7 +395,7 @@
       "kind": "release",
       "ref": "readings-10",
       "title": "readings-10",
-      "state": "planned"
+      "state": "released"
     },
     {
       "when": "2026-10-01T14:00:00+02:00",
@@ -887,7 +887,7 @@
       "kind_inferred": true,
       "number": null,
       "title": "",
-      "state": "planned",
+      "state": "released",
       "source": {
         "repo": "course-materials-f2026",
         "path": "readings/10_policy-approaches-and-responsible-implementation"
@@ -1350,7 +1350,7 @@
       "number": 8,
       "title": "Policy brief in LaTeX",
       "template": "assignment-8-f2026",
-      "state": "late_window",
+      "state": "marking",
       "handout": "2026-09-23T14:00:00+02:00",
       "due": "2026-09-29T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
@@ -1405,23 +1405,23 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-09-30T09:31:38+00:00",
-    "stale": true
+    "last_update": "2026-10-01T07:01:20+00:00",
+    "stale": false
   },
   "operations": [
+    {
+      "run_id": 36853238612,
+      "op": "assignment.generate_syllabus",
+      "conclusion": "previewed",
+      "summary": "Built the session list: 11 sessions; nothing was written.",
+      "finished": "2026-10-01T11:06:22Z"
+    },
     {
       "run_id": 36698315817,
       "op": "grades.return",
       "conclusion": "done",
       "summary": "Marks returned: 2 marks repos updated, 2 emails sent.",
       "finished": "2026-09-30T09:47:41Z"
-    },
-    {
-      "run_id": 36633253141,
-      "op": "assignment.generate_syllabus",
-      "conclusion": "previewed",
-      "summary": "Built the session list: 12 sessions; nothing was written.",
-      "finished": "2026-09-29T21:26:30Z"
     },
     {
       "run_id": 36250473545,
