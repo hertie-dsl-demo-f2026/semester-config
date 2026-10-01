@@ -202,6 +202,7 @@ releases:
 
   lecture-09:
     event_datetime: 2026-09-29T10:00
+    kind: lecture
     title: "Further topics in deep learning"
     details: >
       Uncertainty quantification, generative models, and the state of the research
@@ -227,6 +228,7 @@ releases:
 
   lecture-10:
     event_datetime: 2026-10-06T10:00
+    kind: lecture
     title: "Policy approaches to regulate deep learning"
     details: >
       Regulation, auditing and the documented harms of large models, with the EU AI Act as
@@ -245,6 +247,7 @@ releases:
 
   lecture-11:
     event_datetime: 2026-10-13T10:00
+    kind: lecture
     title: "Deep learning in practice"
     details: >
       Putting a model into a real workflow: compute, reproducibility and maintenance.
