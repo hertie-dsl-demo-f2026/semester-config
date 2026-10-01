@@ -195,7 +195,7 @@
       {
         "repo": "assignment-2-f2026",
         "slug": "assignment-2-f2026",
-        "state": "todo",
+        "state": "ready",
         "starter": "derived"
       },
       {
@@ -301,14 +301,6 @@
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-2-f2025"
-      },
-      {
-        "id": "template:assignment-2-f2026:starter",
-        "kind": "template",
-        "repo": "assignment-2-f2026",
-        "text": "Derive has not been run yet.",
-        "screen": "template",
-        "entry": "assignment-2-f2026"
       },
       {
         "id": "template:assignment-4-f2026:starter",
@@ -1557,11 +1549,11 @@
   },
   "operations": [
     {
-      "run_id": 36853238612,
+      "run_id": 36894701530,
       "op": "assignment.generate_syllabus",
       "conclusion": "previewed",
-      "summary": "Built the session list: 11 sessions; nothing was written.",
-      "finished": "2026-10-01T11:06:22Z"
+      "summary": "Built the weekly plan: 11 sessions; nothing was written.",
+      "finished": "2026-10-01T16:48:22Z"
     },
     {
       "run_id": 36698315817,
