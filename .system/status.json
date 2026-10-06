@@ -14,7 +14,6 @@
     "org": "hertie-dsl-demo-course-e1234",
     "name": "Deep Learning (Demo)",
     "code": "E1234",
-    "app_installed": null,
     "stages": {
       "C1": "done",
       "C2": "done",
@@ -401,7 +400,6 @@
     "weeks": 15,
     "live": true,
     "ended": false,
-    "app_installed": null,
     "stages": {
       "K1": "done",
       "K2": "problem",
@@ -579,7 +577,6 @@
       "id": "course-intro",
       "when": "2026-07-28T09:00:00+02:00",
       "kind": "assets",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -591,7 +588,6 @@
         "repo": "materials",
         "path": "SYLLABUS.md"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -599,7 +595,6 @@
       "id": "readings-01",
       "when": "2026-07-30T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -611,7 +606,6 @@
         "repo": "materials",
         "path": "readings/01_deep-learning-in-public-policy"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -619,7 +613,6 @@
       "id": "lecture-01",
       "when": "2026-08-04T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 1,
       "title": "Deep learning in public policy",
       "state": "released",
@@ -631,7 +624,6 @@
         "repo": "materials",
         "path": "lectures/01_deep-learning-in-public-policy"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -639,7 +631,6 @@
       "id": "readings-02",
       "when": "2026-08-06T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -651,7 +642,6 @@
         "repo": "materials",
         "path": "readings/02_deep-neural-networks-1"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -659,7 +649,6 @@
       "id": "lab-01",
       "when": "2026-08-06T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 1,
       "title": "Lab 1",
       "state": "released",
@@ -671,7 +660,6 @@
         "repo": "materials",
         "path": "labs/01_deep-learning-in-public-policy"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -679,7 +667,6 @@
       "id": "lecture-02",
       "when": "2026-08-11T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 2,
       "title": "Deep neural networks (1)",
       "state": "released",
@@ -691,7 +678,6 @@
         "repo": "materials",
         "path": "lectures/02_deep-neural-networks-1"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -699,7 +685,6 @@
       "id": "readings-03",
       "when": "2026-08-13T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -711,7 +696,6 @@
         "repo": "materials",
         "path": "readings/03_deep-neural-networks-2"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -719,7 +703,6 @@
       "id": "lab-02",
       "when": "2026-08-13T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 2,
       "title": "Lab 2",
       "state": "released",
@@ -731,7 +714,6 @@
         "repo": "materials",
         "path": "labs/02_deep-neural-networks-1"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -739,7 +721,6 @@
       "id": "lecture-03",
       "when": "2026-08-18T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 3,
       "title": "Deep neural networks (2)",
       "state": "released",
@@ -751,7 +732,6 @@
         "repo": "materials",
         "path": "lectures/03_deep-neural-networks-2"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -759,7 +739,6 @@
       "id": "readings-04",
       "when": "2026-08-20T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -771,7 +750,6 @@
         "repo": "materials",
         "path": "readings/04_computer-vision-1-cnns"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -779,7 +757,6 @@
       "id": "lab-03",
       "when": "2026-08-20T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 3,
       "title": "Lab 3",
       "state": "released",
@@ -791,7 +768,6 @@
         "repo": "materials",
         "path": "labs/03_deep-neural-networks-2"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -799,7 +775,6 @@
       "id": "lecture-04",
       "when": "2026-08-25T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 4,
       "title": "Computer vision (1): Convolutional neural networks",
       "state": "released",
@@ -811,7 +786,6 @@
         "repo": "materials",
         "path": "lectures/04_computer-vision-1-cnns"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -819,7 +793,6 @@
       "id": "readings-05",
       "when": "2026-08-27T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -831,7 +804,6 @@
         "repo": "materials",
         "path": "readings/05_computer-vision-2-modern-cnns"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -839,7 +811,6 @@
       "id": "lab-04",
       "when": "2026-08-27T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 4,
       "title": "Lab 4",
       "state": "released",
@@ -851,7 +822,6 @@
         "repo": "materials",
         "path": "labs/04_computer-vision-1-cnns"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -859,7 +829,6 @@
       "id": "lecture-05",
       "when": "2026-09-01T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 5,
       "title": "Computer vision (2): Modern CNNs, implementation and applications",
       "state": "released",
@@ -871,7 +840,6 @@
         "repo": "materials",
         "path": "lectures/05_computer-vision-2-modern-cnns"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -879,7 +847,6 @@
       "id": "lab-05",
       "when": "2026-09-03T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 5,
       "title": "Lab 5",
       "state": "released",
@@ -891,7 +858,6 @@
         "repo": "materials",
         "path": "labs/05_computer-vision-2-modern-cnns"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -899,7 +865,6 @@
       "id": "lecture-06",
       "when": "2026-09-08T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 6,
       "title": "Sequence methods and time-series analysis",
       "state": "released",
@@ -911,7 +876,6 @@
         "repo": "materials",
         "path": "lectures/06_sequence-methods-and-time-series"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -919,7 +883,6 @@
       "id": "lab-06",
       "when": "2026-09-10T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 6,
       "title": "Lab 6",
       "state": "released",
@@ -931,7 +894,6 @@
         "repo": "materials",
         "path": "labs/06_sequence-methods-and-time-series"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -939,7 +901,6 @@
       "id": "lecture-07",
       "when": "2026-09-15T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 7,
       "title": "Natural language processing (1)",
       "state": "released",
@@ -951,7 +912,6 @@
         "repo": "materials",
         "path": "lectures/07_natural-language-processing-1"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -959,7 +919,6 @@
       "id": "readings-08",
       "when": "2026-09-17T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -971,7 +930,6 @@
         "repo": "materials",
         "path": "readings/08_nlp-2-encoder-decoder-and-attention"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -979,7 +937,6 @@
       "id": "lecture-08",
       "when": "2026-09-22T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 8,
       "title": "Natural language processing (2): Encoder-decoder architecture and attention",
       "state": "released",
@@ -991,7 +948,6 @@
         "repo": "materials",
         "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -999,7 +955,6 @@
       "id": "readings-09",
       "when": "2026-09-24T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -1011,7 +966,6 @@
         "repo": "materials",
         "path": "readings/09_further-topics"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -1019,7 +973,6 @@
       "id": "lecture-09",
       "when": "2026-09-29T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": false,
       "number": 9,
       "title": "Further topics in deep learning",
       "state": "released",
@@ -1031,7 +984,6 @@
         "repo": "materials",
         "path": "code/dldemo/uncertainty.py"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -1039,7 +991,6 @@
       "id": "readings-10",
       "when": "2026-10-01T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -1051,7 +1002,6 @@
         "repo": "materials",
         "path": "readings/10_policy-approaches-and-responsible-implementation"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -1059,7 +1009,6 @@
       "id": "lab-09",
       "when": "2026-10-01T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 9,
       "title": "Lab 9",
       "state": "released",
@@ -1071,7 +1020,6 @@
         "repo": "materials",
         "path": "labs/09_further-topics"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -1079,7 +1027,6 @@
       "id": "lecture-10",
       "when": "2026-10-06T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": false,
       "number": 10,
       "title": "Policy approaches to regulate deep learning",
       "state": "planned",
@@ -1091,7 +1038,6 @@
         "repo": "materials",
         "path": "code/dldemo/audit.py"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -1099,7 +1045,6 @@
       "id": "readings-11",
       "when": "2026-10-08T09:00:00+02:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": null,
       "title": "",
       "state": "released",
@@ -1111,7 +1056,6 @@
         "repo": "materials",
         "path": "readings/11_deep-learning-in-practice"
       },
-      "copies": 1,
       "show_on_site": false,
       "tbc": false
     },
@@ -1119,7 +1063,6 @@
       "id": "lecture-11",
       "when": "2026-10-13T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": false,
       "number": 11,
       "title": "Deep learning in practice",
       "state": "planned",
@@ -1131,7 +1074,6 @@
         "repo": "materials",
         "path": "code/dldemo/serving.py"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -1139,7 +1081,6 @@
       "id": "lab-11",
       "when": "2026-10-15T14:00:00+02:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 11,
       "title": "Lab 11",
       "state": "planned",
@@ -1151,7 +1092,6 @@
         "repo": "materials",
         "path": "labs/11_deep-learning-in-practice"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -1159,13 +1099,11 @@
       "id": "lecture-12",
       "when": "2026-10-20T10:00:00+02:00",
       "kind": "drop-in",
-      "kind_inferred": false,
       "number": 1,
       "title": "Tutorial presentations",
       "state": "planned",
       "source": null,
       "dest": null,
-      "copies": 0,
       "show_on_site": true,
       "tbc": false
     }
@@ -1560,7 +1498,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-01T18:02:51+00:00",
+    "last_update": "2026-10-06T07:21:29+00:00",
     "stale": false
   },
   "operations": [
