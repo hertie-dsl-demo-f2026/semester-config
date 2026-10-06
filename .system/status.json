@@ -7,7 +7,7 @@
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
     "grading_sheets": "2d7f0618ceb5b9983b45cdabf6acb51382c24354",
-    "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
+    "course/dsl-course.yml": "2f996a8558c6d7f2637f677b97bace583eb9894e",
     ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
   "course": {
@@ -397,7 +397,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 9,
+    "week": 10,
     "weeks": 15,
     "live": true,
     "ended": false,
