@@ -562,7 +562,7 @@
       "kind": "release",
       "ref": "lecture-10",
       "title": "Policy approaches to regulate deep learning",
-      "state": "planned"
+      "state": "released"
     },
     {
       "when": "2026-10-08T09:00:00+02:00",
@@ -1029,7 +1029,7 @@
       "kind": "lecture",
       "number": 10,
       "title": "Policy approaches to regulate deep learning",
-      "state": "planned",
+      "state": "released",
       "source": {
         "repo": "lecture-code-f2026",
         "path": "dldemo/audit.py"
@@ -1498,7 +1498,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-06T07:21:29+00:00",
+    "last_update": "2026-10-06T08:01:14+00:00",
     "stale": false
   },
   "operations": [
