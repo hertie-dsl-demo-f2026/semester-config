@@ -551,25 +551,18 @@
   ],
   "this_week": [
     {
-      "when": "2026-10-06T00:00:00+02:00",
-      "kind": "event",
-      "ref": "reading-week",
-      "title": "Reading week - no class",
-      "state": "planned"
-    },
-    {
-      "when": "2026-10-06T10:00:00+02:00",
-      "kind": "release",
-      "ref": "lecture-10",
-      "title": "Policy approaches to regulate deep learning",
-      "state": "released"
-    },
-    {
       "when": "2026-10-08T09:00:00+02:00",
       "kind": "release",
       "ref": "readings-11",
       "title": "readings-11",
       "state": "released"
+    },
+    {
+      "when": "2026-10-13T10:00:00+02:00",
+      "kind": "release",
+      "ref": "lecture-11",
+      "title": "Deep learning in practice",
+      "state": "planned"
     }
   ],
   "releases": [
