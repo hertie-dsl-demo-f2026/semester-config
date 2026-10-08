@@ -10,6 +10,9 @@
     "course/dsl-course.yml": "2f996a8558c6d7f2637f677b97bace583eb9894e",
     ".system/assignments.lock.yml": "96e9d60622eec0d3698b208299ae09724fffc91a"
   },
+  "horizon": {
+    "days": 7
+  },
   "course": {
     "org": "hertie-dsl-demo-course-e1234",
     "name": "Deep Learning (Demo)",
@@ -23,6 +26,14 @@
       "C6": "done"
     },
     "stage_why": {},
+    "stage_need": {
+      "C1": "needed",
+      "C2": "needed",
+      "C3": "needed",
+      "C4": "suggested",
+      "C5": "suggested",
+      "C6": "suggested"
+    },
     "stage_optional": {
       "C1": false,
       "C2": false,
@@ -39,17 +50,24 @@
       "C5": false,
       "C6": false
     },
+    "verdict": {
+      "state": "ready",
+      "problems": 0,
+      "missing": null,
+      "suggestions": 4
+    },
     "ready": true,
     "materials": [
       {
         "repo": "course-materials-f2025",
-        "state": "todo",
+        "state": "ready",
         "checks": [
           {
             "id": "kind_folder",
             "label": "At least one folder of a content kind",
             "done": true,
             "why": null,
+            "need": "needed",
             "blocks": true,
             "detail": [
               {
@@ -86,16 +104,10 @@
           },
           {
             "id": "syllabus",
-            "label": "Syllabus written",
+            "label": "Syllabus",
             "done": false,
             "why": "There is no SYLLABUS.md yet.",
-            "blocks": true
-          },
-          {
-            "id": "sessions",
-            "label": "Weekly plan in the syllabus",
-            "done": false,
-            "why": "The weekly plan is not in SYLLABUS.md yet.",
+            "need": "suggested",
             "blocks": false
           },
           {
@@ -103,6 +115,7 @@
             "label": "Withheld patterns reviewed",
             "done": false,
             "why": "Nothing is withheld from students yet; review the withheld patterns.",
+            "need": "suggested",
             "blocks": false
           }
         ]
@@ -116,6 +129,7 @@
             "label": "At least one folder of a content kind",
             "done": true,
             "why": null,
+            "need": "needed",
             "blocks": true,
             "detail": [
               {
@@ -152,16 +166,10 @@
           },
           {
             "id": "syllabus",
-            "label": "Syllabus written",
-            "done": true,
-            "why": null,
-            "blocks": true
-          },
-          {
-            "id": "sessions",
-            "label": "Weekly plan in the syllabus",
+            "label": "Syllabus",
             "done": false,
-            "why": "The weekly plan is not in SYLLABUS.md yet.",
+            "why": "The weekly plan (written from the schedule) is not in SYLLABUS.md yet.",
+            "need": "suggested",
             "blocks": false
           },
           {
@@ -169,6 +177,7 @@
             "label": "Withheld patterns reviewed",
             "done": false,
             "why": "Nothing is withheld from students yet; review the withheld patterns.",
+            "need": "suggested",
             "blocks": false
           }
         ]
@@ -250,140 +259,156 @@
       {
         "id": "materials:course-materials-f2025:syllabus",
         "kind": "materials",
+        "check": "syllabus",
         "repo": "course-materials-f2025",
         "text": "There is no SYLLABUS.md yet.",
         "screen": "materials",
         "entry": "course-materials-f2025",
-        "optional": false,
-        "set_aside": false
-      },
-      {
-        "id": "materials:course-materials-f2025:sessions",
-        "kind": "materials",
-        "repo": "course-materials-f2025",
-        "text": "The weekly plan is not in SYLLABUS.md yet.",
-        "screen": "materials",
-        "entry": "course-materials-f2025",
+        "need": "suggested",
         "optional": true,
         "set_aside": false
       },
       {
         "id": "materials:course-materials-f2025:withheld",
         "kind": "materials",
+        "check": "withheld",
         "repo": "course-materials-f2025",
         "text": "Nothing is withheld from students yet; review the withheld patterns.",
         "screen": "materials",
         "entry": "course-materials-f2025",
+        "need": "suggested",
         "optional": true,
         "set_aside": false
       },
       {
-        "id": "materials:course-materials-f2026:sessions",
+        "id": "materials:course-materials-f2026:syllabus",
         "kind": "materials",
+        "check": "syllabus",
         "repo": "course-materials-f2026",
-        "text": "The weekly plan is not in SYLLABUS.md yet.",
+        "text": "The weekly plan (written from the schedule) is not in SYLLABUS.md yet.",
         "screen": "materials",
         "entry": "course-materials-f2026",
+        "need": "suggested",
         "optional": true,
         "set_aside": false
       },
       {
         "id": "materials:course-materials-f2026:withheld",
         "kind": "materials",
+        "check": "withheld",
         "repo": "course-materials-f2026",
         "text": "Nothing is withheld from students yet; review the withheld patterns.",
         "screen": "materials",
         "entry": "course-materials-f2026",
+        "need": "suggested",
         "optional": true,
         "set_aside": false
       },
       {
         "id": "template:assignment-1-f2025:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-1-f2025",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-1-f2025",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-1-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-1-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-1-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-2-f2025:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-2-f2025",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-2-f2025",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-4-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-4-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-4-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-5-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-5-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-5-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-6-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-6-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-6-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-7-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-7-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-7-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-8-f2026:brief",
         "kind": "template",
+        "check": "brief",
         "repo": "assignment-8-f2026",
         "text": "The brief (README.md) is not written yet.",
         "screen": "template",
         "entry": "assignment-8-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       },
       {
         "id": "template:assignment-8-f2026:starter",
         "kind": "template",
+        "check": "starter",
         "repo": "assignment-8-f2026",
         "text": "Derive has not been run yet.",
         "screen": "template",
         "entry": "assignment-8-f2026",
+        "need": "needed",
         "optional": false,
         "set_aside": false
       }
@@ -405,24 +430,39 @@
       "K2": "problem",
       "K3": "todo",
       "K4": "problem",
-      "K5": "todo",
-      "K6": "done",
-      "K7": "todo"
+      "K5": "done",
+      "K6": "done"
     },
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "1 problem needs fixing.",
-      "K5": "1 student has not been sent a code yet.",
-      "K7": "Not archived yet; the schedule archives it on Tue 12 Jan."
+      "K4": "1 problem needs fixing."
     },
-    "archive_date": "2027-01-12"
+    "stage_need": {
+      "K1": "needed",
+      "K2": "needed",
+      "K3": "needed",
+      "K4": "needed",
+      "K5": "needed",
+      "K6": "needed"
+    },
+    "verdict": {
+      "state": "fixing",
+      "problems": 9,
+      "missing": "No instructor is declared in instructors.yml yet.",
+      "suggestions": 0,
+      "coming_up": 0
+    },
+    "todo": [],
+    "archive_date": "2027-01-12",
+    "template_moments": {}
   },
   "problems": [
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS",
       "scope": "semester",
       "stage": "marking",
+      "kind": "GRADING_SHEETS",
       "text": "Line 47 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
@@ -431,12 +471,14 @@
         "line": 47,
         "screen": "marks",
         "entry": "assignment-3-project"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS:2",
       "scope": "semester",
       "stage": "marking",
+      "kind": "GRADING_SHEETS",
       "text": "Line 99 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
@@ -445,12 +487,14 @@
         "line": 99,
         "screen": "marks",
         "entry": "assignment-3-project"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS:3",
       "scope": "semester",
       "stage": "marking",
+      "kind": "GRADING_SHEETS",
       "text": "Line 115 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
@@ -459,12 +503,14 @@
         "line": 115,
         "screen": "marks",
         "entry": "assignment-3-project"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS:4",
       "scope": "semester",
       "stage": "marking",
+      "kind": "GRADING_SHEETS",
       "text": "Line 131 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
@@ -473,12 +519,14 @@
         "line": 131,
         "screen": "marks",
         "entry": "assignment-3-project"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS:5",
       "scope": "semester",
       "stage": "marking",
+      "kind": "GRADING_SHEETS",
       "text": "Line 147 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
@@ -487,12 +535,14 @@
         "line": 147,
         "screen": "marks",
         "entry": "assignment-3-project"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "assignments:assignment-1:ASSIGNMENTS",
       "scope": "semester",
       "stage": "open",
+      "kind": "ASSIGNMENTS",
       "text": "assignment-1's settings say its repos are private, but 1 of 2 handed out in this semester are not.",
       "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
       "fix": {
@@ -502,12 +552,13 @@
         "screen": "assignment",
         "entry": "assignment-1"
       },
-      "when": "2026-09-18T23:59:00+02:00"
+      "bites": "now"
     },
     {
       "id": "assignments:assignment-3-project:ASSIGNMENTS",
       "scope": "semester",
       "stage": "open",
+      "kind": "ASSIGNMENTS",
       "text": "assignment-3-project's settings say its repos are private, but 3 of 8 handed out in this semester are not.",
       "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
       "fix": {
@@ -517,12 +568,13 @@
         "screen": "assignment",
         "entry": "assignment-3-project"
       },
-      "when": "2026-10-26T23:59:00+01:00"
+      "bites": "now"
     },
     {
       "id": "org:org-settings:ORG_SETTINGS",
       "scope": "semester",
       "stage": "K2",
+      "kind": "ORG_SETTINGS",
       "text": "This semester's GitHub member privileges do not suit an assignment that lets students choose their repo's visibility.",
       "stops": "A student can delete or move their own submission.",
       "fix": {
@@ -532,12 +584,14 @@
         "screen": null,
         "entry": null,
         "url": "https://github.com/organizations/hertie-dsl-demo-f2026/settings/member_privileges"
-      }
+      },
+      "bites": "now"
     },
     {
       "id": "number:assignment:8",
       "scope": "semester",
       "stage": "K4",
+      "kind": "DUPLICATE_NUMBER",
       "text": "Two assignments are numbered 8: assignment-3-project, assignment-8.",
       "stops": "Students see the same number more than once.",
       "fix": {
@@ -546,7 +600,8 @@
         "line": 316,
         "screen": "schedule",
         "entry": "assignment-8"
-      }
+      },
+      "bites": "now"
     }
   ],
   "this_week": [
