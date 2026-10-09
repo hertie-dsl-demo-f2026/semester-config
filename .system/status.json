@@ -606,17 +606,17 @@
   ],
   "this_week": [
     {
-      "when": "2026-10-08T09:00:00+02:00",
-      "kind": "release",
-      "ref": "readings-11",
-      "title": "readings-11",
-      "state": "released"
-    },
-    {
       "when": "2026-10-13T10:00:00+02:00",
       "kind": "release",
       "ref": "lecture-11",
       "title": "Deep learning in practice",
+      "state": "planned"
+    },
+    {
+      "when": "2026-10-15T14:00:00+02:00",
+      "kind": "release",
+      "ref": "lab-11",
+      "title": "Lab 11",
       "state": "planned"
     }
   ],
