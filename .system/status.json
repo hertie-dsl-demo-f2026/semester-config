@@ -7,8 +7,8 @@
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
     "grading_sheets": "2d7f0618ceb5b9983b45cdabf6acb51382c24354",
-    "course/dsl-course.yml": "2f996a8558c6d7f2637f677b97bace583eb9894e",
-    ".system/assignments.lock.yml": "5c6dccbdec7a7874913c7089d32cdacb64ce0742"
+    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
+    ".system/assignments.lock.yml": "183e71daddf8d84359fbdeb16b9406a61a027042"
   },
   "horizon": {
     "days": 7
@@ -1546,7 +1546,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-09T13:47:34+00:00",
+    "last_update": "2026-10-12T17:44:22+00:00",
     "stale": false
   },
   "operations": [
