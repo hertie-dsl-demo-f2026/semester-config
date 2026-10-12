@@ -34,14 +34,6 @@
       "C5": "suggested",
       "C6": "suggested"
     },
-    "stage_optional": {
-      "C1": false,
-      "C2": false,
-      "C3": false,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
     "stage_set_aside": {
       "C1": false,
       "C2": false,
@@ -56,7 +48,6 @@
       "missing": null,
       "suggestions": 4
     },
-    "ready": true,
     "materials": [
       {
         "repo": "course-materials-f2025",
@@ -68,7 +59,6 @@
             "done": true,
             "why": null,
             "need": "needed",
-            "blocks": true,
             "detail": [
               {
                 "kind": "lecture",
@@ -107,16 +97,14 @@
             "label": "Syllabus",
             "done": false,
             "why": "There is no SYLLABUS.md yet.",
-            "need": "suggested",
-            "blocks": false
+            "need": "suggested"
           },
           {
             "id": "withheld",
             "label": "Withheld patterns reviewed",
             "done": false,
             "why": "Nothing is withheld from students yet; review the withheld patterns.",
-            "need": "suggested",
-            "blocks": false
+            "need": "suggested"
           }
         ]
       },
@@ -130,7 +118,6 @@
             "done": true,
             "why": null,
             "need": "needed",
-            "blocks": true,
             "detail": [
               {
                 "kind": "lecture",
@@ -169,16 +156,14 @@
             "label": "Syllabus",
             "done": false,
             "why": "The weekly plan (written from the schedule) is not in SYLLABUS.md yet.",
-            "need": "suggested",
-            "blocks": false
+            "need": "suggested"
           },
           {
             "id": "withheld",
             "label": "Withheld patterns reviewed",
             "done": false,
             "why": "Nothing is withheld from students yet; review the withheld patterns.",
-            "need": "suggested",
-            "blocks": false
+            "need": "suggested"
           }
         ]
       }
@@ -186,67 +171,56 @@
     "templates": [
       {
         "repo": "assignment-1-f2025",
-        "slug": "assignment-1-f2025",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-1-f2026",
-        "slug": "assignment-1-f2026",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-2-f2025",
-        "slug": "assignment-2-f2025",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-2-f2026",
-        "slug": "assignment-2-f2026",
         "state": "ready",
         "starter": "derived"
       },
       {
         "repo": "assignment-3-f2025",
-        "slug": "assignment-3-f2025",
         "state": "ready",
         "starter": "handwritten"
       },
       {
         "repo": "assignment-3-project-f2026",
-        "slug": "assignment-3-project-f2026",
         "state": "ready",
         "starter": "handwritten"
       },
       {
         "repo": "assignment-4-f2026",
-        "slug": "assignment-4-f2026",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-5-f2026",
-        "slug": "assignment-5-f2026",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-6-f2026",
-        "slug": "assignment-6-f2026",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-7-f2026",
-        "slug": "assignment-7-f2026",
         "state": "todo",
         "starter": "derived"
       },
       {
         "repo": "assignment-8-f2026",
-        "slug": "assignment-8-f2026",
         "state": "todo",
         "starter": "derived"
       }
@@ -265,7 +239,6 @@
         "screen": "materials",
         "entry": "course-materials-f2025",
         "need": "suggested",
-        "optional": true,
         "set_aside": false
       },
       {
@@ -277,7 +250,6 @@
         "screen": "materials",
         "entry": "course-materials-f2025",
         "need": "suggested",
-        "optional": true,
         "set_aside": false
       },
       {
@@ -289,7 +261,6 @@
         "screen": "materials",
         "entry": "course-materials-f2026",
         "need": "suggested",
-        "optional": true,
         "set_aside": false
       },
       {
@@ -301,7 +272,6 @@
         "screen": "materials",
         "entry": "course-materials-f2026",
         "need": "suggested",
-        "optional": true,
         "set_aside": false
       },
       {
@@ -313,7 +283,6 @@
         "screen": "template",
         "entry": "assignment-1-f2025",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -325,7 +294,6 @@
         "screen": "template",
         "entry": "assignment-1-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -337,7 +305,6 @@
         "screen": "template",
         "entry": "assignment-2-f2025",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -349,7 +316,6 @@
         "screen": "template",
         "entry": "assignment-4-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -361,7 +327,6 @@
         "screen": "template",
         "entry": "assignment-5-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -373,7 +338,6 @@
         "screen": "template",
         "entry": "assignment-6-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -385,7 +349,6 @@
         "screen": "template",
         "entry": "assignment-7-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -397,7 +360,6 @@
         "screen": "template",
         "entry": "assignment-8-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       },
       {
@@ -409,7 +371,6 @@
         "screen": "template",
         "entry": "assignment-8-f2026",
         "need": "needed",
-        "optional": false,
         "set_aside": false
       }
     ]
