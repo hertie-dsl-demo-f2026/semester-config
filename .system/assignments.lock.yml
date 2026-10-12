@@ -18,8 +18,8 @@
 #                   the date that window shuts, bare ISO (`2026-10-04`), for the refusal
 #                   to name - empty when there is no window, or no date to give
 #   team_formation_page:
-#                   the assignment's page on the semester site, which lists the teams that
-#                   exist - for the refusal to link; empty for anything not self-select
+#                   the assignment's page, which lists the teams that exist - for the
+#                   refusal to link; empty for anything not self-select
 #
 # An assignment whose course template does not exist yet is locked to `none`:
 # until the template says what it is, nobody can mint a GitHub team for it.
@@ -42,7 +42,7 @@ assignments:
     max_team_size: 3
     team_formation_window: open
     team_formation_closes: 2026-10-26
-    team_formation_page: https://hertie-data-science-lab.github.io/dsl-teaching-toolkit/?semester=hertie-dsl-demo-f2026#join
+    team_formation_page: https://hertie-dsl-demo-f2026.github.io/assignments/08-assignment-3-project.html
   assignment-4:
     team_formation: none
     max_team_size: 3
