@@ -42,7 +42,7 @@ assignments:
     max_team_size: 3
     team_formation_window: open
     team_formation_closes: 2026-10-26
-    team_formation_page: https://hertie-dsl-demo-f2026.github.io/assignments/08-assignment-3-project.html
+    team_formation_page: https://hertie-data-science-lab.github.io/dsl-teaching-toolkit/?semester=hertie-dsl-demo-f2026#assignment-assignment-3-project
   assignment-4:
     team_formation: none
     max_team_size: 3
