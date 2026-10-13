@@ -382,7 +382,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 10,
+    "week": 11,
     "weeks": 15,
     "live": true,
     "ended": false,
@@ -571,7 +571,7 @@
       "kind": "release",
       "ref": "lecture-11",
       "title": "Deep learning in practice",
-      "state": "planned"
+      "state": "released"
     },
     {
       "when": "2026-10-15T14:00:00+02:00",
@@ -1074,7 +1074,7 @@
       "kind": "lecture",
       "number": 11,
       "title": "Deep learning in practice",
-      "state": "planned",
+      "state": "released",
       "source": {
         "repo": "lecture-code-f2026",
         "path": "dldemo/serving.py"
@@ -1507,7 +1507,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-12T17:44:22+00:00",
+    "last_update": "2026-10-13T08:01:22+00:00",
     "stale": false
   },
   "operations": [
