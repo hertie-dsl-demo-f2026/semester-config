@@ -172,68 +172,57 @@
       {
         "repo": "assignment-1-f2025",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-1-f2026",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-2-f2025",
         "state": "todo",
-        "starter": "derived",
-        "starter_applies": true
+        "starter": "derived"
       },
       {
         "repo": "assignment-2-f2026",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-3-f2025",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-3-project-f2026",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-4-f2026",
         "state": "todo",
-        "starter": "derived",
-        "starter_applies": true
+        "starter": "derived"
       },
       {
         "repo": "assignment-5-f2026",
         "state": "todo",
-        "starter": "derived",
-        "starter_applies": true
+        "starter": "derived"
       },
       {
         "repo": "assignment-6-f2026",
         "state": "todo",
-        "starter": "derived",
-        "starter_applies": true
+        "starter": "derived"
       },
       {
         "repo": "assignment-7-f2026",
         "state": "ready",
-        "starter": "derived",
-        "starter_applies": false
+        "starter": "none"
       },
       {
         "repo": "assignment-8-f2026",
         "state": "todo",
-        "starter": "derived",
-        "starter_applies": true
+        "starter": "derived"
       }
     ],
     "semesters": [
@@ -375,7 +364,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "1 problem needs fixing."
+      "K4": "5 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -387,10 +376,10 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 9,
+      "problems": 13,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 1
+      "coming_up": 5
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -543,12 +532,14 @@
       "bites": "now"
     },
     {
-      "id": "empty_week:2026-11-02",
+      "id": "empty_week:2026-10-19:lecture",
       "scope": "semester",
       "stage": "K4",
-      "kind": "EMPTY_WEEK",
-      "text": "Nothing is scheduled in the week of 2 Nov.",
-      "stops": "Students see an empty week. A reading or exam week can be set aside.",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lecture",
+      "aside": true,
+      "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lecture.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
@@ -556,8 +547,160 @@
         "screen": "schedule",
         "entry": null
       },
-      "when": "2026-11-02T00:00:00+01:00",
+      "when": "2026-10-20T00:00:00+02:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-10-19:lab",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lab",
+      "aside": true,
+      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lab.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-10-20T00:00:00+02:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-10-19:readings",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing readings",
+      "aside": true,
+      "text": "No readings seem to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no readings.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-10-20T00:00:00+02:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-10-26",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK",
+      "label": "Empty week",
+      "aside": true,
+      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see an empty week.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-10-27T00:00:00+01:00",
       "bites": "later"
+    },
+    {
+      "id": "empty_week:2026-11-02",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK",
+      "label": "Empty week",
+      "aside": true,
+      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see an empty week.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-03T00:00:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "empty_week:2026-11-09:lecture",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lecture",
+      "aside": true,
+      "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lecture.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "empty_week:2026-11-09:lab",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lab",
+      "aside": true,
+      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lab.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "empty_week:2026-11-09:readings",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing readings",
+      "aside": true,
+      "text": "No readings seem to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no readings.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "nothing_to_release:lecture-12",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOTHING_TO_RELEASE",
+      "label": "Nothing to release",
+      "aside": true,
+      "text": "Drop-in 1 has nothing to release. If this is intentional, click 'Set aside'.",
+      "stops": "Students get no files for it.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": "lecture-12"
+      },
+      "when": "2026-10-20T10:00:00+02:00",
+      "bites": "soon"
     }
   ],
   "this_week": [
@@ -1115,6 +1258,7 @@
   "assignments": [
     {
       "slug": "assignment-1",
+      "semester_name": "assignment-1",
       "number": 1,
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2026",
@@ -1158,10 +1302,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-private"
     },
     {
       "slug": "assignment-2",
+      "semester_name": "assignment-2",
       "number": 2,
       "title": "Classification and evaluation",
       "template": "assignment-2-f2026",
@@ -1205,10 +1351,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-private"
     },
     {
       "slug": "assignment-3-project",
+      "semester_name": "assignment-3-project",
       "number": 8,
       "title": "Group project",
       "template": "assignment-3-project-f2026",
@@ -1252,10 +1400,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-private"
     },
     {
       "slug": "assignment-4",
+      "semester_name": "assignment-4",
       "number": 4,
       "title": "Hackathon showcase",
       "template": "assignment-4-f2026",
@@ -1299,10 +1449,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-public"
     },
     {
       "slug": "assignment-5",
+      "semester_name": "assignment-5",
       "number": 5,
       "title": "Portfolio piece",
       "template": "assignment-5-f2026",
@@ -1346,10 +1498,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-student-choice"
     },
     {
       "slug": "assignment-6",
+      "semester_name": "assignment-6",
       "number": 6,
       "title": "Referee reports",
       "template": "assignment-6-f2026",
@@ -1393,10 +1547,12 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "shared-dropbox-repo"
     },
     {
       "slug": "assignment-7",
+      "semester_name": "assignment-7",
       "number": 7,
       "title": "Moodle essay",
       "template": "assignment-7-f2026",
@@ -1440,10 +1596,12 @@
           "value": "https://moodle.hertie-school.org/mod/assign/view.php?id=424242",
           "source": "assignment"
         }
-      }
+      },
+      "submit_shape": "external"
     },
     {
       "slug": "assignment-8",
+      "semester_name": "assignment-8",
       "number": 8,
       "title": "Policy brief in LaTeX",
       "template": "assignment-8-f2026",
@@ -1487,7 +1645,8 @@
           "value": "",
           "source": "institution"
         }
-      }
+      },
+      "submit_shape": "assignment-repo-private"
     }
   ],
   "students": {
@@ -1502,7 +1661,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-13T08:01:22+00:00",
+    "last_update": "2026-10-13T14:35:34+00:00",
     "stale": false
   },
   "operations": [
