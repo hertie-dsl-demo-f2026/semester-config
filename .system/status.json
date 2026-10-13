@@ -390,7 +390,7 @@
       "problems": 9,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 0
+      "coming_up": 1
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -541,6 +541,23 @@
         "entry": "assignment-8"
       },
       "bites": "now"
+    },
+    {
+      "id": "empty_week:2026-11-02",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK",
+      "text": "Nothing is scheduled in the week of 2 Nov.",
+      "stops": "Students see an empty week. A reading or exam week can be set aside.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-02T00:00:00+01:00",
+      "bites": "later"
     }
   ],
   "this_week": [
