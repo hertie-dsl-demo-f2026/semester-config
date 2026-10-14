@@ -10,7 +10,8 @@
 # `days_late` fill at the due date and refresh after each late push. All of them freeze at the
 # late cutoff.
 # You fill in: adjustment_individual, feedback_individual, notes_not_shared_with_students,
-# score_individual. Anything you type is never touched. Nothing reaches a student until you run
+# score_individual, late_penalty (optional, on a late unit: apply, waive, or the whole penalty
+# as 10%). Anything you type is never touched. Nothing reaches a student until you run
 # Distribute grades. YAML comments you add are not preserved when the toolkit rewrites the
 # file.
 # -------------------------------------------------------------------------------------------
