@@ -710,6 +710,13 @@
       "ref": "lecture-12",
       "title": "Tutorial presentations",
       "state": "planned"
+    },
+    {
+      "when": "2026-10-23T23:59:00+02:00",
+      "kind": "due",
+      "ref": "assignment-3-project",
+      "title": "Group project",
+      "state": "open"
     }
   ],
   "releases": [
