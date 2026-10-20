@@ -349,7 +349,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 11,
+    "week": 12,
     "weeks": 15,
     "live": true,
     "ended": false,
@@ -364,7 +364,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "5 problems need fixing."
+      "K4": "2 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -376,10 +376,10 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 13,
+      "problems": 10,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 5
+      "coming_up": 4
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -532,63 +532,6 @@
       "bites": "now"
     },
     {
-      "id": "empty_week:2026-10-19:lecture",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing lecture",
-      "aside": true,
-      "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no lecture.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-10-20T00:00:00+02:00",
-      "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-10-19:lab",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing lab",
-      "aside": true,
-      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no lab.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-10-20T00:00:00+02:00",
-      "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-10-19:readings",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing readings",
-      "aside": true,
-      "text": "No readings seem to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no readings.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-10-20T00:00:00+02:00",
-      "bites": "soon"
-    },
-    {
       "id": "empty_week:2026-10-26",
       "scope": "semester",
       "stage": "K4",
@@ -605,7 +548,7 @@
         "entry": null
       },
       "when": "2026-10-27T00:00:00+01:00",
-      "bites": "later"
+      "bites": "soon"
     },
     {
       "id": "empty_week:2026-11-02",
@@ -682,25 +625,6 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "later"
-    },
-    {
-      "id": "nothing_to_release:lecture-12",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "NOTHING_TO_RELEASE",
-      "label": "Nothing to release",
-      "aside": true,
-      "text": "Drop-in 1 has nothing to release. If this is intentional, click 'Set aside'.",
-      "stops": "Students get no files for it.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": "lecture-12"
-      },
-      "when": "2026-10-20T10:00:00+02:00",
-      "bites": "soon"
     }
   ],
   "this_week": [
@@ -709,7 +633,7 @@
       "kind": "release",
       "ref": "lecture-12",
       "title": "Tutorial presentations",
-      "state": "planned"
+      "state": "released"
     },
     {
       "when": "2026-10-23T23:59:00+02:00",
@@ -1248,7 +1172,7 @@
       "kind": "drop-in",
       "number": 1,
       "title": "Tutorial presentations",
-      "state": "planned",
+      "state": "released",
       "source": null,
       "dest": null,
       "show_on_site": true,
