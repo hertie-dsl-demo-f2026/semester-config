@@ -629,13 +629,6 @@
   ],
   "this_week": [
     {
-      "when": "2026-10-20T10:00:00+02:00",
-      "kind": "release",
-      "ref": "lecture-12",
-      "title": "Tutorial presentations",
-      "state": "released"
-    },
-    {
       "when": "2026-10-23T23:59:00+02:00",
       "kind": "due",
       "ref": "assignment-3-project",
