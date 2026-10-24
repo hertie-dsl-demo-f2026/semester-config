@@ -6,7 +6,7 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "0f57637c57491a022a32897d6d529b7db7e7b494",
+    "grading_sheets": "01039751fd4f57c8fb5af8f99dd8b9a14e280657",
     "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
     ".system/assignments.lock.yml": "183e71daddf8d84359fbdeb16b9406a61a027042"
   },
@@ -391,12 +391,12 @@
       "scope": "semester",
       "stage": "marking",
       "kind": "GRADING_SHEETS",
-      "text": "Line 47 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "text": "Line 50 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "grading_sheets/assignment-3-project.yml",
-        "line": 47,
+        "line": 50,
         "screen": "marks",
         "entry": "assignment-3-project"
       },
@@ -407,12 +407,12 @@
       "scope": "semester",
       "stage": "marking",
       "kind": "GRADING_SHEETS",
-      "text": "Line 99 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "text": "Line 102 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "grading_sheets/assignment-3-project.yml",
-        "line": 99,
+        "line": 102,
         "screen": "marks",
         "entry": "assignment-3-project"
       },
@@ -423,12 +423,12 @@
       "scope": "semester",
       "stage": "marking",
       "kind": "GRADING_SHEETS",
-      "text": "Line 115 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "text": "Line 118 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "grading_sheets/assignment-3-project.yml",
-        "line": 115,
+        "line": 118,
         "screen": "marks",
         "entry": "assignment-3-project"
       },
@@ -439,12 +439,12 @@
       "scope": "semester",
       "stage": "marking",
       "kind": "GRADING_SHEETS",
-      "text": "Line 131 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "text": "Line 134 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "grading_sheets/assignment-3-project.yml",
-        "line": 131,
+        "line": 134,
         "screen": "marks",
         "entry": "assignment-3-project"
       },
@@ -455,12 +455,12 @@
       "scope": "semester",
       "stage": "marking",
       "kind": "GRADING_SHEETS",
-      "text": "Line 147 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "text": "Line 150 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
       "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "grading_sheets/assignment-3-project.yml",
-        "line": 147,
+        "line": 150,
         "screen": "marks",
         "entry": "assignment-3-project"
       },
@@ -627,15 +627,7 @@
       "bites": "later"
     }
   ],
-  "this_week": [
-    {
-      "when": "2026-10-23T23:59:00+02:00",
-      "kind": "due",
-      "ref": "assignment-3-project",
-      "title": "Group project",
-      "state": "open"
-    }
-  ],
+  "this_week": [],
   "releases": [
     {
       "id": "course-intro",
@@ -1277,7 +1269,7 @@
       "number": 8,
       "title": "Group project",
       "template": "assignment-3-project-f2026",
-      "state": "open",
+      "state": "late_window",
       "handout": "2026-09-15T14:00:00+02:00",
       "due": "2026-10-23T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-26T23:59:00+01:00",
