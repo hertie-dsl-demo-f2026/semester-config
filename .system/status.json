@@ -8,7 +8,7 @@
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
     "grading_sheets": "01039751fd4f57c8fb5af8f99dd8b9a14e280657",
     "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
-    ".system/assignments.lock.yml": "183e71daddf8d84359fbdeb16b9406a61a027042"
+    ".system/assignments.lock.yml": "5f667269474266b233b0a338e307ec960b407214"
   },
   "horizon": {
     "days": 7
@@ -349,7 +349,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 12,
+    "week": 13,
     "weeks": 15,
     "live": true,
     "ended": false,
@@ -364,7 +364,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "2 problems need fixing."
+      "K4": "3 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -376,16 +376,34 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 10,
+      "problems": 11,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 4
+      "coming_up": 3
     },
     "todo": [],
     "archive_date": "2027-01-12",
     "template_moments": {}
   },
   "problems": [
+    {
+      "id": "schedule:assignment-3-project:SCHEDULE",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "SCHEDULE",
+      "text": "Schedule entry assignment-3-project: team formation has closed and 1 of 2 joined student(s) are still without a team, across the 1 team(s) that formed.",
+      "stops": "No repos are provisioned for that assignment, so the students still without a team cannot hand anything in.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 293,
+        "screen": "schedule",
+        "entry": "assignment-3-project"
+      },
+      "release": "assignment-3-project",
+      "when": "2026-10-26T23:59:00+01:00",
+      "bites": "now"
+    },
     {
       "id": "sheet:assignment-3-project:GRADING_SHEETS",
       "scope": "semester",
@@ -532,25 +550,6 @@
       "bites": "now"
     },
     {
-      "id": "empty_week:2026-10-26",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK",
-      "label": "Empty week",
-      "aside": true,
-      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see an empty week.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-10-27T00:00:00+01:00",
-      "bites": "soon"
-    },
-    {
       "id": "empty_week:2026-11-02",
       "scope": "semester",
       "stage": "K4",
@@ -567,7 +566,7 @@
         "entry": null
       },
       "when": "2026-11-03T00:00:00+01:00",
-      "bites": "later"
+      "bites": "soon"
     },
     {
       "id": "empty_week:2026-11-09:lecture",
@@ -1269,7 +1268,7 @@
       "number": 8,
       "title": "Group project",
       "template": "assignment-3-project-f2026",
-      "state": "late_window",
+      "state": "marking",
       "handout": "2026-09-15T14:00:00+02:00",
       "due": "2026-10-23T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-26T23:59:00+01:00",
@@ -1570,7 +1569,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-10-15T11:01:34+00:00",
+    "last_update": "2026-10-26T23:01:24+00:00",
     "stale": false
   },
   "operations": [
