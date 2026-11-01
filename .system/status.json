@@ -233,6 +233,11 @@
         "repo": "assignment-test-2",
         "state": "todo",
         "starter": "handwritten"
+      },
+      {
+        "repo": "assignment-test-3",
+        "state": "todo",
+        "starter": "handwritten"
       }
     ],
     "semesters": [
@@ -369,6 +374,17 @@
         "text": "The brief (README.md) is not written yet.",
         "screen": "template",
         "entry": "assignment-test-2",
+        "need": "needed",
+        "set_aside": false
+      },
+      {
+        "id": "template:assignment-test-3:brief",
+        "kind": "template",
+        "check": "brief",
+        "repo": "assignment-test-3",
+        "text": "The brief (README.md) is not written yet.",
+        "screen": "template",
+        "entry": "assignment-test-3",
         "need": "needed",
         "set_aside": false
       }
