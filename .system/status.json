@@ -1,12 +1,12 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "a97a18bc7a3db30a45b0ca795bcfe12b1f3d4baf",
+    "schedule.yml": "1f6cd4be8de5b1aa3b12fdd2511944f30ee5096d",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "1f7e8c8da81a2850daf07405afac0047edc8ddea",
+    "grading_sheets": "ea204db0b47730468a87fabe2bef4e15ec2d447d",
     "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
     ".system/assignments.lock.yml": "2ae6b043be91c716a6fe930a49b3632fb50fd90b"
   },
@@ -394,7 +394,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "4 problems need fixing."
+      "K4": "3 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -406,7 +406,7 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 12,
+      "problems": 11,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
       "coming_up": 5
@@ -414,7 +414,6 @@
     "todo": [],
     "archive_date": "2027-01-12",
     "template_moments": {
-      "assignment-tmp-ho-2": null,
       "assignment-tmp-ho-3": null,
       "assignment-tmp-ho-4": null,
       "assignment-tmp-ho-5": "2026-11-16T09:00:00+01:00"
@@ -661,23 +660,6 @@
       "bites": "later"
     },
     {
-      "id": "assignment:assignment-92:NOT_HANDED_OUT",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "NOT_HANDED_OUT",
-      "text": "assignment-92 is set to hand out manually (no scheduled hand-out) and was never handed out; its due date, Thu 15 Oct, has passed.",
-      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": 329,
-        "screen": "assignment",
-        "entry": "assignment-92"
-      },
-      "when": "2026-10-15T23:59:00+02:00",
-      "bites": "now"
-    },
-    {
       "id": "assignment:assignment-93:NOT_HANDED_OUT",
       "scope": "semester",
       "stage": "K4",
@@ -687,7 +669,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 333,
+        "line": 334,
         "screen": "assignment",
         "entry": "assignment-93"
       },
@@ -704,7 +686,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 337,
+        "line": 338,
         "screen": "assignment",
         "entry": "assignment-94"
       },
@@ -719,6 +701,13 @@
       "ref": "assignment-91",
       "title": "TMP quiz, due ahead",
       "state": "open"
+    },
+    {
+      "when": "2026-11-02T15:53:00+01:00",
+      "kind": "hand_out",
+      "ref": "assignment-92",
+      "title": "TMP quiz, past due",
+      "state": "marking"
     }
   ],
   "releases": [
@@ -1705,8 +1694,8 @@
       "number": 92,
       "title": "TMP quiz, past due",
       "template": "assignment-tmp-ho-2",
-      "state": "declared",
-      "handout": null,
+      "state": "marking",
+      "handout": "2026-11-02T15:53:00+01:00",
       "due": "2026-10-15T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-25T23:59:00+01:00",
       "solution_shown": null,
@@ -1716,7 +1705,7 @@
       "teams": null,
       "marks": {
         "filled": 0,
-        "total": 0
+        "total": 2
       },
       "returned": false,
       "problem": false,
@@ -1908,16 +1897,16 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-02T14:52:14+00:00",
+    "last_update": "2026-11-02T14:53:37+00:00",
     "stale": false
   },
   "operations": [
     {
-      "run_id": 41465970449,
+      "run_id": 41466197103,
       "op": "assignment.handout_now",
       "conclusion": "done",
-      "summary": "Handed out assignment-91: students hand it in off GitHub; its marking sheet is ready.",
-      "finished": "2026-11-02T14:52:16Z"
+      "summary": "Handed out assignment-92: students hand it in off GitHub; its marking sheet is ready.",
+      "finished": "2026-11-02T14:53:40Z"
     },
     {
       "run_id": 36894701530,
