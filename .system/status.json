@@ -1467,7 +1467,7 @@
       "state": "returned",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
-      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-20T23:59:00+02:00",
       "solution_shown": null,
       "solution_held_until": null,
       "units": 0,
@@ -1489,7 +1489,7 @@
           "source": "semester"
         },
         "late_window_days": {
-          "value": 1,
+          "value": null,
           "source": "assignment"
         },
         "late_penalty_per_day": {
