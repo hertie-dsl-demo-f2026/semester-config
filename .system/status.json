@@ -1855,11 +1855,11 @@
   },
   "operations": [
     {
-      "run_id": 41458343021,
+      "run_id": 41459436336,
       "op": "assignment.handout_now",
-      "conclusion": "previewed",
-      "summary": "Preview: assignment-91 would be handed out to 2 students.",
-      "finished": "2026-11-02T14:03:44Z"
+      "conclusion": "failed",
+      "summary": "Stopped with a problem; the run log says where.",
+      "finished": "2026-11-02T14:10:52Z"
     },
     {
       "run_id": 36894701530,
