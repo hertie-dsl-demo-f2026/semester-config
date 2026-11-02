@@ -331,6 +331,7 @@ assignments:
     due_datetime: 2026-10-15T23:59
 
   assignment-93:
+    handout_datetime: 2026-11-02T15:54   # set automatically by the Release assignment workflow
     course_source_repo: assignment-tmp-ho-3
     due_datetime: 2026-11-20T23:59
 
