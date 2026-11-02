@@ -321,6 +321,7 @@ assignments:
 
   # TEMPORARY hand-out review entries (fix/console-manual-handout) - delete after review
   assignment-91:
+    handout_datetime: 2026-11-02T15:51   # set automatically by the Release assignment workflow
     course_source_repo: assignment-tmp-ho-1
     due_datetime: 2026-11-20T23:59
 
