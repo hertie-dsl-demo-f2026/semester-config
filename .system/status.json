@@ -394,7 +394,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "3 problems need fixing."
+      "K4": "4 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -406,10 +406,10 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 11,
+      "problems": 12,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 3
+      "coming_up": 6
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -659,6 +659,74 @@
         "entry": null
       },
       "when": "2026-11-10T00:00:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "assignment:assignment-91:NOT_HANDED_OUT",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_HANDED_OUT",
+      "text": "assignment-91 is set to hand out manually (no scheduled hand-out) and has not been handed out yet. Due Fri 20 Nov.",
+      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 324,
+        "screen": "assignment",
+        "entry": "assignment-91"
+      },
+      "when": "2026-11-20T23:59:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "assignment:assignment-92:NOT_HANDED_OUT",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_HANDED_OUT",
+      "text": "assignment-92 is set to hand out manually (no scheduled hand-out) and was never handed out; its due date, Thu 15 Oct, has passed.",
+      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 328,
+        "screen": "assignment",
+        "entry": "assignment-92"
+      },
+      "when": "2026-10-15T23:59:00+02:00",
+      "bites": "now"
+    },
+    {
+      "id": "assignment:assignment-93:NOT_HANDED_OUT",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_HANDED_OUT",
+      "text": "assignment-93 is set to hand out manually (no scheduled hand-out) and has not been handed out yet. Due Fri 20 Nov.",
+      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 332,
+        "screen": "assignment",
+        "entry": "assignment-93"
+      },
+      "when": "2026-11-20T23:59:00+01:00",
+      "bites": "later"
+    },
+    {
+      "id": "assignment:assignment-94:NOT_HANDED_OUT",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_HANDED_OUT",
+      "text": "assignment-94 is set to hand out manually (no scheduled hand-out) and has not been handed out yet. Due Fri 20 Nov.",
+      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 336,
+        "screen": "assignment",
+        "entry": "assignment-94"
+      },
+      "when": "2026-11-20T23:59:00+01:00",
       "bites": "later"
     }
   ],
@@ -1647,7 +1715,7 @@
       "number": 92,
       "title": "TMP quiz, past due",
       "template": "assignment-tmp-ho-2",
-      "state": "marking",
+      "state": "declared",
       "handout": null,
       "due": "2026-10-15T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-10-25T23:59:00+01:00",
