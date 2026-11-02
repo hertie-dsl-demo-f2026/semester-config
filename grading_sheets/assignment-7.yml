@@ -3,16 +3,18 @@
 #
 # From grading_config.yml / schedule.yml (edit THERE, not here):
 #   individual assignment · 100 points (Argument 40, Evidence 30, Writing 30) · submitted outside GitHub · autograde off
-#   due Sun 20 Sep 2026 23:59 · no late arithmetic
+#   due Sun 20 Sep 2026 23:59 · days late entered by the marker at 10%/day
 # Status: submitted outside GitHub - nothing to collect; run Distribute grades any time
 #
 # Auto-filled by the toolkit: nothing. This assignment is submitted outside GitHub, so there is
-# no `info:` block and no late arithmetic.
+# no `info:` block: you enter each unit's `days_late`, and the late penalty is worked out from
+# it.
 # You fill in: adjustment_individual, feedback_individual, notes_not_shared_with_students,
 # score_individual (one value per question; max points shown beside each),
-# feedback_per_question (optional, one per question). Anything you type is never touched.
-# Nothing reaches a student until you run Distribute grades. YAML comments you add are not
-# preserved when the toolkit rewrites the file.
+# feedback_per_question (optional, one per question), days_late (whole days late, 0 when on
+# time), late_penalty (optional, on a late unit: apply, waive, or the whole penalty as 10%).
+# Anything you type is never touched. Nothing reaches a student until you run Distribute
+# grades. YAML comments you add are not preserved when the toolkit rewrites the file.
 # -------------------------------------------------------------------------------------------
 submissions:
   henrycgbaker:
