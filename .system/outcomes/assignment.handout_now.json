@@ -1,15 +1,15 @@
 {
   "actor": "henrycgbaker",
   "block": "",
-  "conclusion": "failed",
+  "conclusion": "done",
   "counts": {},
   "details": [],
-  "finished": "2026-11-02T14:10:52Z",
+  "finished": "2026-11-02T14:52:16Z",
   "op": "assignment.handout_now",
-  "preview": true,
+  "preview": false,
   "reasons": [],
-  "run_id": 41459436336,
+  "run_id": 41465970449,
   "schema": "dsl.outcome/1",
-  "started": "2026-11-02T14:10:48Z",
-  "summary": "Stopped with a problem; the run log says where."
+  "started": "2026-11-02T14:51:54Z",
+  "summary": "Handed out assignment-91: students hand it in off GitHub; its marking sheet is ready."
 }
