@@ -1,0 +1,35 @@
+# SYSTEM-OWNED - do not edit, edits here are overwritten. Written by Return marks: what
+# each unit was last told. A unit absent here has not been told its current marks.
+late_penalty_per_day: 10%
+submissions:
+  henrycgbaker:
+    info:
+      submitted: 2026-09-17T12:56+02:00
+      days_late: 0
+      completion: not-attempted
+      checked: 2026-09-22T00:02+02:00
+    score_individual:
+      Prototype: 33
+      Demo: 28
+      Writeup: 29
+    adjustment_individual:
+    feedback_individual: |
+      A strong hackathon entry - the demo is convincing and the write-up is honest about its limits.
+    notes_not_shared_with_students:
+  test-user-dsl:
+    info:
+      submitted:
+      days_late:
+      completion:
+    adjustment_individual:
+    feedback_individual: |
+      No submission was received.
+    notes_not_shared_with_students:
+    score_individual:
+      Prototype: 0
+      Demo: 0
+      Writeup: 0
+    feedback_per_question:
+      Prototype:
+      Demo:
+      Writeup:
