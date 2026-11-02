@@ -1,14 +1,14 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "5c724c18ce15ce4cd2a292fccd32de1d15b97e1f",
+    "schedule.yml": "e53a345f9a1d382a83c1ff90dae9330d63a2f356",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "ea204db0b47730468a87fabe2bef4e15ec2d447d",
+    "grading_sheets": "27a94fd5b8f6cc06c62450448c200c52edb9d808",
     "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
-    ".system/assignments.lock.yml": "8d3947050277911f151f5a26c15479ea6fa1e921"
+    ".system/assignments.lock.yml": "5f667269474266b233b0a338e307ec960b407214"
   },
   "horizon": {
     "days": 7
@@ -223,36 +223,6 @@
         "repo": "assignment-8-f2026",
         "state": "todo",
         "starter": "derived"
-      },
-      {
-        "repo": "assignment-tmp-ho-1",
-        "state": "ready",
-        "starter": "none"
-      },
-      {
-        "repo": "assignment-tmp-ho-2",
-        "state": "ready",
-        "starter": "none"
-      },
-      {
-        "repo": "assignment-tmp-ho-3",
-        "state": "ready",
-        "starter": "none"
-      },
-      {
-        "repo": "assignment-tmp-ho-4",
-        "state": "ready",
-        "starter": "none"
-      },
-      {
-        "repo": "assignment-tmp-ho-5",
-        "state": "ready",
-        "starter": "none"
-      },
-      {
-        "repo": "assignment-tmp-ho-6",
-        "state": "ready",
-        "starter": "none"
       }
     ],
     "semesters": [
@@ -409,14 +379,11 @@
       "problems": 11,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 4
+      "coming_up": 3
     },
     "todo": [],
     "archive_date": "2027-01-12",
-    "template_moments": {
-      "assignment-tmp-ho-4": null,
-      "assignment-tmp-ho-5": "2026-11-16T09:00:00+01:00"
-    }
+    "template_moments": {}
   },
   "problems": [
     {
@@ -657,48 +624,9 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "later"
-    },
-    {
-      "id": "assignment:assignment-94:NOT_HANDED_OUT",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "NOT_HANDED_OUT",
-      "text": "assignment-94 is set to hand out manually (no scheduled hand-out) and has not been handed out yet. Due Fri 20 Nov.",
-      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": 339,
-        "screen": "assignment",
-        "entry": "assignment-94"
-      },
-      "when": "2026-11-20T23:59:00+01:00",
-      "bites": "later"
     }
   ],
-  "this_week": [
-    {
-      "when": "2026-11-02T15:51:00+01:00",
-      "kind": "hand_out",
-      "ref": "assignment-91",
-      "title": "TMP quiz, due ahead",
-      "state": "open"
-    },
-    {
-      "when": "2026-11-02T15:53:00+01:00",
-      "kind": "hand_out",
-      "ref": "assignment-92",
-      "title": "TMP quiz, past due",
-      "state": "marking"
-    },
-    {
-      "when": "2026-11-02T15:54:00+01:00",
-      "kind": "hand_out",
-      "ref": "assignment-93",
-      "title": "TMP team, external",
-      "state": "open"
-    }
-  ],
+  "this_week": [],
   "releases": [
     {
       "id": "course-intro",
@@ -1627,251 +1555,6 @@
         }
       },
       "submit_shape": "assignment-repo-private"
-    },
-    {
-      "slug": "assignment-91",
-      "semester_name": "assignment-91",
-      "number": 91,
-      "title": "TMP quiz, due ahead",
-      "template": "assignment-tmp-ho-1",
-      "state": "open",
-      "handout": "2026-11-02T15:51:00+01:00",
-      "due": "2026-11-20T23:59:00+01:00",
-      "grading_cutoff_datetime": "2026-11-30T23:59:00+01:00",
-      "solution_shown": null,
-      "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": null,
-      "marks": {
-        "filled": 0,
-        "total": 2
-      },
-      "returned": false,
-      "problem": false,
-      "settings": {
-        "team_formation": {
-          "value": "self_select",
-          "source": "institution"
-        },
-        "max_team_size": {
-          "value": 3,
-          "source": "semester"
-        },
-        "late_window_days": {
-          "value": 10,
-          "source": "course"
-        },
-        "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
-        },
-        "visibility": {
-          "value": "private",
-          "source": "semester"
-        },
-        "submit_url": {
-          "value": "",
-          "source": "institution"
-        }
-      },
-      "submit_shape": "external"
-    },
-    {
-      "slug": "assignment-92",
-      "semester_name": "assignment-92",
-      "number": 92,
-      "title": "TMP quiz, past due",
-      "template": "assignment-tmp-ho-2",
-      "state": "marking",
-      "handout": "2026-11-02T15:53:00+01:00",
-      "due": "2026-10-15T23:59:00+02:00",
-      "grading_cutoff_datetime": "2026-10-25T23:59:00+01:00",
-      "solution_shown": null,
-      "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": null,
-      "marks": {
-        "filled": 0,
-        "total": 2
-      },
-      "returned": false,
-      "problem": false,
-      "settings": {
-        "team_formation": {
-          "value": "self_select",
-          "source": "institution"
-        },
-        "max_team_size": {
-          "value": 3,
-          "source": "semester"
-        },
-        "late_window_days": {
-          "value": 10,
-          "source": "course"
-        },
-        "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
-        },
-        "visibility": {
-          "value": "private",
-          "source": "semester"
-        },
-        "submit_url": {
-          "value": "",
-          "source": "institution"
-        }
-      },
-      "submit_shape": "external"
-    },
-    {
-      "slug": "assignment-93",
-      "semester_name": "assignment-93",
-      "number": 93,
-      "title": "TMP team, external",
-      "template": "assignment-tmp-ho-3",
-      "state": "open",
-      "handout": "2026-11-02T15:54:00+01:00",
-      "due": "2026-11-20T23:59:00+01:00",
-      "grading_cutoff_datetime": "2026-11-30T23:59:00+01:00",
-      "solution_shown": null,
-      "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": 0,
-      "marks": {
-        "filled": 0,
-        "total": 0
-      },
-      "returned": false,
-      "problem": false,
-      "settings": {
-        "team_formation": {
-          "value": "self_select",
-          "source": "institution"
-        },
-        "max_team_size": {
-          "value": 3,
-          "source": "semester"
-        },
-        "late_window_days": {
-          "value": 10,
-          "source": "course"
-        },
-        "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
-        },
-        "visibility": {
-          "value": "private",
-          "source": "semester"
-        },
-        "submit_url": {
-          "value": "",
-          "source": "institution"
-        }
-      },
-      "submit_shape": "external"
-    },
-    {
-      "slug": "assignment-94",
-      "semester_name": "assignment-94",
-      "number": 94,
-      "title": "TMP team, repo",
-      "template": "assignment-tmp-ho-4",
-      "state": "declared",
-      "handout": null,
-      "due": "2026-11-20T23:59:00+01:00",
-      "grading_cutoff_datetime": "2026-11-30T23:59:00+01:00",
-      "solution_shown": null,
-      "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": 0,
-      "marks": {
-        "filled": 0,
-        "total": 0
-      },
-      "returned": false,
-      "problem": false,
-      "settings": {
-        "team_formation": {
-          "value": "self_select",
-          "source": "institution"
-        },
-        "max_team_size": {
-          "value": 3,
-          "source": "semester"
-        },
-        "late_window_days": {
-          "value": 10,
-          "source": "course"
-        },
-        "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
-        },
-        "visibility": {
-          "value": "private",
-          "source": "semester"
-        },
-        "submit_url": {
-          "value": "",
-          "source": "institution"
-        }
-      },
-      "submit_shape": "assignment-repo-private"
-    },
-    {
-      "slug": "assignment-95",
-      "semester_name": "assignment-95",
-      "number": 95,
-      "title": "TMP quiz, scheduled ahead",
-      "template": "assignment-tmp-ho-5",
-      "state": "declared",
-      "handout": "2026-11-16T09:00:00+01:00",
-      "due": "2026-11-23T23:59:00+01:00",
-      "grading_cutoff_datetime": "2026-12-03T23:59:00+01:00",
-      "solution_shown": null,
-      "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
-      "teams": null,
-      "marks": {
-        "filled": 0,
-        "total": 0
-      },
-      "returned": false,
-      "problem": false,
-      "settings": {
-        "team_formation": {
-          "value": "self_select",
-          "source": "institution"
-        },
-        "max_team_size": {
-          "value": 3,
-          "source": "semester"
-        },
-        "late_window_days": {
-          "value": 10,
-          "source": "course"
-        },
-        "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
-        },
-        "visibility": {
-          "value": "private",
-          "source": "semester"
-        },
-        "submit_url": {
-          "value": "",
-          "source": "institution"
-        }
-      },
-      "submit_shape": "external"
     }
   ],
   "students": {
@@ -1886,7 +1569,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-02T14:55:28+00:00",
+    "last_update": "2026-11-02T15:00:18+00:00",
     "stale": false
   },
   "operations": [
