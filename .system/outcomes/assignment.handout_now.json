@@ -4,12 +4,12 @@
   "conclusion": "done",
   "counts": {},
   "details": [],
-  "finished": "2026-11-02T14:52:16Z",
+  "finished": "2026-11-02T14:53:40Z",
   "op": "assignment.handout_now",
   "preview": false,
   "reasons": [],
-  "run_id": 41465970449,
+  "run_id": 41466197103,
   "schema": "dsl.outcome/1",
-  "started": "2026-11-02T14:51:54Z",
-  "summary": "Handed out assignment-91: students hand it in off GitHub; its marking sheet is ready."
+  "started": "2026-11-02T14:53:22Z",
+  "summary": "Handed out assignment-92: students hand it in off GitHub; its marking sheet is ready."
 }
