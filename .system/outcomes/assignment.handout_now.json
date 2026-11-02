@@ -1,17 +1,15 @@
 {
   "actor": "henrycgbaker",
   "block": "",
-  "conclusion": "previewed",
-  "counts": {
-    "units": 2
-  },
+  "conclusion": "failed",
+  "counts": {},
   "details": [],
-  "finished": "2026-11-02T14:03:44Z",
+  "finished": "2026-11-02T14:10:52Z",
   "op": "assignment.handout_now",
   "preview": true,
   "reasons": [],
-  "run_id": 41458343021,
+  "run_id": 41459436336,
   "schema": "dsl.outcome/1",
-  "started": "2026-11-02T14:03:40Z",
-  "summary": "Preview: assignment-91 would be handed out to 2 students."
+  "started": "2026-11-02T14:10:48Z",
+  "summary": "Stopped with a problem; the run log says where."
 }
