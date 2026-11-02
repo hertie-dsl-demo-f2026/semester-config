@@ -318,6 +318,29 @@ assignments:
     due_datetime: 2026-09-29T23:59
 
 # -------------------------------------------------------------------------------- events
+
+  # TEMPORARY hand-out review entries (fix/console-manual-handout) - delete after review
+  assignment-91:
+    course_source_repo: assignment-tmp-ho-1
+    due_datetime: 2026-11-20T23:59
+
+  assignment-92:
+    course_source_repo: assignment-tmp-ho-2
+    due_datetime: 2026-10-15T23:59
+
+  assignment-93:
+    course_source_repo: assignment-tmp-ho-3
+    due_datetime: 2026-11-20T23:59
+
+  assignment-94:
+    course_source_repo: assignment-tmp-ho-4
+    due_datetime: 2026-11-20T23:59
+
+  assignment-95:
+    course_source_repo: assignment-tmp-ho-5
+    handout_datetime: 2026-11-16T09:00
+    due_datetime: 2026-11-23T23:59
+
 events:
 
   midterm-exam:
