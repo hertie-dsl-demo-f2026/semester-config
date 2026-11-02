@@ -6,8 +6,8 @@
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
-    "grading_sheets": "27a94fd5b8f6cc06c62450448c200c52edb9d808",
-    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
+    "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
+    "course/dsl-course.yml": "295f2c719677cbbd04f4cf0988eb79cbd30f1719",
     ".system/assignments.lock.yml": "5f667269474266b233b0a338e307ec960b407214"
   },
   "horizon": {
@@ -1464,7 +1464,7 @@
       "number": 7,
       "title": "Moodle essay",
       "template": "assignment-7-f2026",
-      "state": "returned",
+      "state": "marking",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-20T23:59:00+02:00",
@@ -1477,7 +1477,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": true,
+      "returned": false,
       "problem": false,
       "settings": {
         "team_formation": {
