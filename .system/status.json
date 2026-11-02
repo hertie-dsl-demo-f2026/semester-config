@@ -1855,6 +1855,13 @@
   },
   "operations": [
     {
+      "run_id": 41458343021,
+      "op": "assignment.handout_now",
+      "conclusion": "previewed",
+      "summary": "Preview: assignment-91 would be handed out to 2 students.",
+      "finished": "2026-11-02T14:03:44Z"
+    },
+    {
       "run_id": 36894701530,
       "op": "assignment.generate_syllabus",
       "conclusion": "previewed",
