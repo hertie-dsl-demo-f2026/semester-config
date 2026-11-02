@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "1f6cd4be8de5b1aa3b12fdd2511944f30ee5096d",
+    "schedule.yml": "5c724c18ce15ce4cd2a292fccd32de1d15b97e1f",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
@@ -409,12 +409,11 @@
       "problems": 11,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 5
+      "coming_up": 4
     },
     "todo": [],
     "archive_date": "2027-01-12",
     "template_moments": {
-      "assignment-tmp-ho-3": null,
       "assignment-tmp-ho-4": null,
       "assignment-tmp-ho-5": "2026-11-16T09:00:00+01:00"
     }
@@ -660,23 +659,6 @@
       "bites": "later"
     },
     {
-      "id": "assignment:assignment-93:NOT_HANDED_OUT",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "NOT_HANDED_OUT",
-      "text": "assignment-93 is set to hand out manually (no scheduled hand-out) and has not been handed out yet. Due Fri 20 Nov.",
-      "stops": "Students have no brief and there is no mark sheet; press Hand out now.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": 334,
-        "screen": "assignment",
-        "entry": "assignment-93"
-      },
-      "when": "2026-11-20T23:59:00+01:00",
-      "bites": "later"
-    },
-    {
       "id": "assignment:assignment-94:NOT_HANDED_OUT",
       "scope": "semester",
       "stage": "K4",
@@ -686,7 +668,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 338,
+        "line": 339,
         "screen": "assignment",
         "entry": "assignment-94"
       },
@@ -708,6 +690,13 @@
       "ref": "assignment-92",
       "title": "TMP quiz, past due",
       "state": "marking"
+    },
+    {
+      "when": "2026-11-02T15:54:00+01:00",
+      "kind": "hand_out",
+      "ref": "assignment-93",
+      "title": "TMP team, external",
+      "state": "open"
     }
   ],
   "releases": [
@@ -1743,8 +1732,8 @@
       "number": 93,
       "title": "TMP team, external",
       "template": "assignment-tmp-ho-3",
-      "state": "declared",
-      "handout": null,
+      "state": "open",
+      "handout": "2026-11-02T15:54:00+01:00",
       "due": "2026-11-20T23:59:00+01:00",
       "grading_cutoff_datetime": "2026-11-30T23:59:00+01:00",
       "solution_shown": null,
@@ -1897,16 +1886,16 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-02T14:53:37+00:00",
+    "last_update": "2026-11-02T14:55:28+00:00",
     "stale": false
   },
   "operations": [
     {
-      "run_id": 41466197103,
+      "run_id": 41466386082,
       "op": "assignment.handout_now",
       "conclusion": "done",
-      "summary": "Handed out assignment-92: students hand it in off GitHub; its marking sheet is ready.",
-      "finished": "2026-11-02T14:53:40Z"
+      "summary": "Handed out assignment-93: no teams yet; students form teams from now.",
+      "finished": "2026-11-02T14:54:44Z"
     },
     {
       "run_id": 36894701530,
