@@ -1,0 +1,17 @@
+{
+  "actor": "henrycgbaker",
+  "block": "",
+  "conclusion": "previewed",
+  "counts": {
+    "units": 2
+  },
+  "details": [],
+  "finished": "2026-11-02T14:03:44Z",
+  "op": "assignment.handout_now",
+  "preview": true,
+  "reasons": [],
+  "run_id": 41458343021,
+  "schema": "dsl.outcome/1",
+  "started": "2026-11-02T14:03:40Z",
+  "summary": "Preview: assignment-91 would be handed out to 2 students."
+}
