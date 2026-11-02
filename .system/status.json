@@ -1219,7 +1219,7 @@
       "number": 2,
       "title": "Classification and evaluation",
       "template": "assignment-2-f2026",
-      "state": "marking",
+      "state": "returned",
       "handout": "2026-09-01T14:00:00+02:00",
       "due": "2026-09-29T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-29T23:59:00+02:00",
@@ -1232,7 +1232,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -1464,7 +1464,7 @@
       "number": 7,
       "title": "Moodle essay",
       "template": "assignment-7-f2026",
-      "state": "marking",
+      "state": "returned",
       "handout": "2026-09-17T04:35:00+02:00",
       "due": "2026-09-20T23:59:00+02:00",
       "grading_cutoff_datetime": "2026-09-20T23:59:00+02:00",
@@ -1477,7 +1477,7 @@
         "filled": 2,
         "total": 2
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
