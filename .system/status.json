@@ -1,8 +1,8 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "1b27e4a2961ff244add18abf1a98b309b7bda788",
-    "semester.yml": "311898420149ed034e77be8d36a6a110ba39f587",
+    "schedule.yml": "c9e67f7ff770bb9983e4ae3b15d80ac878cf9f3c",
+    "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
@@ -327,7 +327,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in semester.yml yet.",
-      "K4": "4 problems need fixing."
+      "K4": "5 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -339,7 +339,7 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 12,
+      "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
       "coming_up": 1
@@ -376,8 +376,8 @@
         "source": "institution"
       },
       "autosync_released_edits": {
-        "value": true,
-        "source": "semester"
+        "value": false,
+        "source": "institution"
       },
       "marks_per_question": {
         "value": true,
@@ -401,7 +401,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 397,
+        "line": 389,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -548,7 +548,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 433,
+        "line": 425,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -563,6 +563,25 @@
       "aside": true,
       "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
       "stops": "Students see a week with no lecture.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-11-09:lab",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lab",
+      "aside": true,
+      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lab.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
@@ -1167,24 +1186,6 @@
       "dest": null,
       "show_on_site": true,
       "tbc": false
-    },
-    {
-      "id": "lab-12",
-      "when": "2026-11-12T14:00:00+01:00",
-      "kind": "lab",
-      "number": 12,
-      "title": "Lab 12",
-      "state": "released",
-      "source": {
-        "repo": "course-materials-f2026",
-        "path": "labs/12_tutorial-presentations"
-      },
-      "dest": {
-        "repo": "materials",
-        "path": "labs/12_tutorial-presentations"
-      },
-      "show_on_site": true,
-      "tbc": false
     }
   ],
   "assignments": [
@@ -1626,7 +1627,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T21:24:40+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
