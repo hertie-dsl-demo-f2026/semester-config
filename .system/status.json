@@ -342,7 +342,7 @@
       "problems": 12,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 1,
-      "coming_up": 2
+      "coming_up": 1
     },
     "todo": [
       {
@@ -635,45 +635,6 @@
           },
           "added": [
             "NOTES.md"
-          ],
-          "changed": [],
-          "deleted": [],
-          "removed": []
-        }
-      ],
-      "bites": "later"
-    },
-    {
-      "id": "schedule:lab-02:DIVERGED_RELEASED:e92a333a",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "DIVERGED_RELEASED",
-      "label": "Released copy edited",
-      "release": "lab-02",
-      "aside": true,
-      "text": "The released copy of lab-02 was edited in the semester: 1 file added.",
-      "stops": "Future semesters will not get these edits unless you keep them for future semesters.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "release",
-        "entry": "lab-02"
-      },
-      "diverged": [
-        {
-          "source": {
-            "repo": "course-materials-f2026",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "dest": {
-            "repo": "materials",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "added": [
-            "inspection-note.md"
           ],
           "changed": [],
           "deleted": [],
