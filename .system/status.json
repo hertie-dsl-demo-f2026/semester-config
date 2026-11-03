@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "2934636a043fdb8348aad910f173e60844598da1",
+    "schedule.yml": "1b27e4a2961ff244add18abf1a98b309b7bda788",
     "semester.yml": "311898420149ed034e77be8d36a6a110ba39f587",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -341,22 +341,10 @@
       "state": "fixing",
       "problems": 12,
       "missing": "No instructor is declared in semester.yml yet.",
-      "suggestions": 1,
-      "coming_up": 1
+      "suggestions": 0,
+      "coming_up": 2
     },
-    "todo": [
-      {
-        "id": "schedule:released_tbc:lab-11",
-        "kind": "schedule",
-        "check": "released_tbc",
-        "repo": "semester-config",
-        "text": "Lab 11 is released; its session date is still TBC.",
-        "screen": "release",
-        "entry": "lab-11",
-        "need": "suggested",
-        "set_aside": false
-      }
-    ],
+    "todo": [],
     "archive_date": "2027-01-12",
     "defaults": {
       "timezone": {
@@ -638,6 +626,45 @@
           ],
           "changed": [],
           "deleted": [],
+          "removed": []
+        }
+      ],
+      "bites": "later"
+    },
+    {
+      "id": "schedule:lab-02:DIVERGED_DELETED:3883c30a",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "DIVERGED_DELETED",
+      "label": "Deleted in course",
+      "release": "lab-02",
+      "aside": true,
+      "text": "1 file of lab-02 is no longer released from the course copy (deleted, or now withheld) and is still in the released copy.",
+      "stops": "Students still see it; release it again and choose to remove it.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "release",
+        "entry": "lab-02"
+      },
+      "diverged": [
+        {
+          "source": {
+            "repo": "course-materials-f2026",
+            "path": "labs/02_deep-neural-networks-1",
+            "branch": "main"
+          },
+          "dest": {
+            "repo": "materials",
+            "path": "labs/02_deep-neural-networks-1",
+            "branch": "main"
+          },
+          "added": [],
+          "changed": [],
+          "deleted": [
+            "inspection-note.md"
+          ],
           "removed": []
         }
       ],
@@ -1151,6 +1178,24 @@
       "tbc": false
     },
     {
+      "id": "lab-11",
+      "when": "2026-10-15T14:00:00+02:00",
+      "kind": "lab",
+      "number": 11,
+      "title": "Lab 11",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/11_deep-learning-in-practice"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/11_deep-learning-in-practice"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "lecture-12",
       "when": "2026-10-20T10:00:00+02:00",
       "kind": "drop-in",
@@ -1179,24 +1224,6 @@
       },
       "show_on_site": true,
       "tbc": false
-    },
-    {
-      "id": "lab-11",
-      "when": null,
-      "kind": "lab",
-      "number": 11,
-      "title": "Lab 11",
-      "state": "released",
-      "source": {
-        "repo": "course-materials-f2026",
-        "path": "labs/11_deep-learning-in-practice"
-      },
-      "dest": {
-        "repo": "materials",
-        "path": "labs/11_deep-learning-in-practice"
-      },
-      "show_on_site": true,
-      "tbc": true
     }
   ],
   "assignments": [
@@ -1638,7 +1665,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T21:05:18+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
