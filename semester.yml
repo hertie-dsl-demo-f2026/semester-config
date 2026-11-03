@@ -38,7 +38,7 @@ defaults:   # every key present; uncomment to override. The comment shows the in
   assignment_repo_visibility: private
   # archive_grace_days: 60                  (institution)
   # materials_repo: materials               (institution)
-  # autosync_released_edits: false          (institution)
+  autosync_released_edits: true
   # marks_per_question: true                (institution)
   team_formation: self_select
 
