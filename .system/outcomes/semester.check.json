@@ -3,17 +3,16 @@
   "block": "",
   "conclusion": "done",
   "counts": {
-    "problems": 9,
-    "this_week": 4
+    "problems": 14,
+    "this_week": 0
   },
   "details": [],
-  "finished": "2026-09-26T14:57:50Z",
+  "finished": "2026-11-03T19:56:50Z",
   "op": "semester.check",
-  "people": [],
   "preview": false,
   "reasons": [],
-  "run_id": 36250255375,
+  "run_id": 41707855055,
   "schema": "dsl.outcome/1",
-  "started": "2026-09-26T14:57:31Z",
-  "summary": "Status refreshed: 9 problems, 4 items this week."
+  "started": "2026-11-03T19:56:21Z",
+  "summary": "Status refreshed: 14 problems, 0 items this week."
 }
