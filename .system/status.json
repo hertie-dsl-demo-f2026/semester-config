@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "16538695dad6852b45add70d2a6d77fbf0e20d9e",
+    "schedule.yml": "4ba67db7d16df1244486bc2d932ae61b9d90c5fd",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -311,9 +311,9 @@
     "label": "Fall 2026",
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
-    "end": "2026-11-18",
+    "end": "2026-11-13",
     "week": 14,
-    "weeks": 16,
+    "weeks": 15,
     "live": true,
     "ended": false,
     "stages": {
@@ -342,7 +342,7 @@
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 1,
-      "coming_up": 2
+      "coming_up": 1
     },
     "todo": [
       {
@@ -364,12 +364,12 @@
         "source": "semester"
       },
       "late_window_days": {
-        "value": 20,
-        "source": "semester"
+        "value": 10,
+        "source": "course"
       },
       "late_penalty_per_day": {
-        "value": "20%",
-        "source": "semester"
+        "value": "10%",
+        "source": "course"
       },
       "max_team_size": {
         "value": 3,
@@ -622,25 +622,6 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-11-16",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK",
-      "label": "Empty week",
-      "aside": true,
-      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see an empty week.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-17T00:00:00+01:00",
-      "bites": "later"
     },
     {
       "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
@@ -1229,9 +1210,9 @@
       "state": "marking",
       "handout": "2026-08-18T14:00:00+02:00",
       "due": "2026-09-08T23:59:00+02:00",
-      "grading_cutoff_datetime": "2026-09-28T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-18T23:59:00+02:00",
       "solution_shown": "2026-09-15T09:00:00+02:00",
-      "solution_held_until": "2026-09-28T23:59:00+02:00",
+      "solution_held_until": "2026-09-18T23:59:00+02:00",
       "units": 2,
       "submissions": 1,
       "teams": null,
@@ -1251,12 +1232,12 @@
           "source": "semester"
         },
         "late_window_days": {
-          "value": 20,
-          "source": "semester"
+          "value": 10,
+          "source": "course"
         },
         "late_penalty_per_day": {
-          "value": "20%",
-          "source": "semester"
+          "value": "10%",
+          "source": "course"
         },
         "assignment_repo_visibility": {
           "value": "private",
