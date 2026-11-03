@@ -1,14 +1,13 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "e53a345f9a1d382a83c1ff90dae9330d63a2f356",
-    "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
-    "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
-    "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
-    "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
+    "schedule.yml": "c9e67f7ff770bb9983e4ae3b15d80ac878cf9f3c",
+    "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
+    "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
+    ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
-    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
-    ".system/assignments.lock.yml": "5f667269474266b233b0a338e307ec960b407214"
+    "course/course.yml": "200682c8f1d5e7327f7124ff482bc7aab376c091",
+    ".system/assignments.lock.yml": "8e41a5370cff77920d018eb7aabb540da2b37a13"
   },
   "horizon": {
     "days": 7
@@ -48,55 +47,58 @@
       "missing": null,
       "suggestions": 4
     },
+    "defaults": {
+      "timezone": {
+        "value": "Europe/Berlin",
+        "source": "institution"
+      },
+      "late_window_days": {
+        "value": 10,
+        "source": "course"
+      },
+      "late_penalty_per_day": {
+        "value": "10%",
+        "source": "course"
+      },
+      "max_team_size": {
+        "value": 4,
+        "source": "course"
+      },
+      "assignment_repo_visibility": {
+        "value": "private",
+        "source": "institution"
+      },
+      "archive_grace_days": {
+        "value": 60,
+        "source": "institution"
+      },
+      "materials_repo": {
+        "value": "materials",
+        "source": "institution"
+      },
+      "autosync_released_edits": {
+        "value": false,
+        "source": "institution"
+      },
+      "marks_per_question": {
+        "value": true,
+        "source": "institution"
+      },
+      "team_formation": {
+        "value": "none",
+        "source": "institution"
+      }
+    },
     "materials": [
       {
         "repo": "course-materials-f2025",
         "state": "ready",
         "checks": [
           {
-            "id": "kind_folder",
-            "label": "At least one folder of a content kind",
-            "done": true,
-            "why": null,
-            "need": "needed",
-            "detail": [
-              {
-                "kind": "lecture",
-                "folders": [
-                  "lectures"
-                ]
-              },
-              {
-                "kind": "lab",
-                "folders": [
-                  "labs"
-                ]
-              },
-              {
-                "kind": "readings",
-                "folders": [
-                  "readings"
-                ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
-              }
-            ]
-          },
-          {
             "id": "syllabus",
             "label": "Syllabus",
             "done": false,
-            "why": "There is no SYLLABUS.md yet.",
+            "why": "SYLLABUS.pdf is not Markdown: copy the weekly plan and paste it in.",
             "need": "suggested"
           },
           {
@@ -112,45 +114,6 @@
         "repo": "course-materials-f2026",
         "state": "ready",
         "checks": [
-          {
-            "id": "kind_folder",
-            "label": "At least one folder of a content kind",
-            "done": true,
-            "why": null,
-            "need": "needed",
-            "detail": [
-              {
-                "kind": "lecture",
-                "folders": [
-                  "lectures"
-                ]
-              },
-              {
-                "kind": "lab",
-                "folders": [
-                  "labs"
-                ]
-              },
-              {
-                "kind": "readings",
-                "folders": [
-                  "readings"
-                ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
-              }
-            ]
-          },
           {
             "id": "syllabus",
             "label": "Syllabus",
@@ -235,7 +198,7 @@
         "kind": "materials",
         "check": "syllabus",
         "repo": "course-materials-f2025",
-        "text": "There is no SYLLABUS.md yet.",
+        "text": "SYLLABUS.pdf is not Markdown: copy the weekly plan and paste it in.",
         "screen": "materials",
         "entry": "course-materials-f2025",
         "need": "suggested",
@@ -363,7 +326,7 @@
     },
     "stage_why": {
       "K2": "1 problem needs fixing.",
-      "K3": "No instructor is declared in instructors.yml yet.",
+      "K3": "No instructor is declared in semester.yml yet.",
       "K4": "5 problems need fixing."
     },
     "stage_need": {
@@ -377,12 +340,54 @@
     "verdict": {
       "state": "fixing",
       "problems": 13,
-      "missing": "No instructor is declared in instructors.yml yet.",
+      "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
       "coming_up": 0
     },
     "todo": [],
     "archive_date": "2027-01-12",
+    "defaults": {
+      "timezone": {
+        "value": "Europe/Berlin",
+        "source": "semester"
+      },
+      "late_window_days": {
+        "value": 10,
+        "source": "course"
+      },
+      "late_penalty_per_day": {
+        "value": "10%",
+        "source": "course"
+      },
+      "max_team_size": {
+        "value": 3,
+        "source": "semester"
+      },
+      "assignment_repo_visibility": {
+        "value": "private",
+        "source": "semester"
+      },
+      "archive_grace_days": {
+        "value": 60,
+        "source": "institution"
+      },
+      "materials_repo": {
+        "value": "materials",
+        "source": "institution"
+      },
+      "autosync_released_edits": {
+        "value": false,
+        "source": "institution"
+      },
+      "marks_per_question": {
+        "value": true,
+        "source": "institution"
+      },
+      "team_formation": {
+        "value": "self_select",
+        "source": "semester"
+      }
+    },
     "template_moments": {}
   },
   "problems": [
@@ -391,12 +396,12 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "SCHEDULE",
-      "text": "Schedule entry assignment-3-project: team formation has closed and 1 of 2 joined student(s) are still without a team, across the 1 team(s) that formed.",
+      "text": "Schedule entry assignment-3-project: team formation has closed and 2 of 2 joined student(s) are still without a team, across the 0 team(s) that formed.",
       "stops": "No repos are provisioned for that assignment, so the students still without a team cannot hand anything in.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 293,
+        "line": 389,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -493,7 +498,7 @@
       "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "assignments.yml",
+        "path": "semester.yml",
         "line": null,
         "screen": "assignment",
         "entry": "assignment-1"
@@ -509,7 +514,7 @@
       "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "assignments.yml",
+        "path": "semester.yml",
         "line": null,
         "screen": "assignment",
         "entry": "assignment-3-project"
@@ -543,7 +548,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 316,
+        "line": 425,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -1169,7 +1174,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1183,12 +1188,16 @@
           "value": "10%",
           "source": "course"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1218,7 +1227,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1226,18 +1235,22 @@
         },
         "late_window_days": {
           "value": 0,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1257,7 +1270,7 @@
       "solution_held_until": null,
       "units": 8,
       "submissions": 0,
-      "teams": 1,
+      "teams": 0,
       "marks": {
         "filled": 0,
         "total": 9
@@ -1267,26 +1280,30 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_window_days": {
           "value": 3,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1316,7 +1333,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1324,18 +1341,22 @@
         },
         "late_window_days": {
           "value": 1,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "public",
-          "source": "assignment"
+          "source": "entry"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1365,7 +1386,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1373,18 +1394,22 @@
         },
         "late_window_days": {
           "value": 1,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "student_choice",
-          "source": "assignment"
+          "source": "entry"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1414,7 +1439,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1422,18 +1447,22 @@
         },
         "late_window_days": {
           "value": 1,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1463,7 +1492,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1471,19 +1500,23 @@
         },
         "late_window_days": {
           "value": null,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "https://moodle.hertie-school.org/mod/assign/view.php?id=424242",
-          "source": "assignment"
+          "source": "entry"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
         }
       },
       "submit_shape": "external"
@@ -1512,7 +1545,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 3,
@@ -1520,18 +1553,22 @@
         },
         "late_window_days": {
           "value": 1,
-          "source": "assignment"
+          "source": "entry"
         },
         "late_penalty_per_day": {
           "value": "10%",
-          "source": "assignment"
+          "source": "entry"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "semester"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -1550,7 +1587,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T11:47:47+00:00",
+    "last_update": "2026-11-03T15:42:50+00:00",
     "stale": false
   },
   "operations": [
