@@ -1207,7 +1207,7 @@
       "kind": "lab",
       "number": 12,
       "title": "Lab 12",
-      "state": "planned",
+      "state": "released",
       "source": {
         "repo": "course-materials-f2026",
         "path": "labs/12_tutorial-presentations"
@@ -1677,7 +1677,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T20:16:24+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
