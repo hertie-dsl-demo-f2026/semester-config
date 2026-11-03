@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "e53a345f9a1d382a83c1ff90dae9330d63a2f356",
+    "schedule.yml": "96eb9d707f2b5c1d0fd95491f2a64452a294f2f1",
     "assignments.yml": "f63c60892d26db8e4641fc4cea178a8f5489c0d6",
     "instructors.yml": "2ad6b323d858aaabc2f532648f72b7afa186473d",
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
@@ -1114,8 +1114,20 @@
       "tbc": false
     },
     {
+      "id": "lecture-12",
+      "when": "2026-10-20T10:00:00+02:00",
+      "kind": "drop-in",
+      "number": 1,
+      "title": "Tutorial presentations",
+      "state": "released",
+      "source": null,
+      "dest": null,
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "lab-11",
-      "when": "2026-10-15T14:00:00+02:00",
+      "when": null,
       "kind": "lab",
       "number": 11,
       "title": "Lab 11",
@@ -1129,19 +1141,7 @@
         "path": "labs/11_deep-learning-in-practice"
       },
       "show_on_site": true,
-      "tbc": false
-    },
-    {
-      "id": "lecture-12",
-      "when": "2026-10-20T10:00:00+02:00",
-      "kind": "drop-in",
-      "number": 1,
-      "title": "Tutorial presentations",
-      "state": "released",
-      "source": null,
-      "dest": null,
-      "show_on_site": true,
-      "tbc": false
+      "tbc": true
     }
   ],
   "assignments": [
@@ -1550,7 +1550,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-02T16:33:56+00:00",
+    "last_update": "2026-11-03T11:26:13+00:00",
     "stale": false
   },
   "operations": [
