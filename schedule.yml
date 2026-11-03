@@ -17,7 +17,7 @@ semester:
     event_datetime: 2026-08-04
   end:
     type: end
-    event_datetime: 2026-11-13
+    event_datetime: 2026-11-18
   archive:
     type: archive
     event_datetime: 2027-01-12
