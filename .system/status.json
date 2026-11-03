@@ -342,7 +342,7 @@
       "problems": 12,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
-      "coming_up": 2
+      "coming_up": 1
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -626,45 +626,6 @@
           ],
           "changed": [],
           "deleted": [],
-          "removed": []
-        }
-      ],
-      "bites": "later"
-    },
-    {
-      "id": "schedule:lab-02:DIVERGED_DELETED:3883c30a",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "DIVERGED_DELETED",
-      "label": "Deleted in course",
-      "release": "lab-02",
-      "aside": true,
-      "text": "1 file of lab-02 is no longer released from the course copy (deleted, or now withheld) and is still in the released copy.",
-      "stops": "Students still see it; release it again and choose to remove it.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "release",
-        "entry": "lab-02"
-      },
-      "diverged": [
-        {
-          "source": {
-            "repo": "course-materials-f2026",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "dest": {
-            "repo": "materials",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "added": [],
-          "changed": [],
-          "deleted": [
-            "inspection-note.md"
-          ],
           "removed": []
         }
       ],
@@ -1664,16 +1625,16 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T21:12:06+00:00",
+    "last_update": "2026-11-03T21:24:40+00:00",
     "stale": false
   },
   "operations": [
     {
-      "run_id": 41717285622,
+      "run_id": 41721122396,
       "op": "release.entry",
       "conclusion": "done",
       "summary": "Released 1 item from course-materials-f2026 to materials.",
-      "finished": "2026-11-03T20:59:59Z"
+      "finished": "2026-11-03T21:24:50Z"
     },
     {
       "run_id": 41707855055,
