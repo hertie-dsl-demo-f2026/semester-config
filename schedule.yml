@@ -173,6 +173,13 @@ labs:
     files:
       - from_course_repo: course-materials-f2026
         from_path: labs/09_further-topics
+  lab-12:
+    session: 12
+    title: Lab 12
+    event_datetime: 2026-11-12T14:00
+    files:
+      - from_course_repo: course-materials-f2026
+        from_path: labs/12_tutorial-presentations
   lab-11:
     session: 11
     title: Lab 11
