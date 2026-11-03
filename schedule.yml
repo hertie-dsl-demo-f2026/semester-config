@@ -176,7 +176,7 @@ labs:
   lab-11:
     session: 11
     title: Lab 11
-    event_datetime: 2026-10-15T14:00
+    event_datetime: tbc   # inspection of 0.11.0; restore 2026-10-15T14:00
     files:
       - from_course_repo: course-materials-f2026
         from_path: labs/11_deep-learning-in-practice
