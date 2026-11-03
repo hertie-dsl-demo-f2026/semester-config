@@ -1681,11 +1681,11 @@
   },
   "operations": [
     {
-      "run_id": 41711057334,
+      "run_id": 41712129156,
       "op": "release.entry",
-      "conclusion": "done",
-      "summary": "Released 1 item from course-materials-f2026 to materials.",
-      "finished": "2026-11-03T20:18:49Z"
+      "conclusion": "nothing_to_do",
+      "summary": "Nothing new to release: 1 item from course-materials-f2026 is already in materials.",
+      "finished": "2026-11-03T20:25:44Z"
     },
     {
       "run_id": 41707855055,
