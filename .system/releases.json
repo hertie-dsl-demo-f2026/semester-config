@@ -40,17 +40,16 @@
       "source": {
         "repo": "course-materials-f2026",
         "path": "labs/02_deep-neural-networks-1",
-        "commit": "57beab7707f1afd20a2e10130a8086cd8cfda523"
+        "commit": "956c9227735007706a8f6763ffc13a2fe83edf75"
       },
       "dest": {
         "repo": "materials",
         "path": "labs/02_deep-neural-networks-1"
       },
       "first_shipped_at": null,
-      "last_shipped_at": "2026-11-03T20:30:29Z",
+      "last_shipped_at": "2026-11-03T20:58:45Z",
       "files": {
-        "Lab_Session_2.ipynb": "deca39a2fbbfb4d9de8b12b70db9418c488518cf",
-        "inspection-note.md": "7ff5f391a36786813bc502c1a27a041924940ce0"
+        "Lab_Session_2.ipynb": "deca39a2fbbfb4d9de8b12b70db9418c488518cf"
       }
     },
     {
