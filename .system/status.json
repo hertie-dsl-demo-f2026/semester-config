@@ -2,7 +2,7 @@
   "schema": "dsl.status/1",
   "inputs": {
     "schedule.yml": "16538695dad6852b45add70d2a6d77fbf0e20d9e",
-    "semester.yml": "edf1ffd8754d13e2fee365360385a69e464ed050",
+    "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
@@ -1658,7 +1658,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T20:08:28+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
