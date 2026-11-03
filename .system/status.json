@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "d1fbeb371eba8297bdbad9c562b3e2d69e2830af",
+    "schedule.yml": "2934636a043fdb8348aad910f173e60844598da1",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -413,7 +413,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 396,
+        "line": 397,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -560,7 +560,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 432,
+        "line": 433,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -1676,10 +1676,17 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T20:16:24+00:00",
-    "stale": true
+    "last_update": "2026-11-03T20:18:44+00:00",
+    "stale": false
   },
   "operations": [
+    {
+      "run_id": 41711057334,
+      "op": "release.entry",
+      "conclusion": "done",
+      "summary": "Released 1 item from course-materials-f2026 to materials.",
+      "finished": "2026-11-03T20:18:49Z"
+    },
     {
       "run_id": 41707855055,
       "op": "semester.check",
