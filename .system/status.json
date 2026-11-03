@@ -7,7 +7,7 @@
     "students.csv": "de6de9d6f62fe00ec38971ff7082bc7321a442d1",
     "teams.csv": "0e32a2a48d75d1d688492b61a27c4cea67565d17",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
-    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
+    "course/dsl-course.yml": "295f2c719677cbbd04f4cf0988eb79cbd30f1719",
     ".system/assignments.lock.yml": "5f667269474266b233b0a338e307ec960b407214"
   },
   "horizon": {
@@ -349,7 +349,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 13,
+    "week": 14,
     "weeks": 15,
     "live": true,
     "ended": false,
@@ -364,7 +364,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in instructors.yml yet.",
-      "K4": "3 problems need fixing."
+      "K4": "5 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -376,10 +376,10 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 11,
+      "problems": 13,
       "missing": "No instructor is declared in instructors.yml yet.",
       "suggestions": 0,
-      "coming_up": 3
+      "coming_up": 0
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -550,25 +550,6 @@
       "bites": "now"
     },
     {
-      "id": "empty_week:2026-11-02",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK",
-      "label": "Empty week",
-      "aside": true,
-      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see an empty week.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-03T00:00:00+01:00",
-      "bites": "soon"
-    },
-    {
       "id": "empty_week:2026-11-09:lecture",
       "scope": "semester",
       "stage": "K4",
@@ -585,7 +566,7 @@
         "entry": null
       },
       "when": "2026-11-10T00:00:00+01:00",
-      "bites": "later"
+      "bites": "soon"
     },
     {
       "id": "empty_week:2026-11-09:lab",
@@ -604,7 +585,7 @@
         "entry": null
       },
       "when": "2026-11-10T00:00:00+01:00",
-      "bites": "later"
+      "bites": "soon"
     },
     {
       "id": "empty_week:2026-11-09:readings",
@@ -623,7 +604,7 @@
         "entry": null
       },
       "when": "2026-11-10T00:00:00+01:00",
-      "bites": "later"
+      "bites": "soon"
     }
   ],
   "this_week": [],
