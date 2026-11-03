@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "4ba67db7d16df1244486bc2d932ae61b9d90c5fd",
+    "schedule.yml": "16538695dad6852b45add70d2a6d77fbf0e20d9e",
     "semester.yml": "edf1ffd8754d13e2fee365360385a69e464ed050",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -311,9 +311,9 @@
     "label": "Fall 2026",
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
-    "end": "2026-11-13",
+    "end": "2026-11-18",
     "week": 14,
-    "weeks": 15,
+    "weeks": 16,
     "live": true,
     "ended": false,
     "stages": {
@@ -342,7 +342,7 @@
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 1,
-      "coming_up": 1
+      "coming_up": 2
     },
     "todo": [
       {
@@ -622,6 +622,25 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-11-16",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK",
+      "label": "Empty week",
+      "aside": true,
+      "text": "Nothing seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see an empty week.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-17T00:00:00+01:00",
+      "bites": "later"
     },
     {
       "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
@@ -1638,8 +1657,8 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T15:46:19+00:00",
-    "stale": true
+    "last_update": "2026-11-03T20:08:28+00:00",
+    "stale": false
   },
   "operations": [
     {
