@@ -30,30 +30,3 @@
 defaults:
   visibility: private
   max_team_size: 3
-
-assignments:
-  assignment-2:
-    late_window_days: 0
-    late_penalty_per_day: 10%
-  assignment-3-project:
-    max_team_size: 3
-    late_window_days: 3
-    late_penalty_per_day: 10%
-  assignment-4:
-    visibility: public
-    late_window_days: 1
-    late_penalty_per_day: 10%
-  assignment-5:
-    visibility: student_choice
-    late_window_days: 1
-    late_penalty_per_day: 10%
-  assignment-6:
-    late_window_days: 1
-    late_penalty_per_day: 10%
-  assignment-7:
-    submit_url: https://moodle.hertie-school.org/mod/assign/view.php?id=424242
-    late_window_days: 1
-    late_penalty_per_day: 10%
-  assignment-8:
-    late_window_days: 1
-    late_penalty_per_day: 10%
