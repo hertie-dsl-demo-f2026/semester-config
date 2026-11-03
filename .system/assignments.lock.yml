@@ -6,7 +6,7 @@
 # The Join-team form in this semester's `join` repo reads THIS FILE and nothing else.
 #
 #   team_formation: self_select   students form their own teams with the Join-team form
-#                   assigned      the teaching team writes teams.csv; the form refuses
+#                   assigned      the teaching team writes the team cells; the form refuses
 #                   none          an individual assignment; the form refuses
 #   max_team_size:  the cap the form enforces (group assignments only)
 #   team_formation_window:
@@ -20,6 +20,7 @@
 #   team_formation_page:
 #                   the assignment's page, which lists the teams that exist - for the
 #                   refusal to link; empty for anything not self-select
+#   team_column:    the students.csv column the form writes the team into (`team:4`)
 #
 # An assignment whose course template does not exist yet is locked to `none`:
 # until the template says what it is, nobody can mint a GitHub team for it.
@@ -31,45 +32,53 @@ assignments:
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:1
   assignment-2:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:2
   assignment-3-project:
     team_formation: self_select
     max_team_size: 3
     team_formation_window: closed
     team_formation_closes: 2026-10-26
     team_formation_page: https://hertie-data-science-lab.github.io/dsl-teaching-toolkit/?semester=hertie-dsl-demo-f2026#assignment-assignment-3-project
+    team_column: team:8
   assignment-4:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:4
   assignment-5:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:5
   assignment-6:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:6
   assignment-7:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:7
   assignment-8:
     team_formation: none
     max_team_size: 3
     team_formation_window: none
     team_formation_closes:
     team_formation_page:
+    team_column: team:8
