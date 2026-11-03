@@ -1,0 +1,17 @@
+{
+  "actor": "henrycgbaker",
+  "block": "",
+  "conclusion": "done",
+  "counts": {
+    "items": 1
+  },
+  "details": [],
+  "finished": "2026-11-03T20:18:49Z",
+  "op": "release.entry",
+  "preview": false,
+  "reasons": [],
+  "run_id": 41711057334,
+  "schema": "dsl.outcome/1",
+  "started": "2026-11-03T20:16:59Z",
+  "summary": "Released 1 item from course-materials-f2026 to materials."
+}
