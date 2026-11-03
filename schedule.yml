@@ -257,7 +257,7 @@ releases:
         semester_dest_path: code/dldemo/serving.py
 
   lab-11:
-    event_datetime: 2026-10-15T14:00
+    event_datetime: tbc   # demo inspection of hotfix #491; restore 2026-10-15T14:00
     title: "Lab 11"
     deploy:
       - course_source_repo: course-materials-f2026
