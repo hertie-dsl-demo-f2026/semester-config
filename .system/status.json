@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "4ba67db7d16df1244486bc2d932ae61b9d90c5fd",
+    "schedule.yml": "d1fbeb371eba8297bdbad9c562b3e2d69e2830af",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -327,7 +327,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in semester.yml yet.",
-      "K4": "5 problems need fixing."
+      "K4": "4 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -339,10 +339,10 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 13,
+      "problems": 12,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 1,
-      "coming_up": 1
+      "coming_up": 2
     },
     "todo": [
       {
@@ -413,7 +413,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 389,
+        "line": 396,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -560,7 +560,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 425,
+        "line": 432,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -575,25 +575,6 @@
       "aside": true,
       "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
       "stops": "Students see a week with no lecture.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-10T00:00:00+01:00",
-      "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-11-09:lab",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing lab",
-      "aside": true,
-      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no lab.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
@@ -654,6 +635,45 @@
           },
           "added": [
             "NOTES.md"
+          ],
+          "changed": [],
+          "deleted": [],
+          "removed": []
+        }
+      ],
+      "bites": "later"
+    },
+    {
+      "id": "schedule:lab-02:DIVERGED_COURSE:bb997678",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "DIVERGED_COURSE",
+      "label": "Course copy changed",
+      "release": "lab-02",
+      "aside": true,
+      "text": "lab-02 has changed in the course since it was released: 1 file added.",
+      "stops": "Students still have the version released; release it again to give them the change.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "release",
+        "entry": "lab-02"
+      },
+      "diverged": [
+        {
+          "source": {
+            "repo": "course-materials-f2026",
+            "path": "labs/02_deep-neural-networks-1",
+            "branch": "main"
+          },
+          "dest": {
+            "repo": "materials",
+            "path": "labs/02_deep-neural-networks-1",
+            "branch": "main"
+          },
+          "added": [
+            "inspection-note.md"
           ],
           "changed": [],
           "deleted": [],
@@ -1182,6 +1202,24 @@
       "tbc": false
     },
     {
+      "id": "lab-12",
+      "when": "2026-11-12T14:00:00+01:00",
+      "kind": "lab",
+      "number": 12,
+      "title": "Lab 12",
+      "state": "planned",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/12_tutorial-presentations"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/12_tutorial-presentations"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "lab-11",
       "when": null,
       "kind": "lab",
@@ -1639,7 +1677,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T20:10:27+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
