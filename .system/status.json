@@ -2,7 +2,7 @@
   "schema": "dsl.status/1",
   "inputs": {
     "schedule.yml": "4ba67db7d16df1244486bc2d932ae61b9d90c5fd",
-    "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
+    "semester.yml": "edf1ffd8754d13e2fee365360385a69e464ed050",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
@@ -364,12 +364,12 @@
         "source": "semester"
       },
       "late_window_days": {
-        "value": 10,
-        "source": "course"
+        "value": 20,
+        "source": "semester"
       },
       "late_penalty_per_day": {
-        "value": "10%",
-        "source": "course"
+        "value": "20%",
+        "source": "semester"
       },
       "max_team_size": {
         "value": 3,
@@ -1210,9 +1210,9 @@
       "state": "marking",
       "handout": "2026-08-18T14:00:00+02:00",
       "due": "2026-09-08T23:59:00+02:00",
-      "grading_cutoff_datetime": "2026-09-18T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-28T23:59:00+02:00",
       "solution_shown": "2026-09-15T09:00:00+02:00",
-      "solution_held_until": "2026-09-18T23:59:00+02:00",
+      "solution_held_until": "2026-09-28T23:59:00+02:00",
       "units": 2,
       "submissions": 1,
       "teams": null,
@@ -1232,12 +1232,12 @@
           "source": "semester"
         },
         "late_window_days": {
-          "value": 10,
-          "source": "course"
+          "value": 20,
+          "source": "semester"
         },
         "late_penalty_per_day": {
-          "value": "10%",
-          "source": "course"
+          "value": "20%",
+          "source": "semester"
         },
         "assignment_repo_visibility": {
           "value": "private",
@@ -1639,7 +1639,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-03T15:46:19+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
