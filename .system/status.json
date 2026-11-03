@@ -342,7 +342,7 @@
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
-      "coming_up": 0
+      "coming_up": 1
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -610,6 +610,45 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "soon"
+    },
+    {
+      "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "DIVERGED_RELEASED",
+      "label": "Released copy edited",
+      "release": "lab-01",
+      "aside": true,
+      "text": "The released copy of lab-01 was edited in the semester: 1 file added.",
+      "stops": "Future semesters will not get these edits unless you keep them for future semesters.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "release",
+        "entry": "lab-01"
+      },
+      "diverged": [
+        {
+          "source": {
+            "repo": "course-materials-f2026",
+            "path": "labs/01_deep-learning-in-public-policy",
+            "branch": "main"
+          },
+          "dest": {
+            "repo": "materials",
+            "path": "labs/01_deep-learning-in-public-policy",
+            "branch": "main"
+          },
+          "added": [
+            "NOTES.md"
+          ],
+          "changed": [],
+          "deleted": [],
+          "removed": []
+        }
+      ],
+      "bites": "later"
     }
   ],
   "this_week": [],
