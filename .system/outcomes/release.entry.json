@@ -6,12 +6,12 @@
     "items": 1
   },
   "details": [],
-  "finished": "2026-11-03T20:30:44Z",
+  "finished": "2026-11-03T20:59:59Z",
   "op": "release.entry",
   "preview": false,
   "reasons": [],
-  "run_id": 41713074465,
+  "run_id": 41717285622,
   "schema": "dsl.outcome/1",
-  "started": "2026-11-03T20:30:00Z",
+  "started": "2026-11-03T20:57:32Z",
   "summary": "Released 1 item from course-materials-f2026 to materials."
 }
