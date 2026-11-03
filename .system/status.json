@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "c9e67f7ff770bb9983e4ae3b15d80ac878cf9f3c",
+    "schedule.yml": "4ba67db7d16df1244486bc2d932ae61b9d90c5fd",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -341,10 +341,22 @@
       "state": "fixing",
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
-      "suggestions": 0,
+      "suggestions": 1,
       "coming_up": 1
     },
-    "todo": [],
+    "todo": [
+      {
+        "id": "schedule:released_tbc:lab-11",
+        "kind": "schedule",
+        "check": "released_tbc",
+        "repo": "semester-config",
+        "text": "Lab 11 is released; its session date is still TBC.",
+        "screen": "release",
+        "entry": "lab-11",
+        "need": "suggested",
+        "set_aside": false
+      }
+    ],
     "archive_date": "2027-01-12",
     "defaults": {
       "timezone": {
@@ -1158,8 +1170,20 @@
       "tbc": false
     },
     {
+      "id": "lecture-12",
+      "when": "2026-10-20T10:00:00+02:00",
+      "kind": "drop-in",
+      "number": 1,
+      "title": "Tutorial presentations",
+      "state": "released",
+      "source": null,
+      "dest": null,
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "lab-11",
-      "when": "2026-10-15T14:00:00+02:00",
+      "when": null,
       "kind": "lab",
       "number": 11,
       "title": "Lab 11",
@@ -1173,19 +1197,7 @@
         "path": "labs/11_deep-learning-in-practice"
       },
       "show_on_site": true,
-      "tbc": false
-    },
-    {
-      "id": "lecture-12",
-      "when": "2026-10-20T10:00:00+02:00",
-      "kind": "drop-in",
-      "number": 1,
-      "title": "Tutorial presentations",
-      "state": "released",
-      "source": null,
-      "dest": null,
-      "show_on_site": true,
-      "tbc": false
+      "tbc": true
     }
   ],
   "assignments": [
@@ -1626,7 +1638,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T15:42:50+00:00",
+    "last_update": "2026-11-03T15:46:19+00:00",
     "stale": false
   },
   "operations": [
