@@ -342,7 +342,7 @@
       "problems": 12,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 1,
-      "coming_up": 2
+      "coming_up": 1
     },
     "todo": [
       {
@@ -635,45 +635,6 @@
           },
           "added": [
             "NOTES.md"
-          ],
-          "changed": [],
-          "deleted": [],
-          "removed": []
-        }
-      ],
-      "bites": "later"
-    },
-    {
-      "id": "schedule:lab-02:DIVERGED_COURSE:bb997678",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "DIVERGED_COURSE",
-      "label": "Course copy changed",
-      "release": "lab-02",
-      "aside": true,
-      "text": "lab-02 has changed in the course since it was released: 1 file added.",
-      "stops": "Students still have the version released; release it again to give them the change.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "release",
-        "entry": "lab-02"
-      },
-      "diverged": [
-        {
-          "source": {
-            "repo": "course-materials-f2026",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "dest": {
-            "repo": "materials",
-            "path": "labs/02_deep-neural-networks-1",
-            "branch": "main"
-          },
-          "added": [
-            "inspection-note.md"
           ],
           "changed": [],
           "deleted": [],
@@ -1676,16 +1637,16 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T20:18:44+00:00",
+    "last_update": "2026-11-03T20:30:42+00:00",
     "stale": false
   },
   "operations": [
     {
-      "run_id": 41712129156,
+      "run_id": 41713074465,
       "op": "release.entry",
-      "conclusion": "nothing_to_do",
-      "summary": "Nothing new to release: 1 item from course-materials-f2026 is already in materials.",
-      "finished": "2026-11-03T20:25:44Z"
+      "conclusion": "done",
+      "summary": "Released 1 item from course-materials-f2026 to materials.",
+      "finished": "2026-11-03T20:30:44Z"
     },
     {
       "run_id": 41707855055,
