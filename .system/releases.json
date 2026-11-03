@@ -1,0 +1,566 @@
+{
+  "copies": [
+    {
+      "entry": "course-intro",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "SYLLABUS.md",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "SYLLABUS.md"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "SYLLABUS.md": "d6f8e0d823bd785aca8a2d6eebe9b9fecfd709dc"
+      }
+    },
+    {
+      "entry": "lab-01",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/01_deep-learning-in-public-policy",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/01_deep-learning-in-public-policy"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_1.ipynb": "9da44d6e585f26cabe3119b5c2fe9ea3030d37ea",
+        "Lab_session_1_Introduction_to_pandas.ipynb": "8b697c09dd4f261adbfb66d88ce64fe777e852cd"
+      }
+    },
+    {
+      "entry": "lab-02",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/02_deep-neural-networks-1",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/02_deep-neural-networks-1"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_2.ipynb": "deca39a2fbbfb4d9de8b12b70db9418c488518cf"
+      }
+    },
+    {
+      "entry": "lab-03",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/03_deep-neural-networks-2",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/03_deep-neural-networks-2"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_3.ipynb": "57c0d13188df5b06a59781baf5a36b7e1603ae3c"
+      }
+    },
+    {
+      "entry": "lab-04",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/04_computer-vision-1-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/04_computer-vision-1-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_4.ipynb": "3a6160328f3b07bb007f72d371e602f0c57ac48e"
+      }
+    },
+    {
+      "entry": "lab-05",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/05_computer-vision-2-modern-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/05_computer-vision-2-modern-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_5.ipynb": "e06979370f269dde49aa072728c7a37804345a32"
+      }
+    },
+    {
+      "entry": "lab-06",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/06_sequence-methods-and-time-series",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/06_sequence-methods-and-time-series"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_session_6_&_7.ipynb": "43b73349048fdfc8f7640668cd770730e8fc01bf"
+      }
+    },
+    {
+      "entry": "lab-09",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/09_further-topics",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/09_further-topics"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab_Session_9_&_10.ipynb": "a6793e81819e3736997cf8ca6d9885b8933504bb"
+      }
+    },
+    {
+      "entry": "lab-11",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/11_deep-learning-in-practice",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/11_deep-learning-in-practice"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Lab Session 11 (b).ipynb": "401fca18cbd8ab3697de036759464287ffec2d5a"
+      }
+    },
+    {
+      "entry": "lecture-01",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/01_deep-learning-in-public-policy",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/01_deep-learning-in-public-policy"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session1_E1394_DL_preLecture.pdf": "c1639f061da9a2dc2f7d896b798dc21b3eeb05a8",
+        "Session1_demo_deck.html": "d52663281d6ff19997a7a1a463f25502a9f8bfc1",
+        "Session1_demo_deck_files/deck.css": "7ce22308c08127f6da7eca838c070a618e5f0ff3",
+        "Session1_demo_deck_files/figure.svg": "c63ff5dbd07f9803e19d0b80e6c2c443948b296a"
+      }
+    },
+    {
+      "entry": "lecture-02",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/02_deep-neural-networks-1",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/02_deep-neural-networks-1"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session2_E1394_DL.pdf": "1dd7585f9e30802474c630790df05b35cf1aa661"
+      }
+    },
+    {
+      "entry": "lecture-03",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/03_deep-neural-networks-2",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/03_deep-neural-networks-2"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session3_E1394_DL_Lecture.pdf": "0f013a95aa1da02a865fd0e975aec716de7ae145"
+      }
+    },
+    {
+      "entry": "lecture-04",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/04_computer-vision-1-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/04_computer-vision-1-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session4_E1394_DL_preLecture.pdf": "287cebf2039eaee52900a095b7ebd7875c831610"
+      }
+    },
+    {
+      "entry": "lecture-05",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/05_computer-vision-2-modern-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/05_computer-vision-2-modern-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session5_E1394_DL_Lecture.pdf": "4039c53b1b28db1d4e55747b47c29912b7b9b40b"
+      }
+    },
+    {
+      "entry": "lecture-06",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/06_sequence-methods-and-time-series",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/06_sequence-methods-and-time-series"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session6_E1394_DL_Lecture.pdf": "7b7c3549b23169b22095f560626169c79bddef58",
+        "Session6_E1394_DL_preLecture.pdf": "a1b63c6f396d68097f87fbca55f26bf56d8eaba0"
+      }
+    },
+    {
+      "entry": "lecture-07",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/07_natural-language-processing-1",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/07_natural-language-processing-1"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session7_E1394_DL_preLecture.pdf": "6c95221b3c8f60edf5ed9d54592b6ea77b93ef15"
+      }
+    },
+    {
+      "entry": "lecture-08",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/08_nlp-2-encoder-decoder-and-attention",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Session8_E1394_DL SECOND SESSION.pdf": "7003a6defc3e7ed1098479c8dae028ee27cd3ce4",
+        "Session8_E1394_DL.pdf": "921b5b09bc9f9b7bd350ffa2bf248d92668c0dc8",
+        "slides/index.html": "c1e87e9710edee0ea474df6a935c404ccccc0616",
+        "slides/reveal.js/dist/reset.css": "e2385390fcfc822ff958ef79065dfc52963f646b",
+        "slides/reveal.js/dist/reveal.css": "869289eed2085ed959e4a8f1c95be6450abf02fb",
+        "slides/reveal.js/dist/reveal.esm.js": "60411ac123109fa0a96b3607e68fc579a9c33fbc",
+        "slides/reveal.js/dist/reveal.esm.js.map": "5d23aab2d00cb34d43215526a12ff1ad94d5364e",
+        "slides/reveal.js/dist/reveal.js": "2812b62b050371bd512cf6936f61d964015a5f0f",
+        "slides/reveal.js/dist/reveal.js.map": "c07d15e0b2e00e5a99557ec294d772bbbdd38e9a",
+        "slides/reveal.js/dist/theme/beige.css": "9d5bd0021226b602613913da587f836b013b539f",
+        "slides/reveal.js/dist/theme/black-contrast.css": "ead5dc0ff0c0120b3e43807b985722fbfa199e46",
+        "slides/reveal.js/dist/theme/black.css": "0a6f472209b708d94a9ceadc9388aa97b68f4158",
+        "slides/reveal.js/dist/theme/blood.css": "f50161f82340e3e232994a4312b19360873c2cc8",
+        "slides/reveal.js/dist/theme/dracula.css": "60d20bf842092e7126ec16b27bc794ace0c37396",
+        "slides/reveal.js/dist/theme/fonts/league-gothic/LICENSE": "29513e9c4b77d8614975dddfd8bc32a4f7665bff",
+        "slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.css": "32862f8f51a487057b79321ffa294f405f34b3d8",
+        "slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.eot": "f62619aef6e6c352304bd6256fe9f767df135e9d",
+        "slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.ttf": "baa9a9500fe6738e8c92b3dae0d3187216967c2e",
+        "slides/reveal.js/dist/theme/fonts/league-gothic/league-gothic.woff": "8c1227b200c3432a2502e97b87ae0508183629df",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/LICENSE": "71b7a02a22f0a02a94f4b92139a24495c8daf2a3",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot": "32fe466bbad41f637ded825e38b23ce8e7f10181",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf": "f9ac13ffc68e47f6176a0a8a367d658c9df61e87",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff": "ceecbf17f3bb88aac360fe25cdc72fbbe78b00c9",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot": "4d29ddadd1bfb7a66ca71b1a0a1091b4c6af6f19",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf": "00c833cdc9c85ca99a4e952eb93724c5b7e64003",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff": "630754abf3909b4726d19fb2209b744b7847da62",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot": "1104e074f017a8b89dfb5e1bbff3cdd0b7595887",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf": "6d0253da9776dbc026b9e2a07f6169a97426c6c4",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff": "8888cf8d4f99491e3ff6f7cbdf2b252d888198a4",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot": "cdf7334384d3e82c5a923192898b01fd692d45c5",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf": "56442992a5b9e45b805bf6a927daef4e24af21af",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff": "7c2d3c74f19f951470f972bea166a7f829db55a9",
+        "slides/reveal.js/dist/theme/fonts/source-sans-pro/source-sans-pro.css": "99e4fb71a71141a6609c67ef440cb239df8a734b",
+        "slides/reveal.js/dist/theme/league.css": "6594968b2cec7c2abdb08cdb9435acbbe3b0545a",
+        "slides/reveal.js/dist/theme/moon.css": "3f4ae7c501f02ee208abfd3464f091a5d6424f33",
+        "slides/reveal.js/dist/theme/night.css": "b3c4e9a094ea92299b0f281eec89fb3b0e45b7fc",
+        "slides/reveal.js/dist/theme/serif.css": "e380d0a2bec1b2339392afffec209888b3b76bd0",
+        "slides/reveal.js/dist/theme/simple.css": "8fbda470ea4a0b4d5bbd9c04f77ba44ec00b615e",
+        "slides/reveal.js/dist/theme/sky.css": "dd8fd594d6811b641cdd8200ce628eb7053b78de",
+        "slides/reveal.js/dist/theme/solarized.css": "5a0cd94b7c61a97231976de66fab87a9201a7843",
+        "slides/reveal.js/dist/theme/white-contrast.css": "92c99df71ddd3a0e73faa385af0dcef980e5c461",
+        "slides/reveal.js/dist/theme/white.css": "2cd7b2d904231ea0885049ccf5b460b9cc283674",
+        "slides/reveal.js/dist/theme/white_contrast_compact_verbatim_headers.css": "55e8838edb66ff226b71e8fbd940f87a9a2e5aa2",
+        "slides/reveal.js/plugin/notes/notes.esm.js": "beacbd2ed82d05f0c387f733b62e4ea358042993",
+        "slides/reveal.js/plugin/notes/notes.js": "a8255bc9039c82e0021725846d0933bf4275792b",
+        "slides/reveal.js/plugin/notes/plugin.js": "62649c2fda3fd75d1cff914dfd683126628d3c02",
+        "slides/reveal.js/plugin/notes/speaker-view.html": "55bc01f4353922b8089d24f85bbb3f93201628c5",
+        "slides/reveal.js/plugin/search/plugin.js": "fe38343da2c7a2fb1697c32459705cfc867fb1d1",
+        "slides/reveal.js/plugin/search/search.esm.js": "df84b6bab8bc4c7231b170043eecbfa7d6952a51",
+        "slides/reveal.js/plugin/search/search.js": "aa3ad93ce820b04d0f6bb990aa3fede602688f07",
+        "slides/reveal.js/plugin/zoom/plugin.js": "960fb8108907d55523f916b0a0b747b7eac3080e",
+        "slides/reveal.js/plugin/zoom/zoom.esm.js": "c2bb6a5b329be83f6015b8123e0f4dea989c4416",
+        "slides/reveal.js/plugin/zoom/zoom.js": "7ac212754ac8e3538f33d5ae0c2f900bc26f0021"
+      }
+    },
+    {
+      "entry": "readings-01",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/01_deep-learning-in-public-policy",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/01_deep-learning-in-public-policy"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "READINGS.md": "fb8e90ded74d7921dc55ba647bac918b6f9a274d"
+      }
+    },
+    {
+      "entry": "readings-02",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/02_deep-neural-networks-1",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/02_deep-neural-networks-1"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "READINGS.md": "6cb2f9404661da34faee0121553f931086931dc6"
+      }
+    },
+    {
+      "entry": "readings-03",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/03_deep-neural-networks-2",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/03_deep-neural-networks-2"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "READINGS.md": "32e941cac2998e07e44d6ab5f9dead61ab46de64"
+      }
+    },
+    {
+      "entry": "readings-04",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/04_computer-vision-1-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/04_computer-vision-1-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Kerner, H., Tseng, G., Becker-Reshef, I., Nakalembe, C., Barker, B., Munshell, B., Paliyam, M. and Hosseini, M., 2020. Rapid Response Crop Maps in Data Sparse Regions. arXiv preprin.pdf": "006650e0742d35a4d52a8db2a97d24d46ff0ce3d",
+        "READINGS.md": "e1e1139287d7ea2c3f368e77619e0c3a0a3a1be2"
+      }
+    },
+    {
+      "entry": "readings-05",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/05_computer-vision-2-modern-cnns",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/05_computer-vision-2-modern-cnns"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "1512.02325v5.pdf": "1217b9bc94b76a39e9abf7669aa4dc1f6160c3e0",
+        "READINGS.md": "6a08bfd52117cd54a1dcee67a0a9053758f95adb",
+        "U-Net_ Convolutional Networks for Biomedical Image Segmentation.pdf": "cceeab5312cc33bbd4d178803aaef116010b53c2"
+      }
+    },
+    {
+      "entry": "readings-08",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale.pdf": "880660831947e37f2e03900fc99a242e1c5036a8",
+        "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin - Attention Is All You Need.pdf": "2b8c574f4756cde9ca83fa182f8b263ff57f9340",
+        "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf": "2394716bcb9d947a5e636d5a7765bb2c1c4f7710",
+        "READINGS.md": "0934f4b96e518a59e304e752cc3b034eea2fe200"
+      }
+    },
+    {
+      "entry": "readings-09",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/09_further-topics",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/09_further-topics"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "Gawlikowski.pdf": "cb659a03aa3e7128312632b272f57234de990524",
+        "references.bib": "43be484382d15b23eeb58485be6b2852bf541b49",
+        "seminar-notes.md": "687244e4ef83d41dcb255dd9fcbe41baaa4da9fd"
+      }
+    },
+    {
+      "entry": "readings-10",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/10_policy-approaches-and-responsible-implementation",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/10_policy-approaches-and-responsible-implementation"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "2101.03989v2.pdf": "b47d0befd2328d7e9d948216118e8b011c8a753e",
+        "2108.07258v3.pdf": "c0b92f2225008b2a9d564f9d93cbef4b983dfb03",
+        "Amarasinghe, K., Rodolfa, K., Lamba, H.,  Ghani, R. (2020). Explainable machine learning for public policy Use cases, gaps, and research directions. arXiv preprint arXiv2010.14374..pdf": "ef0d7c52df7b0fe61bb72e47b242cfc42e25d19d",
+        "READINGS.md": "0dc2b8892b855c516113a1f90a51e5801c77d10f",
+        "understanding_artificial_intelligence_ethics_and_safety.pdf": "db0ae53d7afb0cbc4eb17953acfdeb8100284122"
+      }
+    },
+    {
+      "entry": "readings-11",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/11_deep-learning-in-practice",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/11_deep-learning-in-practice"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "midterm-guide.pdf": "df010c2d617f4c97b79ae28ab560e6aecdd863c3"
+      }
+    },
+    {
+      "entry": "lecture-10",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/audit.py",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/audit.py"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "audit.py": "dc0ff57ec4b9fd290fc67be88a0ab1c78ec41373"
+      }
+    },
+    {
+      "entry": "lecture-11",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/serving.py",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/serving.py"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "serving.py": "4cc9d32b3ba26acae278fe3105d51af603b12d31"
+      }
+    },
+    {
+      "entry": "lecture-09",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/uncertainty.py",
+        "commit": null
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/uncertainty.py"
+      },
+      "first_shipped_at": null,
+      "last_shipped_at": null,
+      "files": {
+        "uncertainty.py": "7c4ebc0a461d9c23c9dbba87a54ada2c3dc720c9"
+      }
+    }
+  ]
+}
