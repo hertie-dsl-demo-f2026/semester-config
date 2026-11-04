@@ -1649,6 +1649,13 @@
   },
   "operations": [
     {
+      "run_id": 41855551114,
+      "op": "release.propagate_back",
+      "conclusion": "done",
+      "summary": "Kept for future terms: 1 pull request opened on the course's materials.",
+      "finished": "2026-11-04T15:14:16Z"
+    },
+    {
       "run_id": 41854863109,
       "op": "release.adhoc",
       "conclusion": "nothing_to_do",
