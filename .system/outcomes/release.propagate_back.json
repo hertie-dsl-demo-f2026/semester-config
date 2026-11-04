@@ -1,0 +1,18 @@
+{
+  "actor": "henrycgbaker",
+  "block": "",
+  "conclusion": "done",
+  "counts": {
+    "checked": 1,
+    "pull_requests": 1
+  },
+  "details": [],
+  "finished": "2026-11-04T15:14:16Z",
+  "op": "release.propagate_back",
+  "preview": false,
+  "reasons": [],
+  "run_id": 41855551114,
+  "schema": "dsl.outcome/1",
+  "started": "2026-11-04T15:14:04Z",
+  "summary": "Kept for future terms: 1 pull request opened on the course's materials."
+}
