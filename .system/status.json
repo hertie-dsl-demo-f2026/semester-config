@@ -1644,23 +1644,23 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-03T21:33:09+00:00",
+    "last_update": "2026-11-04T15:52:41+00:00",
     "stale": false
   },
   "operations": [
+    {
+      "run_id": 41862131426,
+      "op": "release.adhoc",
+      "conclusion": "done",
+      "summary": "Replaced 1 item from course-materials-f2026 in materials with the course version.",
+      "finished": "2026-11-04T15:52:43Z"
+    },
     {
       "run_id": 41855551114,
       "op": "release.propagate_back",
       "conclusion": "done",
       "summary": "Kept for future terms: 1 pull request opened on the course's materials.",
       "finished": "2026-11-04T15:14:16Z"
-    },
-    {
-      "run_id": 41854863109,
-      "op": "release.adhoc",
-      "conclusion": "nothing_to_do",
-      "summary": "Nothing new to release: 1 item from course-materials-f2026 is already in materials.",
-      "finished": "2026-11-04T15:10:16Z"
     },
     {
       "run_id": 41721122396,
