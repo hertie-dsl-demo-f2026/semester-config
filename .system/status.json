@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "3424c10c2e58004f617d20b4d7d6bd25c334b4fb",
+    "schedule.yml": "dec8805f947279b7d4104277b28412b9e37e9d0e",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -419,7 +419,7 @@
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
-      "coming_up": 2
+      "coming_up": 1
     },
     "todo": [],
     "archive_date": "2027-01-12",
@@ -483,7 +483,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 325,
+        "line": 316,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -630,7 +630,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 361,
+        "line": 352,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -692,45 +692,6 @@
       },
       "when": "2026-11-10T00:00:00+01:00",
       "bites": "soon"
-    },
-    {
-      "id": "schedule:readings-01:DIVERGED_COURSE:fe455268",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "DIVERGED_COURSE",
-      "label": "Course copy changed",
-      "release": "readings-01",
-      "aside": true,
-      "text": "readings-01 has changed in the course since it was released: 1 file changed.",
-      "stops": "Students still have the version released; release it again to give them the change.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "release",
-        "entry": "readings-01"
-      },
-      "diverged": [
-        {
-          "source": {
-            "repo": "course-materials-f2026",
-            "path": "readings/01_deep-learning-in-public-policy",
-            "branch": "main"
-          },
-          "dest": {
-            "repo": "materials",
-            "path": "readings/01_deep-learning-in-public-policy",
-            "branch": "main"
-          },
-          "added": [],
-          "changed": [
-            "READINGS.md"
-          ],
-          "deleted": [],
-          "removed": []
-        }
-      ],
-      "bites": "later"
     },
     {
       "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
@@ -1359,30 +1320,6 @@
       "dest": null,
       "show_on_site": true,
       "tbc": false
-    },
-    {
-      "id": "readings-validation-session-12",
-      "when": "2026-11-19T09:00:00+01:00",
-      "kind": "readings",
-      "number": null,
-      "title": "Validation readings (session 12)",
-      "state": "planned",
-      "source": {
-        "repo": "course-materials-f2026",
-        "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
-      },
-      "dest": {
-        "repo": "materials",
-        "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
-      },
-      "show_on_site": true,
-      "tbc": false,
-      "reading_list": {
-        "repo": "course-materials-f2026",
-        "path": "lectures/07_natural-language-processing-1/READINGS.md",
-        "released_repo": "materials",
-        "released_path": "lectures/07_natural-language-processing-1/READINGS.md"
-      }
     }
   ],
   "assignments": [
@@ -1823,7 +1760,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-05T14:35:16+00:00",
+    "last_update": "2026-11-05T17:54:27+00:00",
     "stale": false
   },
   "operations": [
