@@ -188,21 +188,9 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/01_deep-learning-in-public-policy
-    reading_list: |
-      # Session 1 readings
-
-      ## Required Readings
-
-      - Chatsiou, K. & Jankin Mikhaylov, S., "Deep Learning for Political Science", in
-        *The SAGE Handbook of Research Methods in Political Science and International
-        Relations*. Available through the Hertie library.
-
-      ## Optional Readings
-
-      - Goodfellow, Bengio & Courville, *Deep Learning*, ch. 1.
-        <https://www.deeplearningbook.org/contents/intro.html>
-
-      *This is a public repository, so copyrighted readings are cited rather than redistributed.*
+    reading_list:
+      from_course_repo: course-materials-f2026
+      from_path: readings/01_deep-learning-in-public-policy/READINGS.md
   readings-02:
     session: 2
     event_datetime: 2026-08-06T09:00
