@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "45925fd60dba986c420994a3cfbc3634dad89530",
+    "schedule.yml": "3424c10c2e58004f617d20b4d7d6bd25c334b4fb",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -411,7 +411,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 386,
+        "line": 325,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -558,7 +558,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 422,
+        "line": 361,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -788,7 +788,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/02_deep-neural-networks-1/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/02_deep-neural-networks-1/READINGS.md"
       }
     },
     {
@@ -845,7 +848,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/03_deep-neural-networks-2/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/03_deep-neural-networks-2/READINGS.md"
       }
     },
     {
@@ -902,7 +908,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/04_computer-vision-1-cnns/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/04_computer-vision-1-cnns/READINGS.md"
       }
     },
     {
@@ -959,7 +968,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/05_computer-vision-2-modern-cnns/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/05_computer-vision-2-modern-cnns/READINGS.md"
       }
     },
     {
@@ -1088,7 +1100,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/08_nlp-2-encoder-decoder-and-attention/READINGS.md"
       }
     },
     {
@@ -1164,7 +1179,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/10_policy-approaches-and-responsible-implementation/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/10_policy-approaches-and-responsible-implementation/READINGS.md"
       }
     },
     {
@@ -1733,8 +1751,8 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-05T14:02:35+00:00",
-    "stale": true
+    "last_update": "2026-11-05T14:35:16+00:00",
+    "stale": false
   },
   "operations": [
     {
