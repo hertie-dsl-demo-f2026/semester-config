@@ -45,7 +45,7 @@
       "state": "ready",
       "problems": 0,
       "missing": null,
-      "suggestions": 4
+      "suggestions": 8
     },
     "defaults": {
       "timezone": {
@@ -112,6 +112,20 @@
             "done": false,
             "why": "Check that what is withheld from students is right.",
             "need": "suggested"
+          },
+          {
+            "id": "reading_list:readings/09_further-topics",
+            "label": "readings/09_further-topics: reading list",
+            "done": false,
+            "why": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+            "need": "suggested"
+          },
+          {
+            "id": "reading_list:readings/11_deep-learning-in-practice",
+            "label": "readings/11_deep-learning-in-practice: reading list",
+            "done": false,
+            "why": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+            "need": "suggested"
           }
         ]
       },
@@ -131,6 +145,20 @@
             "label": "Withheld patterns reviewed",
             "done": false,
             "why": "Check that what is withheld from students is right.",
+            "need": "suggested"
+          },
+          {
+            "id": "reading_list:readings/09_further-topics",
+            "label": "readings/09_further-topics: reading list",
+            "done": false,
+            "why": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+            "need": "suggested"
+          },
+          {
+            "id": "reading_list:readings/11_deep-learning-in-practice",
+            "label": "readings/11_deep-learning-in-practice: reading list",
+            "done": false,
+            "why": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
             "need": "suggested"
           }
         ]
@@ -221,6 +249,28 @@
         "set_aside": false
       },
       {
+        "id": "materials:course-materials-f2025:reading_list:readings/09_further-topics",
+        "kind": "materials",
+        "check": "reading_list",
+        "repo": "course-materials-f2025",
+        "text": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+        "screen": "materials",
+        "entry": "course-materials-f2025",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
+        "id": "materials:course-materials-f2025:reading_list:readings/11_deep-learning-in-practice",
+        "kind": "materials",
+        "check": "reading_list",
+        "repo": "course-materials-f2025",
+        "text": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+        "screen": "materials",
+        "entry": "course-materials-f2025",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
         "id": "materials:course-materials-f2026:syllabus",
         "kind": "materials",
         "check": "syllabus",
@@ -237,6 +287,28 @@
         "check": "withheld",
         "repo": "course-materials-f2026",
         "text": "Check that what is withheld from students is right.",
+        "screen": "materials",
+        "entry": "course-materials-f2026",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
+        "id": "materials:course-materials-f2026:reading_list:readings/09_further-topics",
+        "kind": "materials",
+        "check": "reading_list",
+        "repo": "course-materials-f2026",
+        "text": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
+        "screen": "materials",
+        "entry": "course-materials-f2026",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
+        "id": "materials:course-materials-f2026:reading_list:readings/11_deep-learning-in-practice",
+        "kind": "materials",
+        "check": "reading_list",
+        "repo": "course-materials-f2026",
+        "text": "The folder has reading files but no READINGS.md. Students see the files only; a list says what to read and how.",
         "screen": "materials",
         "entry": "course-materials-f2026",
         "need": "suggested",
