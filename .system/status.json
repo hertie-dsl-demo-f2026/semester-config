@@ -1,13 +1,13 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "62704d330cb63ba805e23c8dfad8bf97173a3ed7",
+    "schedule.yml": "c9e67f7ff770bb9983e4ae3b15d80ac878cf9f3c",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
     "grading_sheets": "e9903759ee437871de53b44c791ff0f9e6b2118e",
     "course/course.yml": "200682c8f1d5e7327f7124ff482bc7aab376c091",
-    ".system/assignments.lock.yml": "059550cc03762dda189acbd0b7744ab391f87680"
+    ".system/assignments.lock.yml": "8e41a5370cff77920d018eb7aabb540da2b37a13"
   },
   "horizon": {
     "days": 7
@@ -315,24 +315,24 @@
     "key": "f2026",
     "label": "Fall 2026",
     "timezone": "Europe/Berlin",
-    "start": null,
-    "end": null,
-    "week": null,
-    "weeks": null,
+    "start": "2026-08-04",
+    "end": "2026-11-13",
+    "week": 14,
+    "weeks": 15,
     "live": true,
     "ended": false,
     "stages": {
       "K1": "done",
-      "K2": "done",
+      "K2": "problem",
       "K3": "todo",
       "K4": "problem",
-      "K5": "problem",
+      "K5": "done",
       "K6": "done"
     },
     "stage_why": {
+      "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in semester.yml yet.",
-      "K4": "1 problem needs fixing.",
-      "K5": "1 problem needs fixing."
+      "K4": "5 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -344,13 +344,13 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 2,
+      "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
-      "coming_up": 0
+      "coming_up": 1
     },
     "todo": [],
-    "archive_date": null,
+    "archive_date": "2027-01-12",
     "defaults": {
       "timezone": {
         "value": "Europe/Berlin",
@@ -402,41 +402,1236 @@
   },
   "problems": [
     {
-      "id": "schedule:schedule.yml:SCHEDULE",
+      "id": "schedule:assignment-3-project:SCHEDULE",
       "scope": "semester",
       "stage": "K4",
       "kind": "SCHEDULE",
-      "text": "The schedule: this file is not valid YAML, so the whole plan is ignored: nothing releases, hands out, snapshots or marks.",
-      "stops": "That entry is not scheduled: nothing is released, handed out or marked from it.",
+      "text": "Schedule entry assignment-3-project: team formation has closed and 2 of 2 joined student(s) are still without a team, across the 0 team(s) that formed.",
+      "stops": "No repos are provisioned for that assignment, so the students still without a team cannot hand anything in.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 433,
+        "line": 389,
         "screen": "schedule",
-        "entry": "schedule.yml"
+        "entry": "assignment-3-project"
+      },
+      "release": "assignment-3-project",
+      "when": "2026-10-26T23:59:00+01:00",
+      "bites": "now"
+    },
+    {
+      "id": "sheet:assignment-3-project:GRADING_SHEETS",
+      "scope": "semester",
+      "stage": "marking",
+      "kind": "GRADING_SHEETS",
+      "text": "Line 50 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "stops": "That sheet is not updated, and none of its marks are returned.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "grading_sheets/assignment-3-project.yml",
+        "line": 50,
+        "screen": "marks",
+        "entry": "assignment-3-project"
       },
       "bites": "now"
     },
     {
-      "id": "roster:team-8:ROSTER",
+      "id": "sheet:assignment-3-project:GRADING_SHEETS:2",
       "scope": "semester",
-      "stage": "K5",
-      "kind": "ROSTER",
-      "text": "The roster: this column names no assignment in schedule.yml, so nobody in it is put in a team.",
-      "stops": "The whole roster is skipped: nobody new can join or is sent a code.",
+      "stage": "marking",
+      "kind": "GRADING_SHEETS",
+      "text": "Line 102 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "stops": "That sheet is not updated, and none of its marks are returned.",
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "students.csv",
-        "line": null,
-        "screen": "roster",
-        "entry": null
+        "path": "grading_sheets/assignment-3-project.yml",
+        "line": 102,
+        "screen": "marks",
+        "entry": "assignment-3-project"
       },
       "bites": "now"
+    },
+    {
+      "id": "sheet:assignment-3-project:GRADING_SHEETS:3",
+      "scope": "semester",
+      "stage": "marking",
+      "kind": "GRADING_SHEETS",
+      "text": "Line 118 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "stops": "That sheet is not updated, and none of its marks are returned.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "grading_sheets/assignment-3-project.yml",
+        "line": 118,
+        "screen": "marks",
+        "entry": "assignment-3-project"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "sheet:assignment-3-project:GRADING_SHEETS:4",
+      "scope": "semester",
+      "stage": "marking",
+      "kind": "GRADING_SHEETS",
+      "text": "Line 134 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "stops": "That sheet is not updated, and none of its marks are returned.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "grading_sheets/assignment-3-project.yml",
+        "line": 134,
+        "screen": "marks",
+        "entry": "assignment-3-project"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "sheet:assignment-3-project:GRADING_SHEETS:5",
+      "scope": "semester",
+      "stage": "marking",
+      "kind": "GRADING_SHEETS",
+      "text": "Line 150 of the assignment-3-project marking sheet lists a student who is also in another team or entry, so marks for both are held.",
+      "stops": "That sheet is not updated, and none of its marks are returned.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "grading_sheets/assignment-3-project.yml",
+        "line": 150,
+        "screen": "marks",
+        "entry": "assignment-3-project"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "assignments:assignment-1:ASSIGNMENTS",
+      "scope": "semester",
+      "stage": "open",
+      "kind": "ASSIGNMENTS",
+      "text": "assignment-1's settings say its repos are private, but 1 of 2 handed out in this semester are not.",
+      "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "semester.yml",
+        "line": null,
+        "screen": "assignment",
+        "entry": "assignment-1"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "assignments:assignment-3-project:ASSIGNMENTS",
+      "scope": "semester",
+      "stage": "open",
+      "kind": "ASSIGNMENTS",
+      "text": "assignment-3-project's settings say its repos are private, but 3 of 8 handed out in this semester are not.",
+      "stops": "Those repos stay as they are, and the pages the toolkit writes describe them wrongly.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "semester.yml",
+        "line": null,
+        "screen": "assignment",
+        "entry": "assignment-3-project"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "org:org-settings:ORG_SETTINGS",
+      "scope": "semester",
+      "stage": "K2",
+      "kind": "ORG_SETTINGS",
+      "text": "This semester's GitHub member privileges do not suit an assignment that lets students choose their repo's visibility.",
+      "stops": "A student can delete or move their own submission.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "",
+        "line": null,
+        "screen": null,
+        "entry": null,
+        "url": "https://github.com/organizations/hertie-dsl-demo-f2026/settings/member_privileges"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "number:assignment:8",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "DUPLICATE_NUMBER",
+      "text": "Two assignments are numbered 8: assignment-3-project, assignment-8.",
+      "stops": "Students see the same number more than once.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": 425,
+        "screen": "schedule",
+        "entry": "assignment-8"
+      },
+      "bites": "now"
+    },
+    {
+      "id": "empty_week:2026-11-09:lecture",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lecture",
+      "aside": true,
+      "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lecture.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-11-09:lab",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing lab",
+      "aside": true,
+      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no lab.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "soon"
+    },
+    {
+      "id": "empty_week:2026-11-09:readings",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "EMPTY_WEEK_KIND",
+      "label": "Missing readings",
+      "aside": true,
+      "text": "No readings seem to have been scheduled for this week. If this is intentional, click 'Set aside'.",
+      "stops": "Students see a week with no readings.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "schedule",
+        "entry": null
+      },
+      "when": "2026-11-10T00:00:00+01:00",
+      "bites": "soon"
+    },
+    {
+      "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "DIVERGED_RELEASED",
+      "label": "Released copy edited",
+      "release": "lab-01",
+      "aside": true,
+      "text": "The released copy of lab-01 was edited in the semester: 1 file added.",
+      "stops": "Future semesters will not get these edits unless you keep them for future semesters.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2026/semester-config",
+        "path": "schedule.yml",
+        "line": null,
+        "screen": "release",
+        "entry": "lab-01"
+      },
+      "diverged": [
+        {
+          "source": {
+            "repo": "course-materials-f2026",
+            "path": "labs/01_deep-learning-in-public-policy",
+            "branch": "main"
+          },
+          "dest": {
+            "repo": "materials",
+            "path": "labs/01_deep-learning-in-public-policy",
+            "branch": "main"
+          },
+          "added": [
+            "NOTES.md"
+          ],
+          "changed": [],
+          "deleted": [],
+          "removed": []
+        }
+      ],
+      "bites": "later"
     }
   ],
-  "this_week": [],
-  "releases": [],
-  "assignments": [],
+  "this_week": [
+    {
+      "when": "2026-11-10T10:00:00+01:00",
+      "kind": "exam",
+      "ref": "final-exam",
+      "title": "Final Exam",
+      "state": "planned"
+    }
+  ],
+  "releases": [
+    {
+      "id": "course-intro",
+      "when": "2026-07-28T09:00:00+02:00",
+      "kind": "assets",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "SYLLABUS.md"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "SYLLABUS.md"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "readings-01",
+      "when": "2026-07-30T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/01_deep-learning-in-public-policy"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/01_deep-learning-in-public-policy"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lecture-01",
+      "when": "2026-08-04T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 1,
+      "title": "Deep learning in public policy",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/01_deep-learning-in-public-policy"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/01_deep-learning-in-public-policy"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-02",
+      "when": "2026-08-06T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/02_deep-neural-networks-1"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/02_deep-neural-networks-1"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lab-01",
+      "when": "2026-08-06T14:00:00+02:00",
+      "kind": "lab",
+      "number": 1,
+      "title": "Lab 1",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/01_deep-learning-in-public-policy"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/01_deep-learning-in-public-policy"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-02",
+      "when": "2026-08-11T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 2,
+      "title": "Deep neural networks (1)",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/02_deep-neural-networks-1"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/02_deep-neural-networks-1"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-03",
+      "when": "2026-08-13T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/03_deep-neural-networks-2"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/03_deep-neural-networks-2"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lab-02",
+      "when": "2026-08-13T14:00:00+02:00",
+      "kind": "lab",
+      "number": 2,
+      "title": "Lab 2",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/02_deep-neural-networks-1"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/02_deep-neural-networks-1"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-03",
+      "when": "2026-08-18T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 3,
+      "title": "Deep neural networks (2)",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/03_deep-neural-networks-2"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/03_deep-neural-networks-2"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-04",
+      "when": "2026-08-20T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/04_computer-vision-1-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/04_computer-vision-1-cnns"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lab-03",
+      "when": "2026-08-20T14:00:00+02:00",
+      "kind": "lab",
+      "number": 3,
+      "title": "Lab 3",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/03_deep-neural-networks-2"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/03_deep-neural-networks-2"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-04",
+      "when": "2026-08-25T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 4,
+      "title": "Computer vision (1): Convolutional neural networks",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/04_computer-vision-1-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/04_computer-vision-1-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-05",
+      "when": "2026-08-27T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/05_computer-vision-2-modern-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/05_computer-vision-2-modern-cnns"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lab-04",
+      "when": "2026-08-27T14:00:00+02:00",
+      "kind": "lab",
+      "number": 4,
+      "title": "Lab 4",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/04_computer-vision-1-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/04_computer-vision-1-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-05",
+      "when": "2026-09-01T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 5,
+      "title": "Computer vision (2): Modern CNNs, implementation and applications",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/05_computer-vision-2-modern-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/05_computer-vision-2-modern-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lab-05",
+      "when": "2026-09-03T14:00:00+02:00",
+      "kind": "lab",
+      "number": 5,
+      "title": "Lab 5",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/05_computer-vision-2-modern-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/05_computer-vision-2-modern-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-06",
+      "when": "2026-09-08T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 6,
+      "title": "Sequence methods and time-series analysis",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/06_sequence-methods-and-time-series"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/06_sequence-methods-and-time-series"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lab-06",
+      "when": "2026-09-10T14:00:00+02:00",
+      "kind": "lab",
+      "number": 6,
+      "title": "Lab 6",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/06_sequence-methods-and-time-series"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/06_sequence-methods-and-time-series"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-07",
+      "when": "2026-09-15T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 7,
+      "title": "Natural language processing (1)",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/07_natural-language-processing-1"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/07_natural-language-processing-1"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-08",
+      "when": "2026-09-17T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lecture-08",
+      "when": "2026-09-22T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 8,
+      "title": "Natural language processing (2): Encoder-decoder architecture and attention",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-09",
+      "when": "2026-09-24T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/09_further-topics"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/09_further-topics"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lecture-09",
+      "when": "2026-09-29T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 9,
+      "title": "Further topics in deep learning",
+      "state": "released",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/uncertainty.py"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/uncertainty.py"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-10",
+      "when": "2026-10-01T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/10_policy-approaches-and-responsible-implementation"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/10_policy-approaches-and-responsible-implementation"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lab-09",
+      "when": "2026-10-01T14:00:00+02:00",
+      "kind": "lab",
+      "number": 9,
+      "title": "Lab 9",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/09_further-topics"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/09_further-topics"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-10",
+      "when": "2026-10-06T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 10,
+      "title": "Policy approaches to regulate deep learning",
+      "state": "released",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/audit.py"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/audit.py"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "readings-11",
+      "when": "2026-10-08T09:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "readings/11_deep-learning-in-practice"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/11_deep-learning-in-practice"
+      },
+      "show_on_site": false,
+      "tbc": false
+    },
+    {
+      "id": "lecture-11",
+      "when": "2026-10-13T10:00:00+02:00",
+      "kind": "lecture",
+      "number": 11,
+      "title": "Deep learning in practice",
+      "state": "released",
+      "source": {
+        "repo": "lecture-code-f2026",
+        "path": "dldemo/serving.py"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "code/dldemo/serving.py"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lab-11",
+      "when": "2026-10-15T14:00:00+02:00",
+      "kind": "lab",
+      "number": 11,
+      "title": "Lab 11",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2026",
+        "path": "labs/11_deep-learning-in-practice"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "labs/11_deep-learning-in-practice"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "lecture-12",
+      "when": "2026-10-20T10:00:00+02:00",
+      "kind": "drop-in",
+      "number": 1,
+      "title": "Tutorial presentations",
+      "state": "released",
+      "source": null,
+      "dest": null,
+      "show_on_site": true,
+      "tbc": false
+    }
+  ],
+  "assignments": [
+    {
+      "slug": "assignment-1",
+      "semester_name": "assignment-1",
+      "number": 1,
+      "title": "Linear regression from scratch",
+      "template": "assignment-1-f2026",
+      "state": "marking",
+      "handout": "2026-08-18T14:00:00+02:00",
+      "due": "2026-09-08T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-18T23:59:00+02:00",
+      "solution_shown": "2026-09-15T09:00:00+02:00",
+      "solution_held_until": "2026-09-18T23:59:00+02:00",
+      "units": 2,
+      "submissions": 1,
+      "teams": null,
+      "marks": {
+        "filled": 0,
+        "total": 2
+      },
+      "returned": false,
+      "problem": true,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 10,
+          "source": "course"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "course"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-private"
+    },
+    {
+      "slug": "assignment-2",
+      "semester_name": "assignment-2",
+      "number": 2,
+      "title": "Classification and evaluation",
+      "template": "assignment-2-f2026",
+      "state": "returned",
+      "handout": "2026-09-01T14:00:00+02:00",
+      "due": "2026-09-29T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-29T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 2,
+      "submissions": 0,
+      "teams": null,
+      "marks": {
+        "filled": 2,
+        "total": 2
+      },
+      "returned": true,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 0,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-private"
+    },
+    {
+      "slug": "assignment-3-project",
+      "semester_name": "assignment-3-project",
+      "number": 8,
+      "title": "Group project",
+      "template": "assignment-3-project-f2026",
+      "state": "marking",
+      "handout": "2026-09-15T14:00:00+02:00",
+      "due": "2026-10-23T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-10-26T23:59:00+01:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 8,
+      "submissions": 0,
+      "teams": 0,
+      "marks": {
+        "filled": 0,
+        "total": 9
+      },
+      "returned": false,
+      "problem": true,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "entry"
+        },
+        "late_window_days": {
+          "value": 3,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-private"
+    },
+    {
+      "slug": "assignment-4",
+      "semester_name": "assignment-4",
+      "number": 4,
+      "title": "Hackathon showcase",
+      "template": "assignment-4-f2026",
+      "state": "returned",
+      "handout": "2026-09-17T04:35:00+02:00",
+      "due": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 2,
+      "submissions": 1,
+      "teams": null,
+      "marks": {
+        "filled": 2,
+        "total": 2
+      },
+      "returned": true,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 1,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "public",
+          "source": "entry"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-public"
+    },
+    {
+      "slug": "assignment-5",
+      "semester_name": "assignment-5",
+      "number": 5,
+      "title": "Portfolio piece",
+      "template": "assignment-5-f2026",
+      "state": "returned",
+      "handout": "2026-09-17T04:35:00+02:00",
+      "due": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 2,
+      "submissions": 1,
+      "teams": null,
+      "marks": {
+        "filled": 2,
+        "total": 2
+      },
+      "returned": true,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 1,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "student_choice",
+          "source": "entry"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-student-choice"
+    },
+    {
+      "slug": "assignment-6",
+      "semester_name": "assignment-6",
+      "number": 6,
+      "title": "Referee reports",
+      "template": "assignment-6-f2026",
+      "state": "marking",
+      "handout": "2026-09-17T04:35:00+02:00",
+      "due": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-21T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 1,
+      "submissions": 1,
+      "teams": null,
+      "marks": {
+        "filled": 1,
+        "total": 2
+      },
+      "returned": false,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 1,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "shared-dropbox-repo"
+    },
+    {
+      "slug": "assignment-7",
+      "semester_name": "assignment-7",
+      "number": 7,
+      "title": "Moodle essay",
+      "template": "assignment-7-f2026",
+      "state": "returned",
+      "handout": "2026-09-17T04:35:00+02:00",
+      "due": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-20T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 0,
+      "submissions": null,
+      "teams": null,
+      "marks": {
+        "filled": 2,
+        "total": 2
+      },
+      "returned": true,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": null,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "https://moodle.hertie-school.org/mod/assign/view.php?id=424242",
+          "source": "entry"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "external"
+    },
+    {
+      "slug": "assignment-8",
+      "semester_name": "assignment-8",
+      "number": 8,
+      "title": "Policy brief in LaTeX",
+      "template": "assignment-8-f2026",
+      "state": "marking",
+      "handout": "2026-09-23T14:00:00+02:00",
+      "due": "2026-09-29T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 2,
+      "submissions": 1,
+      "teams": null,
+      "marks": {
+        "filled": 0,
+        "total": 2
+      },
+      "returned": false,
+      "problem": true,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "semester"
+        },
+        "max_team_size": {
+          "value": 3,
+          "source": "semester"
+        },
+        "late_window_days": {
+          "value": 1,
+          "source": "entry"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "entry"
+        },
+        "assignment_repo_visibility": {
+          "value": "private",
+          "source": "semester"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
+          "source": "institution"
+        }
+      },
+      "submit_shape": "assignment-repo-private"
+    }
+  ],
   "students": {
     "rows": 9,
     "codes_sent": 8,
