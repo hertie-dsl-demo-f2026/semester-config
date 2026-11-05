@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "a986cf0caf991f2222fc6a5072ab7d515162e718",
+    "schedule.yml": "45925fd60dba986c420994a3cfbc3634dad89530",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -346,30 +346,10 @@
       "state": "fixing",
       "problems": 13,
       "missing": "No instructor is declared in semester.yml yet.",
-      "suggestions": 1,
+      "suggestions": 0,
       "coming_up": 2
     },
-    "todo": [
-      {
-        "id": "schedule:reading_list:readings-validation-session-12",
-        "kind": "schedule",
-        "check": "reading_list",
-        "repo": "semester-config",
-        "text": "readings-validation-session-12 has reading files but no reading list.",
-        "screen": "schedule",
-        "entry": "readings-validation-session-12",
-        "fix": {
-          "repo": "hertie-dsl-demo-f2026/semester-config",
-          "path": "schedule.yml",
-          "line": 330,
-          "screen": "schedule",
-          "entry": "readings-validation-session-12"
-        },
-        "when": "2026-11-19T09:00:00+01:00",
-        "need": "suggested",
-        "set_aside": false
-      }
-    ],
+    "todo": [],
     "archive_date": "2027-01-12",
     "defaults": {
       "timezone": {
@@ -431,7 +411,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 383,
+        "line": 386,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -578,7 +558,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 419,
+        "line": 422,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -1296,7 +1276,7 @@
       "kind": "readings",
       "number": null,
       "title": "Validation readings (session 12)",
-      "state": "released",
+      "state": "planned",
       "source": {
         "repo": "course-materials-f2026",
         "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
@@ -1307,7 +1287,12 @@
       },
       "show_on_site": true,
       "tbc": false,
-      "reading_list": null
+      "reading_list": {
+        "repo": "course-materials-f2026",
+        "path": "lectures/07_natural-language-processing-1/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "lectures/07_natural-language-processing-1/READINGS.md"
+      }
     }
   ],
   "assignments": [
@@ -1749,7 +1734,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
     "last_update": "2026-11-05T14:02:35+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
