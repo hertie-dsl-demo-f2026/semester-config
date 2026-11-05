@@ -411,7 +411,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 389,
+        "line": 377,
         "screen": "schedule",
         "entry": "assignment-3-project"
       },
@@ -558,7 +558,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2026/semester-config",
         "path": "schedule.yml",
-        "line": 425,
+        "line": 413,
         "screen": "schedule",
         "entry": "assignment-8"
       },
@@ -707,7 +707,10 @@
       "show_on_site": false,
       "tbc": false,
       "reading_list": {
-        "inline": true
+        "repo": "course-materials-f2026",
+        "path": "readings/01_deep-learning-in-public-policy/READINGS.md",
+        "released_repo": "materials",
+        "released_path": "readings/01_deep-learning-in-public-policy/READINGS.md"
       }
     },
     {
@@ -1667,8 +1670,8 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2026.github.io",
-    "last_update": "2026-11-04T15:52:41+00:00",
-    "stale": true
+    "last_update": "2026-11-05T13:55:33+00:00",
+    "stale": false
   },
   "operations": [
     {
