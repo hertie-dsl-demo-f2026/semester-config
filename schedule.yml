@@ -332,6 +332,9 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: lectures/08_nlp-2-encoder-decoder-and-attention
+    reading_list:
+      from_course_repo: course-materials-f2026
+      from_path: lectures/07_natural-language-processing-1/READINGS.md
 exams:
   midterm-exam:
     title: Midterm Exam
