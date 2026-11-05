@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "c9e67f7ff770bb9983e4ae3b15d80ac878cf9f3c",
+    "schedule.yml": "f67de286d9bb03c2bbf1b3c1fb6a4b2d4b664e0c",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
@@ -705,7 +705,10 @@
         "path": "readings/01_deep-learning-in-public-policy"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lecture-01",
@@ -741,7 +744,10 @@
         "path": "readings/02_deep-neural-networks-1"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lab-01",
@@ -795,7 +801,10 @@
         "path": "readings/03_deep-neural-networks-2"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lab-02",
@@ -849,7 +858,10 @@
         "path": "readings/04_computer-vision-1-cnns"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lab-03",
@@ -903,7 +915,10 @@
         "path": "readings/05_computer-vision-2-modern-cnns"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lab-04",
@@ -1029,7 +1044,10 @@
         "path": "readings/08_nlp-2-encoder-decoder-and-attention"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lecture-08",
@@ -1065,7 +1083,8 @@
         "path": "readings/09_further-topics"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "lecture-09",
@@ -1101,7 +1120,10 @@
         "path": "readings/10_policy-approaches-and-responsible-implementation"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": {
+        "inline": true
+      }
     },
     {
       "id": "lab-09",
@@ -1155,7 +1177,8 @@
         "path": "readings/11_deep-learning-in-practice"
       },
       "show_on_site": false,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "lecture-11",
