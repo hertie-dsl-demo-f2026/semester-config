@@ -188,7 +188,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/01_deep-learning-in-public-policy
-    reading_guide: |
+    reading_list: |
       # Session 1 readings
 
       ## Required Readings
@@ -210,7 +210,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/02_deep-neural-networks-1
-    reading_guide: |
+    reading_list: |
       # Session 2 readings
 
       Work through the interactive chapters before class - nothing to download:
@@ -224,7 +224,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/03_deep-neural-networks-2
-    reading_guide: |
+    reading_list: |
       # Session 3 readings
 
       ## Required Readings
@@ -240,7 +240,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/04_computer-vision-1-cnns
-    reading_guide: |
+    reading_list: |
       # Session 4 readings
 
       ## Required Readings
@@ -263,7 +263,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/05_computer-vision-2-modern-cnns
-    reading_guide: |
+    reading_list: |
       # Session 5 readings
 
       ## Required Readings
@@ -286,7 +286,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/08_nlp-2-encoder-decoder-and-attention
-    reading_guide: |
+    reading_list: |
       # Session 8 readings
 
       ## Required Readings
@@ -308,7 +308,7 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/10_policy-approaches-and-responsible-implementation
-    reading_guide: |
+    reading_list: |
       # Session 10 readings
 
       ## Required Readings
