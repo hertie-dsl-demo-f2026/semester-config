@@ -428,3 +428,5 @@ assignments:
     due_datetime: 2026-09-29T23:59
     late_window_days: 1
     late_penalty_per_day: 10%
+
+broken_on_purpose: [unclosed
