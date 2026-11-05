@@ -326,6 +326,12 @@ readings:
     files:
       - from_course_repo: course-materials-f2026
         from_path: readings/11_deep-learning-in-practice
+  readings-validation-session-12:
+    title: Validation readings (session 12)
+    event_datetime: 2026-11-19T09:00
+    files:
+      - from_course_repo: course-materials-f2026
+        from_path: lectures/08_nlp-2-encoder-decoder-and-attention
 exams:
   midterm-exam:
     title: Midterm Exam
