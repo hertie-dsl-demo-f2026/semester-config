@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "f67de286d9bb03c2bbf1b3c1fb6a4b2d4b664e0c",
+    "schedule.yml": "ba92d112c2d405d6b60f1b41099c2dd11e738cc1",
     "semester.yml": "0cd8eac0908b77b2608f700e47bba5aed1100120",
     "students.csv": "c70787bb4149cc293a6b7477b1d7c40790c10351",
     ".system/roster.csv": "a20dfaabde67b12cceed1a19b5d108176dfe9836",
