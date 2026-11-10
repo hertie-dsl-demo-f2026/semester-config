@@ -389,7 +389,7 @@
     "timezone": "Europe/Berlin",
     "start": "2026-08-04",
     "end": "2026-11-13",
-    "week": 14,
+    "week": 15,
     "weeks": 15,
     "live": true,
     "ended": false,
@@ -404,7 +404,7 @@
     "stage_why": {
       "K2": "1 problem needs fixing.",
       "K3": "No instructor is declared in semester.yml yet.",
-      "K4": "5 problems need fixing."
+      "K4": "2 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -416,7 +416,7 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 13,
+      "problems": 10,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
       "coming_up": 1
@@ -635,63 +635,6 @@
         "entry": "assignment-8"
       },
       "bites": "now"
-    },
-    {
-      "id": "empty_week:2026-11-09:lecture",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing lecture",
-      "aside": true,
-      "text": "No lecture seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no lecture.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-10T00:00:00+01:00",
-      "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-11-09:lab",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing lab",
-      "aside": true,
-      "text": "No lab seems to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no lab.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-10T00:00:00+01:00",
-      "bites": "soon"
-    },
-    {
-      "id": "empty_week:2026-11-09:readings",
-      "scope": "semester",
-      "stage": "K4",
-      "kind": "EMPTY_WEEK_KIND",
-      "label": "Missing readings",
-      "aside": true,
-      "text": "No readings seem to have been scheduled for this week. If this is intentional, click 'Set aside'.",
-      "stops": "Students see a week with no readings.",
-      "fix": {
-        "repo": "hertie-dsl-demo-f2026/semester-config",
-        "path": "schedule.yml",
-        "line": null,
-        "screen": "schedule",
-        "entry": null
-      },
-      "when": "2026-11-10T00:00:00+01:00",
-      "bites": "soon"
     },
     {
       "id": "schedule:lab-01:DIVERGED_RELEASED:1ab795a1",
