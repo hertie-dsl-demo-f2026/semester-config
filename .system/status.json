@@ -676,15 +676,7 @@
       "bites": "later"
     }
   ],
-  "this_week": [
-    {
-      "when": "2026-11-10T10:00:00+01:00",
-      "kind": "exam",
-      "ref": "final-exam",
-      "title": "Final Exam",
-      "state": "planned"
-    }
-  ],
+  "this_week": [],
   "releases": [
     {
       "id": "course-intro",
