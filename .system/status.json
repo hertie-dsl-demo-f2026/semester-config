@@ -392,7 +392,7 @@
     "week": 15,
     "weeks": 15,
     "live": true,
-    "ended": false,
+    "ended": true,
     "stages": {
       "K1": "done",
       "K2": "problem",
